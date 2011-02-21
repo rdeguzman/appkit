@@ -1,0 +1,6 @@
+config/database.yml
+config/*.sphinx.conf
+log/*
+tmp/**/*
+.DS_Store
+*.tmproj
