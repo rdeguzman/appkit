@@ -1,16 +1,14 @@
 Feature: Authenticate
   In order to authenticate a user
   As a system using devise
-  I want to show the appropriate landing page for the logged user
+  I want to show the correct redirect page for a logged user
   
+@focus
 Scenario: User logged-in from Login page
   Given I am on the new user session page
-    And I logged as an @normal
+    And I am logged as a @user
    Then I should see "Signed in successfully"
-    #Then show me the page
-
-Scenario: User redirects to sections page on successful login
-  Given I am on the new user session page
-    And I logged as an @normal
-   Then I should see "Signed in successfully"
-    And I should be on the sections page
+    And I should be on the app_profiles page
+    #And I should see links "My Profile"
+    #And I should see links "Logout"
+    #And I should see links "My Apps"

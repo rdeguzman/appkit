@@ -10,6 +10,8 @@ module NavigationHelpers
 
     when /the home\s?page/
       '/'
+    when /the app_profile page for "([^\"]*)"/
+      app_profile_path(AppProfile.find_by_app_name!($1))
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

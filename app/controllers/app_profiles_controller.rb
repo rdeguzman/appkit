@@ -14,7 +14,7 @@ class AppProfilesController < ApplicationController
     @app_profile.user_id = current_user.id
     
     if @app_profile.save
-      redirect_to app_profiles_path, :notice => "New app was successfully created"
+      redirect_to app_profiles_path, :notice => "New application was successfully created"
     else
       render :action => "new"
     end
