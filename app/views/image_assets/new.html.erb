@@ -1,0 +1,15 @@
+<% title "New Image Asset for #{params[:asset_type]}" %>
+
+<div class="upload_form">
+  <%= form_for ImageAsset.new, :html => {:multipart => true } do |f| %>
+    <h2>Step 1: Choose your image</h2>
+    <%= f.file_field :image %>
+
+    <%= f.hidden_field :asset_type, "value" => params[:asset_type] %>
+    <%= f.hidden_field :app_profile_id, "value" => params[:app_profile_id] %>
+
+    <h2>Step 2: Upload</h2>
+    <%= f.submit 'Upload' %>
+  <% end %>
+
+</div>

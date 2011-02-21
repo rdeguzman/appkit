@@ -1,0 +1,2 @@
+$('.main_content h1').html('Manage <%= pluralize(@total_pictures.count, "Picture") %>');
+photo_gallery.appendImage('<%= escape_javascript(render @picture) %>');

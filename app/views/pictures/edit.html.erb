@@ -1,0 +1,18 @@
+<% title 'Edit Caption' %>
+
+<%= render "shared/error_messages", :target => @picture %>
+
+<p style="text-align:center"><%= image_tag @picture.image.url(:pagesize) %></p>
+
+<%= semantic_form_for @picture do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :caption_title %>
+    <%= f.input :caption_description %>
+  <% end %>
+  
+  <%= f.buttons do %>
+    <%= f.commit_button %>
+    <%= f.cancel_button pictures_path(:page_id => @picture.page.id) %>
+  <% end %>
+  
+<% end %>

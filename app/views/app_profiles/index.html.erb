@@ -1,0 +1,19 @@
+<h1>My Apps</h1>
+
+<ul class="horizontal_links">
+  <% @app_profiles.each do |app_profile| %>
+    <li style="text-align:center; width:150px; float:left; background: #F9F7ED;">
+      <div style="margin:auto; width:100px;">
+        <%= image_tag('icon_not_available.gif') %>
+      </div>
+      <div><h2><%= link_to app_profile.app_name, app_profile_path(app_profile) %></h2></div>
+      <div>Edit Profile</div>
+    </li>
+  <% end %>
+</ul>
+
+<div class="clear"></div>
+
+<div class="action_items buttons">
+  <%= link_to "Create App", new_app_profile_path %>
+</div>

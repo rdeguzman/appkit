@@ -1,0 +1,18 @@
+<% if user_signed_in? %>
+<div class="span-24 last subheader">
+  <ul class="horizontal_links">
+
+    <% if breadcrumbs().count > 0 %>
+
+      <li>App Profile</li>
+
+      <% breadcrumbs().each do |c| %>
+        <li> <%= image_tag('right_arrow.png') %> </li>
+        <li> <%= link_to c.name, c.path, :rel => 'nofollow' %> </li>
+      <% end %>
+
+    <% end %>
+
+  </ul>
+</div>
+<% end %>

@@ -1,0 +1,18 @@
+<div class="span-24 last header_bg">
+  <% if not user_signed_in? %>
+    <div style="height: 45px; margin: auto; width: 190px;">
+      <ul class="horizontal_links navbar_links">
+          <li><%= link_to "Log In", new_user_session_path %></li>
+          <li><%= link_to "Sign Up", new_user_registration_path %></li>
+      </ul>
+    </div>
+  <% else %>
+    <div style="height: 45px; margin: auto; width: 330px;">
+      <ul class="horizontal_links navbar_links">
+          <li>My Profile</li>
+          <li><%= link_to "My Apps", app_profiles_path %></li>
+          <li><%= link_to "Log out", destroy_user_session_path %></li>
+      </ul>
+    </div>
+  <% end %>
+</div>

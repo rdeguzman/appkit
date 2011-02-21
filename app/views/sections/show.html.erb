@@ -1,0 +1,56 @@
+<div class="span-14">
+  <div id="iphone_bg_container">
+    <div id="iphone_content">
+
+      <div id="iphone_navbar" style="background: url(../images/navbar_black.png)">
+
+        <div style="float:left;"><%= link_to image_tag('navbar_btn_back_black.png', :size => "69x30", :style=>"margin-left:8px; margin-top:6px"), app_profile_path(@app_profile) %></div>
+
+        <div id="iphone_navbar_title"><%= truncate(@section.title, :length => 20, :seperator => ' ') %></div>
+
+      </div>
+
+      <div id="iphone_list">
+
+        <% @pages.each do |page| %>
+
+          <div style="<%= css_list_element(page) %>">
+
+            <div style="width:89px; height:69px; background: #ffffff; float:left; margin-left: 2px; margin-top: 2px;">
+              <%= image_tag page.default_picture(:thumb), :size => "85x65", :style=>"margin-left:2px; margin-top:2px" %>
+            </div> 
+
+            <div style="width:220px; height: 70px; float: left; margin-left:5px; margin-top: 2px; margin-bottom: 2px;">
+              <span class="iphone_list_element_title"><%= link_to truncate(page.title, :length => 25, :seperator => ' '), page_path(page) %></span><br/>
+              <p class="iphone_list_element_text"><%= truncate( page.content, :length => 120, :seperator => ' ' ) %></p>
+            </div> 
+
+          </div>
+
+          <div class="clear"></div>
+
+        <% end %>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="span-10 last">
+  <h1><%= @section.title %></h1>
+
+  <% @pages.each do |page| %>
+    <p>
+      <b><%= link_to page.title, page_path(page) %></b> -
+      <%= link_to "Edit", edit_page_path(page) %>
+      <%= link_to "Delete", page_path(page), :confirm => "Are you sure", :method => :delete %>
+      <br/>
+      <%= truncate( page.content, :length => 120, :seperator => ' ' ) %>
+    </p>
+  <% end %>
+
+  <div class="action_items buttons">
+    <%= link_to "Add Page", new_section_page_path(@section.id) %>
+  </div>
+</div>

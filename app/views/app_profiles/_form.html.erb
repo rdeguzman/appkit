@@ -1,0 +1,13 @@
+<%= render "shared/error_messages", :target => @app_profile %>
+
+<%= semantic_form_for @app_profile do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :app_name %>
+  <% end %>
+  
+  <%= f.buttons do %>
+    <%= f.commit_button %>
+    <%= f.cancel_button @cancel_path %>
+  <% end %>
+  
+<% end %>

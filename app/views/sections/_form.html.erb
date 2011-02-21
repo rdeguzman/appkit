@@ -1,0 +1,14 @@
+<%= render "shared/error_messages", :target => @section %>
+
+<%= semantic_form_for @section do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :title %>
+    <%= f.hidden_field :app_profile_id, "value" => @app_profile.id %>
+  <% end %>
+  
+  <%= f.buttons do %>
+    <%= f.commit_button %>
+    <%= f.cancel_button @cancel_path %>
+  <% end %>
+  
+<% end %>

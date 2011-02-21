@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "Mobile AppKit" %></title>
+  <meta name="robots" content="noindex">
+  
+  <%= stylesheet_link_tag 'blueprint/screen'%>
+
+  <%= stylesheet_link_tag 'application' %>
+  
+  <%= yield(:head) %>
+  
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div class="container">
+  <%= render :partial => 'layouts/logo' %>
+
+  <%= render :partial => 'layouts/header' %>
+
+  <%= render :partial => 'layouts/flash_errors' %>
+
+  <hr/>
+
+  <div class="clear"></div>
+  
+  <div class="main_content">
+    <%= content_tag :h1, yield(:title) if show_title? %>
+    <%= yield %>
+  </div>
+
+  <div class="clear"></div>
+  
+  <hr/>
+
+  <%= render :partial => 'layouts/footer' %>
+
+</div>
+
+</body>
+</html>

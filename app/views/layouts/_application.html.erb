@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "Mobile AppKit" %></title>
+  <meta name="robots" content="noindex">
+  
+  <%= stylesheet_link_tag 'blueprint/screen'%>
+
+  <%= stylesheet_link_tag 'formtastic/formtastic' %>
+  <%= stylesheet_link_tag 'formtastic/formtastic_changes' %>
+
+  <%= stylesheet_link_tag 'application' %>
+  
+  <%= javascript_include_tag 'jquery-1.4.4.min.js' %>
+  
+  <!-- 
+    Taken from https://github.com/rails/jquery-ujs/raw/master/src/rails.js
+    Do not remove jquery.rails.js as the delete links will not work 
+  -->
+  <%= javascript_include_tag "jquery.rails.js" %>
+  
+  <%= yield(:head) %>
+  
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div class="container">
+  <%= render :partial => 'layouts/logo' %>
+
+  <%= render :partial => 'layouts/header' %>
+
+  <%= render :partial => 'layouts/subheader' %>
+
+  <%= render :partial => 'layouts/flash_errors' %>
+
+  <hr/>
+
+  <div class="clear"></div>
+  
+  <div class="main_content">
+    <%= content_tag :h1, yield(:title) if show_title? %>
+    <%= yield %>
+  </div>
+
+  <div class="clear"></div>
+  
+  <hr/>
+
+  <%= render :partial => 'layouts/footer' %>
+
+</div>
+
+</body>
+</html>
