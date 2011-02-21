@@ -7,7 +7,7 @@ development:
   database: appkit_development
   pool: 5
   username: rupert
-  password: junjunmalupet
+  password: 
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -20,7 +20,7 @@ test: &test
   database: appkit_test
   pool: 5
   username: rupert
-  password: junjunmalupet
+  password: 
   socket: /tmp/mysql.sock
 
 production:
@@ -30,7 +30,7 @@ production:
   database: appkit_production
   pool: 5
   username: rupert
-  password: junjunmalupet
+  password: 
   socket: /var/run/mysqld/mysqld.sock
 
 cucumber:

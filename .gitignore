@@ -1,4 +1,3 @@
-config/database.yml
 config/*.sphinx.conf
 log/*
 tmp/**/*
