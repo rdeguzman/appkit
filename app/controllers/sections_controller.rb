@@ -15,6 +15,10 @@ class SectionsController < ApplicationController
     if @section.save
       redirect_to app_profile_path(@section.app_profile), :notice => "Section was successfully created"
     else
+
+      @app_profile = @section.app_profile
+      add_breadcrumb "#{@app_profile.app_name} App", app_profile_path(@app_profile)
+
       render :action => "new"
     end
     

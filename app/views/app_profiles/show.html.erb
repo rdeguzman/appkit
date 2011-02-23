@@ -27,7 +27,7 @@
   </div>
 
   <div class="action_items buttons">
-    <%= link_to "Background", new_image_asset_path(:app_profile_id => @app_profile.id, :asset_type => 'background_front') %>
+    <%= link_to "Update Background", new_image_asset_path(:app_profile_id => @app_profile.id, :asset_type => 'background_front') %>
   </div>
 
   <div class="clear"></div>
@@ -48,7 +48,7 @@
   </ul>
 
   <div class="action_items buttons">
-    <%= link_to "Add Section", new_section_path(:app_profile_id => @app_profile.id) %>
+    <%= link_to "Add New Section", new_section_path(:app_profile_id => @app_profile.id) %>
   </div>
 </div>
 
