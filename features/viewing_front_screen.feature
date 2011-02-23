@@ -8,8 +8,8 @@ Background:
     And I am logged as a @user
 
 Scenario: See Front Screen
-  Given there is an application called "RobMarleys Hotel"
-    And I am on the app_profiles page for "RobMarleys Hotel"
-  When I follow "RobMarleys Hotel"
+  Given there is an application called "Test Hotel"
+    And I am on the app_profiles page for "Test Hotel"
+  When I follow "Test Hotel"
   Then I should see "Add New Section"
   Then I should see "Update Background"

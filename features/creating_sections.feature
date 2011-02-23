@@ -6,8 +6,8 @@ Feature: Creating a section
 Background:
   Given I am on the new user session page
     And I am logged as a @user
-    And there is an application called "RobMarleys Hotel"
-    And I am on the new section page for application "RobMarleys Hotel"
+    And there is an application called "Test Hotel"
+    And I am on the new section page for application "Test Hotel"
 
 Scenario: Display New Section Form
   Then I should be on the new section page
@@ -27,5 +27,5 @@ Scenario: Creating a new section
    And I press "Create Section"
   Then I should see "Section was successfully created"
    And I should see "Section1"
-   And I should be on the app_profile page for "RobMarleys Hotel"
+   And I should be on the app_profile page for "Test Hotel"
    #And show me the page

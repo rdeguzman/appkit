@@ -17,6 +17,9 @@ module NavigationHelpers
       app_profile = AppProfile.find_by_app_name!($1)
       new_section_path(:app_profile_id => app_profile.id)
 
+    when /the edit section page for "([^\"]*)"/
+      edit_section_path(Section.find_by_id!($1))
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

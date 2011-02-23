@@ -8,7 +8,7 @@ Background:
     And I am logged as a @user
 
 Scenario: Listing all applications
-  Given there is an application called "RobMarleys Hotel"
+  Given there is an application called "Test Hotel"
     And I am on the app_profiles page
-  When I follow "RobMarleys Hotel"
-    Then I should be on the app_profile page for "RobMarleys Hotel"
+  When I follow "Test Hotel"
+    Then I should be on the app_profile page for "Test Hotel"
