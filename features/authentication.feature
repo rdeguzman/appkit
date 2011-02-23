@@ -3,7 +3,6 @@ Feature: Authenticate
   As a system using devise
   I want to show the correct redirect page for a logged user
   
-@focus
 Scenario: User logged-in from Login page
   Given I am on the new user session page
     And I am logged as a @user
