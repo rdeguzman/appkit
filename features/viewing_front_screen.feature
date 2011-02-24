@@ -9,7 +9,8 @@ Background:
 
 Scenario: See Front Screen
   Given there is an application called "Test Hotel"
-    And I am on the app_profiles page for "Test Hotel"
+    And I am on the app_profiles page
+    #And show me the page
   When I follow "Test Hotel"
   Then I should see "Add New Section"
   Then I should see "Update Background"

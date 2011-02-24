@@ -7,6 +7,7 @@ Background:
   Given I am on the new user session page
     And I am logged as a @user
     And there is an application called "Test Hotel"
+    And there is a section called "Test Section"
     And I am on the new section page for application "Test Hotel"
 
 Scenario: Display New Section Form
@@ -28,4 +29,11 @@ Scenario: Creating a new section
   Then I should see "Section was successfully created"
    And I should see "Section1"
    And I should be on the app_profile page for "Test Hotel"
+   #And show me the page
+
+Scenario: Creating a new section with an existing section
+  When I fill in "Title" with "Test Section"
+   And I press "Create Section"
+  Then I should see "error found"
+   And I should see "Title has already been taken"
    #And show me the page
