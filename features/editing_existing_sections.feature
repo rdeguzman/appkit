@@ -12,7 +12,6 @@ Background:
     And I am on the app_profile page for "Test Hotel"
     #And show me the page
 
-@focus
 Scenario: Updating a section with an existing title
   Given I am on the edit section page for "Test Section 1"
   When I fill in "Title" with "Test Section 2"
