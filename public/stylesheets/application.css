@@ -14,6 +14,10 @@ h2 { color: #4096EE; font-size: 18px; }
 
 .action_items{margin: 5px; padding: 5px; height: 25px; float:left;}
 
+.clear{
+  clear: both;
+}
+
 div.buttons {
   clear: both;
 }
@@ -60,14 +64,15 @@ hr{ height: 1px;margin: 0; background: #C3D9FF;}
 /* iPhone: Chapter */
 #iphone_bg_container{
   width: 450px;
-  height: 860px; 
+  /* this shows the whole iphone container. If the content inside the container is longer than 450px, then it overshoots the footer. If this happens, do paging */
+  height: 860px;
   background: url(../images/bg_iphone4_450x860.jpg); 
   margin: 0px 0px 0px 0px;
   float: left;
 }
 #iphone_content{
   width: 320px;
-  height: 460px;
+  /* height: 460px; */
   /* background: #ff0000; */
   /* background: url(http://192.168.10.60/images/appkit/2/default/tr_Autobot-904.jpg); */
   margin-left: 65px;
@@ -119,6 +124,7 @@ hr{ height: 1px;margin: 0; background: #C3D9FF;}
   text-decoration: none;
 }
 .iphone_list_element_title{ font-size: 16px; font-weight: bold; margin: 0;} 
+.iphone_list_element_sub_title{ font-size: 12px; font-weight: bold; margin: 0;} 
 .iphone_list_element_text{ font-size: 10px; font-weight: bold; line-height: 12px;} 
 
 #iphone_detail_image{

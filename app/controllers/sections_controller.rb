@@ -27,7 +27,7 @@ class SectionsController < ApplicationController
   def show
     @section = Section.find(params[:id])
     @app_profile = @section.app_profile
-    @pages = @section.pages
+    @pages = @section.pages.paginate(:page => params[:page], :per_page => 5)
   
     add_breadcrumb "#{@app_profile.app_name} App", app_profile_path(@app_profile)
     add_breadcrumb "#{@section.title} List", section_path(@section)

@@ -22,7 +22,8 @@
 
             <div style="width:220px; height: 70px; float: left; margin-left:5px; margin-top: 2px; margin-bottom: 2px;">
               <span class="iphone_list_element_title"><%= link_to truncate(page.title, :length => 25, :seperator => ' '), page_path(page) %></span><br/>
-              <p class="iphone_list_element_text"><%= truncate( page.content, :length => 120, :seperator => ' ' ) %></p>
+              <span class="iphone_list_element_sub_title"><%= truncate(page.sub_title, :length => 25, :seperator => ' ')  %></span><br/>
+              <p class="iphone_list_element_text"><%= truncate( page.content, :length => 75, :seperator => ' ' ) %></p>
             </div> 
 
           </div>
@@ -34,7 +35,9 @@
       </div>
 
     </div>
+
   </div>
+
 </div>
 
 <div class="span-10 last">
@@ -46,11 +49,17 @@
       <%= link_to "Edit", edit_page_path(page) %>
       <%= link_to "Delete", page_path(page), :confirm => "Are you sure", :method => :delete %>
       <br/>
+
+      <i><%= page.sub_title %></i><br/>
+
       <%= truncate( page.content, :length => 120, :seperator => ' ' ) %>
     </p>
   <% end %>
+
+  <%= will_paginate @pages %>
 
   <div class="action_items buttons">
     <%= link_to "Add Page", new_section_page_path(@section.id) %>
   </div>
 </div>
+
