@@ -1,0 +1,651 @@
+
+--- 
+app_profiles: 
+  columns: 
+  - id
+  - user_id
+  - app_name
+  - background_front
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - Shangrila
+    - "1"
+    - 2011-02-18 01:08:14 Z
+    - 2011-02-18 01:09:41 Z
+  - - 2
+    - 2
+    - IDive Philippines
+    - "3"
+    - 2011-02-18 06:12:30 Z
+    - 2011-02-22 15:51:55 Z
+  - - 3
+    - 4
+    - ldf hotel
+    - 
+    - 2011-02-22 05:39:36 Z
+    - 2011-02-22 05:39:36 Z
+  - - 4
+    - 2
+    - Boracay Island
+    - "4"
+    - 2011-02-23 11:29:26 Z
+    - 2011-02-23 12:03:26 Z
+
+--- 
+image_assets: 
+  columns: 
+  - id
+  - user_id
+  - app_profile_id
+  - asset_type
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 1
+    - 1
+    - background_front
+    - info-chi-therapist_f.jpg
+    - image/jpeg
+    - 45255
+    - 2011-02-18 01:09:40 Z
+    - 2011-02-18 01:09:40 Z
+    - 2011-02-18 01:09:40 Z
+  - - 3
+    - 2
+    - 2
+    - background_front
+    - idive_background2.jpg
+    - image/jpeg
+    - 120089
+    - 2011-02-22 15:51:53 Z
+    - 2011-02-22 15:51:55 Z
+    - 2011-02-22 15:51:55 Z
+  - - 4
+    - 2
+    - 4
+    - background_front
+    - boracay_background
+    - application/octet-stream
+    - 115500
+    - 2011-02-23 12:03:26 Z
+    - 2011-02-23 12:03:26 Z
+    - 2011-02-23 12:03:26 Z
+
+--- 
+pages: 
+  columns: 
+  - id
+  - title
+  - sub_title
+  - content
+  - section_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Superior Garden View (104 rooms 34-36 sqm)
+    - Main Wing
+    - |-
+      Superior Garden View Rooms offer contemporary, inviting accommodations with traditional Philippine touches, inspired by natural elements such as abaca and banana leaf. Guests who choose the Superior Garden View Rooms at this Cebu Resort hotel will also be privy to the following:
+      
+      The room features views of expansive tropical gardens, and offers a private balcony with a coffee table and seating for two.
+      
+      To help keep you connected, the room has complimentary broadband Internet access, international television channels, and international direct dial telephones.
+      
+      Bathrooms feature plush cotton towels and exclusive Shangri-La toiletries.
+      
+      The room dimension is 34 sqm/365 sqft.
+    - 2
+    - 2011-02-18 04:11:08 Z
+    - 2011-02-25 23:11:52 Z
+  - - 2
+    - Deluxe Sea View (228 rooms 34-36 sqm)
+    - Main Wing
+    - |-
+      Deluxe Sea View Rooms offer memorable views of  the ocean and the resort pool. The decor comprises an inviting blend of international and Asian styles.
+      
+      The room has a private balcony facing the shimmering waters of the Mactan Channel.
+      
+      The room features dual-line telephones, complimentary broadband Internet access and a television with international channels.
+      
+      Bathrooms feature plush cotton towels and exclusive Shangri-La toiletries.
+      
+      The room dimension is 34 sqm/365 sqft.
+    - 2
+    - 2011-02-18 04:15:07 Z
+    - 2011-02-25 23:12:26 Z
+  - - 3
+    - Executive Room (18 rooms 45 sqm)
+    - Main Wing
+    - |-
+      Executive Rooms offer spacious accommodations for three adults, or two adults with two children. The interiors in neutral shade allows for a laidback tropical atmosphere, while the queen-size beds provide ample space for relaxation.
+      
+      The room features views of expansive tropical gardens, and offers a private balcony with a coffee table and seating for two.
+      
+      To help keep you connected, the room has complimentary broadband Internet access, international television channels, and international direct dial telephones.
+      
+      Bathrooms feature plush cotton towels, exclusive Shangri-La toiletries, a bath tub and a separate shower cubicle.
+      
+      The room dimensions are 45 sqm / 485 sqft.
+    - 2
+    - 2011-02-18 04:16:40 Z
+    - 2011-02-25 23:12:49 Z
+  - - 4
+    - Deluxe Family (12 rooms 38 sqm)
+    - Ocean Wing
+    - |-
+      Ideal for families and groups travelling together, the stylishly designed Deluxe Family Rooms offer two queen-size beds to amply accommodate up to three adults, or two adults and two children. All Deluxe Family rooms are located in the first floor.
+      
+      The room features views of expansive tropical gardens, and offers a private balcony with a coffee table and seating for two.
+      
+      To help keep you connected, the room has complimentary broadband Internet access, international television channels, and international direct dial telephones.
+      
+      The room dimension is 38 sqm/409 sqft.
+    - 2
+    - 2011-02-18 06:06:46 Z
+    - 2011-02-25 23:13:15 Z
+  - - 5
+    - Premier Garden View (74 rooms 34 sqm)
+    - Ocean Wing
+    - "Premier Garden View Rooms overlooks lush gardens in a secluded setting. The d\xC3\xA9cor comprises an inviting blend of traditional and contemporary Philippine styles.\r\n\
+      \r\n\
+      The room features views of expansive tropical gardens, and offers a private balcony with a coffee table and seating for two.\r\n\
+      \r\n\
+      To help keep you connected, the room has complimentary broadband Internet access, international television channels, and international direct dial telephones.\r\n\
+      \r\n\
+      The room dimension is 34 sqm/365 sqft."
+    - 2
+    - 2011-02-18 06:17:31 Z
+    - 2011-02-25 23:13:36 Z
+  - - 6
+    - Premier Sea View (24 rooms  36 sqm)
+    - Ocean Wing
+    - |-
+      Premier Sea View Rooms face the pool or ocean, and offer a stylish, contemporary design infused with traditional Philippine materials.
+      
+      The room has a private balcony facing the shimmering waters of the Mactan Sea.
+      
+      To help keep you connected, the room has complimentary broadband Internet access, international television channels, and international direct dial telephones.
+      
+      The room dimension is 36 sqm/387 sqft.
+    - 2
+    - 2011-02-18 06:22:30 Z
+    - 2011-02-25 23:13:53 Z
+  - - 7
+    - Hans Christian Andersen Liveaboard
+    - ""
+    - |-
+      Without a doubt, the crown jewel of Philippine diving, Tubbataha boasts of pristine reefs, deep walls, mantas, schools of fish, turtles and is one of the last guaranteed shark dives in Asia. We have also finished exploration of Cagayancillo and Calusa islands and proud to offer it as an add-on for those seeking a longer dive cruise. Guests can expect to see off shore pinnacles, sea- fan lined corridors, colorful soft corals and more macro critters than in Tubbataha. (Port of Origin-Puerto Princesa) 
+      
+      The most comfortable safari boat in Tubbataha, it boasts 2 shaded decks,2 gearing up areas, a jacuzzi, fully air-conditioned interiors and a private toilet and shower in all cabins.Nitrox available, Courses available on board. 
+      
+      Website	www.hcadivecruise.com
+      Telephone	(632)3031921
+      Fax	(632)3107729
+      Email	info@hcadivecruise.com, yvetteclee@gmail.com
+    - 10
+    - 2011-02-19 16:37:53 Z
+    - 2011-02-19 16:37:53 Z
+  - - 8
+    - Tubbataha Reef on board Expedition Fleet
+    - ""
+    - |-
+      Measuring 99,600 hectares in size, the Tubbataha Reef National Park is made up of 2 atolls rising in the middle of the Sulu Sea. Being almost a hundred nautical miles from the nearest port, access is only through Liveaboard vessels and voyages to the park are determined by the weather. A small window-from late March to early June when calm seas and clear skies are the best and only times for divers to visit. The strong winds and rough swells the rest of the year deters both authorized and un-authorized incursions into the park and permits the reef to settle back into its natural state of regeneration.
+      
+      Embarkation and disembarkation point is Puerto Princesa (Palawan). To get there, take one of the domestic flights from Manila.
+      
+      Website:   www.expeditionfleet.com
+      Telephone:	(632)8923477
+      Email:	info@cia.com.ph, karin@expeditionfleet.com
+    - 10
+    - 2011-02-19 16:41:48 Z
+    - 2011-02-19 16:41:48 Z
+  - - 9
+    - Panorama Room (21 rooms 36 sqm)
+    - Ocean Wing
+    - |-
+      Panorama rooms face the beach and ocean, and offer a stylish, contemporary design infused with traditional Philippine materials.
+      
+      The room has a panoramic view of the ocean and a private balcony facing the shimmering waters of the Mactan Sea.
+      
+      To help keep you connected, the room has complimentary broadband Internet access, international television channels, and international direct dial telephones.
+      
+      Bathrooms feature plush cotton towels, exclusive Shangri-La toiletries and a bath tub.
+      
+      The room dimension is 36 sq. m./387 sq. ft.
+    - 2
+    - 2011-02-25 23:09:01 Z
+    - 2011-02-25 23:09:01 Z
+  - - 10
+    - Executive Suite (8 rooms 61 sqm)
+    - Main Wing
+    - |-
+      Executive Suites offer spacious and luxurious accommodations, with a view of the verdant landscape.
+      
+      The suite has a separate living room, and a private balcony overlooking the horizon.
+      
+      To help keep you connected, the suite has complimentary broadband Internet access, international television channels, and international direct dial telephones.
+      
+      The marble bathroom has a soaking tub and a separate shower cubicle.
+      
+      The suite dimension is 61 sqm/655 sqft.
+    - 2
+    - 2011-02-25 23:17:17 Z
+    - 2011-02-25 23:17:17 Z
+  - - 11
+    - Shangri-La Suite (2 rooms 136 sqm)
+    - Main WIng
+    - |-
+      The two Shangri-La Suites located at the Main Wing offer an exceptionally generous floor plan, expansive views of the Mactan Sea, and warm, attentive Shangri-La service.
+      
+      The richly decorated suite has a separate living room, dining room and pantry, and a private balcony with sweeping ocean views.
+      
+      The suite features complimentary broadband Internet access, international television channels, international direct dial telephones, LCD television, and a DVD player docking station.
+      
+      The marble bathroom has a soaking tub and a separate shower cubicle.
+      
+      The suite dimension is 136 sq. m./1463 sq. ft.
+    - 2
+    - 2011-02-25 23:18:55 Z
+    - 2011-02-25 23:18:55 Z
+  - - 12
+    - Panorama Suite (15 rooms 72 sqm)
+    - Ocean Wing
+    - "With uninterrupted views of the shimmering blue Mactan Channel and nearby islands, Panorama Suite offer expansive luxury and an inviting, Asian-inspired d\xC3\xA9cor.\r\n\
+      \r\n\
+      The suite has a separate living room, and a private balcony with sweeping ocean views.\r\n\
+      \r\n\
+      The suite features complimentary broadband Internet access, international television channels, international direct dial telephones, flatscreen televisions, and an iPod docking station.\r\n\
+      \r\n\
+      The marble bathroom has a soaking tub and a separate shower cubicle.\r\n\
+      \r\n\
+      The suite dimension is 72 sqm/775 sqft."
+    - 2
+    - 2011-02-25 23:21:11 Z
+    - 2011-02-25 23:21:11 Z
+  - - 13
+    - Presidential Suite (1 room 216 sqm)
+    - Ocean Wing
+    - |-
+      Offering our highest level of luxury and attentive Shangri-La service, the richly decorated Presidential Suite is ideal for sophisticated entertaining or the most special of occasions.
+      
+      The suite has a separate living room, kitchen and dining room, and a private balcony with sweeping ocean views.
+      
+      The suite features complimentary broadband Internet access, international television channels, international direct dial telephones, flatscreen televisions, and an DVD home cinema system docking station.
+      
+      The marble bathroom has a soaking tub and a separate shower cubicle.
+      
+      The suite dimension is 216 sqm/2325 sqft.
+    - 2
+    - 2011-02-25 23:22:47 Z
+    - 2011-02-25 23:22:47 Z
+  - - 14
+    - Ocean Club (40 rooms 36 sqm)
+    - Ocean Wing
+    - |-
+      Ocean Club Rooms face the ocean, and offer a stylish, contemporary design infused with traditional Philippine materials. Guests in Ocean Club Rooms enjoy exclusive privileges, such as private check-in, access to the Ocean Club Lounge, and a personal concierge.
+      
+      The room has a private balcony facing the shimmering waters of the Mactan Channel.
+      
+      To help keep you connected, the room has complimentary broadband Internet access, international television channels, and international direct dial telephones.
+      
+      The room dimension is 36 sqm/387 sqft.
+    - 2
+    - 2011-02-25 23:24:17 Z
+    - 2011-02-25 23:24:17 Z
+
+--- 
+pictures: 
+  columns: 
+  - id
+  - caption_title
+  - caption_description
+  - page_id
+  - user_id
+  - created_at
+  - updated_at
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  records: 
+  - - 1
+    - 
+    - 
+    - 1
+    - 1
+    - 2011-02-18 04:13:29 Z
+    - 2011-02-18 04:13:29 Z
+    - room-01-superior-garden-view_f.jpg
+    - image/jpeg
+    - 49550
+    - 2011-02-18 04:13:28 Z
+  - - 2
+    - 
+    - 
+    - 2
+    - 1
+    - 2011-02-18 04:15:34 Z
+    - 2011-02-18 04:15:34 Z
+    - room-02-deluxe_seaview_f.jpg
+    - image/jpeg
+    - 166279
+    - 2011-02-18 04:15:34 Z
+  - - 3
+    - 
+    - 
+    - 3
+    - 1
+    - 2011-02-18 04:17:13 Z
+    - 2011-02-18 04:17:13 Z
+    - room-03-executive_f.jpg
+    - image/jpeg
+    - 34420
+    - 2011-02-18 04:17:12 Z
+  - - 4
+    - 
+    - 
+    - 4
+    - 1
+    - 2011-02-18 06:14:03 Z
+    - 2011-02-18 06:14:03 Z
+    - room-04-deluxe-family_f.jpg
+    - image/jpeg
+    - 229546
+    - 2011-02-18 06:14:03 Z
+  - - 5
+    - 
+    - 
+    - 5
+    - 1
+    - 2011-02-18 06:17:55 Z
+    - 2011-02-18 06:17:55 Z
+    - room-05-premier_garden_f.jpg
+    - image/jpeg
+    - 246526
+    - 2011-02-18 06:17:54 Z
+  - - 6
+    - 
+    - 
+    - 6
+    - 1
+    - 2011-02-18 06:22:57 Z
+    - 2011-02-18 06:22:57 Z
+    - room-06-premier_seaview_f.jpg
+    - image/jpeg
+    - 30454
+    - 2011-02-18 06:22:57 Z
+  - - 7
+    - 
+    - 
+    - 7
+    - 2
+    - 2011-02-19 16:39:19 Z
+    - 2011-02-19 16:39:19 Z
+    - AH_MG_7471.jpg
+    - image/jpeg
+    - 731789
+    - 2011-02-19 16:39:18 Z
+  - - 8
+    - 
+    - 
+    - 8
+    - 2
+    - 2011-02-19 16:43:22 Z
+    - 2011-02-19 16:43:22 Z
+    - expedition fleet.jpg
+    - image/jpeg
+    - 136716
+    - 2011-02-19 16:43:22 Z
+  - - 9
+    - 
+    - 
+    - 9
+    - 1
+    - 2011-02-25 23:10:43 Z
+    - 2011-02-25 23:10:43 Z
+    - Panorama_Room.jpg
+    - image/jpeg
+    - 109755
+    - 2011-02-25 23:10:43 Z
+  - - 10
+    - 
+    - 
+    - 10
+    - 1
+    - 2011-02-25 23:17:47 Z
+    - 2011-02-25 23:17:47 Z
+    - room-09-executive_room_f.jpg
+    - image/jpeg
+    - 170880
+    - 2011-02-25 23:17:47 Z
+  - - 11
+    - 
+    - 
+    - 11
+    - 1
+    - 2011-02-25 23:19:16 Z
+    - 2011-02-25 23:19:16 Z
+    - room-10-shangrila_suite_f.jpg
+    - image/jpeg
+    - 226033
+    - 2011-02-25 23:19:15 Z
+  - - 12
+    - 
+    - 
+    - 12
+    - 1
+    - 2011-02-25 23:21:36 Z
+    - 2011-02-25 23:21:36 Z
+    - room-11-panorama_suite_f.jpg
+    - image/jpeg
+    - 192230
+    - 2011-02-25 23:21:36 Z
+  - - 13
+    - 
+    - 
+    - 13
+    - 1
+    - 2011-02-25 23:23:12 Z
+    - 2011-02-25 23:23:12 Z
+    - room-12-presidential_suite_f.jpg
+    - image/jpeg
+    - 246551
+    - 2011-02-25 23:23:12 Z
+  - - 14
+    - 
+    - 
+    - 14
+    - 1
+    - 2011-02-25 23:24:45 Z
+    - 2011-02-25 23:24:45 Z
+    - room-08-ocean_club_f.jpg
+    - image/jpeg
+    - 357865
+    - 2011-02-25 23:24:44 Z
+
+--- 
+sections: 
+  columns: 
+  - id
+  - title
+  - app_profile_id
+  - user_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Info
+    - 1
+    - 1
+    - 2011-02-18 01:09:50 Z
+    - 2011-02-18 01:09:50 Z
+  - - 2
+    - Rooms
+    - 1
+    - 1
+    - 2011-02-18 01:09:58 Z
+    - 2011-02-18 01:09:58 Z
+  - - 3
+    - Photos
+    - 1
+    - 1
+    - 2011-02-18 04:03:33 Z
+    - 2011-02-18 04:03:33 Z
+  - - 4
+    - Map
+    - 1
+    - 1
+    - 2011-02-18 04:03:43 Z
+    - 2011-02-18 04:03:43 Z
+  - - 5
+    - Contact Us
+    - 1
+    - 1
+    - 2011-02-18 04:03:55 Z
+    - 2011-02-18 04:03:55 Z
+  - - 6
+    - About iDive
+    - 2
+    - 2
+    - 2011-02-19 16:33:15 Z
+    - 2011-02-19 16:33:15 Z
+  - - 7
+    - Dive Sites
+    - 2
+    - 2
+    - 2011-02-19 16:33:30 Z
+    - 2011-02-19 16:33:30 Z
+  - - 8
+    - Dive Operators
+    - 2
+    - 2
+    - 2011-02-19 16:33:43 Z
+    - 2011-02-19 16:33:43 Z
+  - - 9
+    - Dive Resorts
+    - 2
+    - 2
+    - 2011-02-19 16:33:53 Z
+    - 2011-02-19 16:33:53 Z
+  - - 10
+    - Live Aboard Dive Boats
+    - 2
+    - 2
+    - 2011-02-19 16:34:08 Z
+    - 2011-02-19 16:34:08 Z
+  - - 11
+    - Photos
+    - 2
+    - 2
+    - 2011-02-19 16:34:19 Z
+    - 2011-02-19 16:34:19 Z
+  - - 12
+    - Places To Go
+    - 4
+    - 2
+    - 2011-02-23 12:04:15 Z
+    - 2011-02-23 12:04:15 Z
+  - - 13
+    - Things To Do
+    - 4
+    - 2
+    - 2011-02-23 12:04:32 Z
+    - 2011-02-23 12:04:32 Z
+  - - 14
+    - Accommodation
+    - 4
+    - 2
+    - 2011-02-23 12:04:47 Z
+    - 2011-02-23 12:04:47 Z
+  - - 15
+    - Dining
+    - 4
+    - 2
+    - 2011-02-23 12:04:58 Z
+    - 2011-02-23 12:04:58 Z
+  - - 16
+    - Entertainment
+    - 4
+    - 2
+    - 2011-02-23 12:05:11 Z
+    - 2011-02-23 12:05:11 Z
+  - - 17
+    - More Info
+    - 4
+    - 2
+    - 2011-02-23 12:05:25 Z
+    - 2011-02-23 12:05:25 Z
+
+--- 
+users: 
+  columns: 
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - 2rmobiledevs@gmail.com
+    - $2a$10$gf0vvajJDz4V5J.iEtsbPOR/FDD/2HubbzuLhJFgRXRtEmav7lKc6
+    - 
+    - 
+    - 11
+    - 2011-02-27 06:57:28 Z
+    - 2011-02-26 10:42:37 Z
+    - 127.0.0.1
+    - 127.0.0.1
+    - 2011-02-18 01:08:04 Z
+    - 2011-02-27 06:57:28 Z
+  - - 2
+    - pinoytourist@gmail.com
+    - $2a$10$kKK0MsAlS98TaaL4wusOvO/RM649k5m5KGMR48J5r0B0s6yKbELea
+    - 
+    - 
+    - 17
+    - 2011-02-25 16:06:55 Z
+    - 2011-02-25 14:04:58 Z
+    - 121.54.92.54
+    - 116.50.163.66
+    - 2011-02-18 06:11:54 Z
+    - 2011-02-25 16:06:55 Z
+  - - 3
+    - rupert@2rmobile.com
+    - $2a$10$1MymfOpcDLXZ/Y3ZYKRyMO3r3UUi8ckhCpeINCl.HWmB5o.1Sd32q
+    - 
+    - 
+    - 1
+    - 2011-02-18 07:42:22 Z
+    - 2011-02-18 07:42:22 Z
+    - 58.110.119.199
+    - 58.110.119.199
+    - 2011-02-18 07:42:22 Z
+    - 2011-02-18 07:42:22 Z
+  - - 4
+    - laren004@yahoo.com
+    - $2a$10$0WpVj78GHbBG3ootKkIYNuccy8bMRALfSlzYY3Xd2M1K0Gc/wBwoC
+    - 
+    - 
+    - 1
+    - 2011-02-22 05:39:09 Z
+    - 2011-02-22 05:39:09 Z
+    - 116.50.244.7
+    - 116.50.244.7
+    - 2011-02-22 05:39:09 Z
+    - 2011-02-22 05:39:09 Z

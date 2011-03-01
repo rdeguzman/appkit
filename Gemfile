@@ -30,6 +30,7 @@ group :test, :development do
   gem 'factory_girl'
   gem 'seed-fu'
 #  gem 'ruby-debug19'
+  gem 'yaml_db'
 end
 
 # Use unicorn as the web server

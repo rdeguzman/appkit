@@ -1,3 +1,4 @@
+#This spec should be run if "Shangrila" test app is loaded
 require 'spec_helper'
 
 describe AppExporter do
