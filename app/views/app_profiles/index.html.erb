@@ -7,6 +7,7 @@
         <%= image_tag('icon_not_available.gif') %>
       </div>
       <div><h2><%= link_to app_profile.app_name, app_profile_path(app_profile) %></h2></div>
+      <div><%= link_to "Export App", export_path(app_profile) %></div>
       <div>Edit Profile</div>
     </li>
   <% end %>

@@ -2,14 +2,20 @@
 
 A solution for mobile app development and deployment strategy focused on the travel industry.
 
-== Testing
+== Deployment Notes
 
+Directory of Exported Apps
+/wwwroot/images/appkit/exported
 
-1. Test values should always be "Test [entity value]". For example
+== Testing Steps
+export RAILS_ENV=test
+rake db:data:load
+cucumber
+rspec specs/*
 
-  Test Hotel
+Note: rake cucumber does not load the data using rake db:data:load. See lib/tasks/cucumber.rake
 
-We use cucumber, capybara and factory_girl.
+== Testing using cucumber, capybara and factory_girl
 
 1. Create a scenario in cucumber
 

@@ -15,6 +15,7 @@ Appkit::Application.routes.draw do
   match "faq" => "home#faq"
   match "about_us" => "home#about_us"
   match "contact_us" => "home#contact_us"
+  match "export/:id" => "app_export#show", :as => :export
 
   root :to => "home#index"
   

@@ -606,13 +606,13 @@ users:
     - $2a$10$gf0vvajJDz4V5J.iEtsbPOR/FDD/2HubbzuLhJFgRXRtEmav7lKc6
     - 
     - 
-    - 11
+    - 12
+    - 2011-03-01 22:56:52 Z
     - 2011-02-27 06:57:28 Z
-    - 2011-02-26 10:42:37 Z
     - 127.0.0.1
     - 127.0.0.1
     - 2011-02-18 01:08:04 Z
-    - 2011-02-27 06:57:28 Z
+    - 2011-03-01 22:56:52 Z
   - - 2
     - pinoytourist@gmail.com
     - $2a$10$kKK0MsAlS98TaaL4wusOvO/RM649k5m5KGMR48J5r0B0s6yKbELea
@@ -630,13 +630,13 @@ users:
     - $2a$10$1MymfOpcDLXZ/Y3ZYKRyMO3r3UUi8ckhCpeINCl.HWmB5o.1Sd32q
     - 
     - 
-    - 1
+    - 2
+    - 2011-03-01 23:13:42 Z
     - 2011-02-18 07:42:22 Z
-    - 2011-02-18 07:42:22 Z
+    - 127.0.0.1
     - 58.110.119.199
-    - 58.110.119.199
     - 2011-02-18 07:42:22 Z
-    - 2011-02-18 07:42:22 Z
+    - 2011-03-01 23:13:42 Z
   - - 4
     - laren004@yahoo.com
     - $2a$10$0WpVj78GHbBG3ootKkIYNuccy8bMRALfSlzYY3Xd2M1K0Gc/wBwoC
@@ -649,3 +649,15 @@ users:
     - 116.50.244.7
     - 2011-02-22 05:39:09 Z
     - 2011-02-22 05:39:09 Z
+  - - 5
+    - demo@2rmobile.com
+    - $2a$10$7eT5DlO0ePQzNBw6pwWFauH2SmhHbLO5ywAT27aK36otARD3xgPju
+    - 
+    - 
+    - 1
+    - 2011-03-01 23:25:21 Z
+    - 2011-03-01 23:25:21 Z
+    - 127.0.0.1
+    - 127.0.0.1
+    - 2011-03-01 23:25:21 Z
+    - 2011-03-01 23:25:21 Z
