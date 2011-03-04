@@ -49,14 +49,14 @@ describe AppExportController do
     actual_count.should == expected_count 
   end
 
-  #it "populates the app_profile" do
-  #  db = SQLite3::Database.open( dest_db_path )
-  #  populateAppProfile(app_profile)
-  #  row = db.get_first_row( "SELECT * FROM app_profile" )
-  #  db.close
-  #  row[0].should == 1
-  #  row[1].should == "Shangrila"
-  #end
+  it "populates the app_profile" do
+    db = SQLite3::Database.open( dest_db_path )
+    populateAppProfile(app_profile)
+    row = db.get_first_row( "SELECT * FROM app_profile" )
+    db.close
+    row[0].should == 1
+    row[1].should == "Shangrila"
+  end
 
   it "create an archive" do
     createArchive(app_profile)

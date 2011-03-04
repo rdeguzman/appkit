@@ -10,6 +10,7 @@ class AppExportController < ApplicationController
     populateSections(app_profile) 
     populatePages(app_profile) 
     populatePictures(app_profile) 
+    populateAppProfile(app_profile) 
     createArchive(app_profile)
     cleanup(app_profile)
 
