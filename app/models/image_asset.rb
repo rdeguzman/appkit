@@ -9,8 +9,8 @@ class ImageAsset < ActiveRecord::Base
                       #:landscape => ["480x320>", :jpg],
                     },
                     :default_style => :pagesize,
-                    :url => "/images/appkit/:id/:style/:basename.:extension",
-                    :path => "/wwwroot/images/appkit/:id/:style/:basename.:extension"
+                    :url => "/images/appkit/image_assets/:id/:style/:basename.:extension",
+                    :path => "/wwwroot/images/appkit/image_assets/:id/:style/:basename.:extension"
   
   validates_attachment_presence :image                  
   validates_attachment_size :image, :less_than => 10.megabytes
