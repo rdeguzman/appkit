@@ -4,14 +4,25 @@ A solution for mobile app development and deployment strategy focused on the tra
 
 == Deployment Notes
 
-Directory of Exported Apps
+1. login as rupert
+rvm use 1.8.7
+bundle install
+sudo /etc/init.d/apache2 restart
+
+2. Paths that need to exist 
 /wwwroot/images/appkit/exported
+/wwwroot/images/appkit/pictures
+/wwwroot/images/appkit/image_assets
+
+drwxr-xr-x  2 rupert   rupert 4096 Mar  4 22:12 exported
+drwxr-xr-x  7 rupert   rupert 4096 Mar  5 04:02 image_assets
+drwxr-xr-x 33 rupert   rupert 4096 Mar  5 04:29 pictures
 
 == Testing Steps
 export RAILS_ENV=test
 rake db:data:load
 cucumber
-rspec specs/*
+rspec spec/*
 
 Note: rake cucumber does not load the data using rake db:data:load. See lib/tasks/cucumber.rake
 
