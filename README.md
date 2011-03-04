@@ -8,6 +8,7 @@ A solution for mobile app development and deployment strategy focused on the tra
 rvm use 1.8.7
 bundle install
 sudo /etc/init.d/apache2 restart
+cp -Rf path_to/secure/config/database.yml config/database.yml
 
 2. Paths that need to exist 
 /wwwroot/images/appkit/exported
