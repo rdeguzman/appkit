@@ -1,4 +1,4 @@
-<div class="span-14">
+<% if temporary_check? %><div class="span-14"><% else %><div style="margin-left: 220px;"><% end %>
   <div id="iphone_bg_container">
     <div id="iphone_content">
       <div id="iphone_navbar" style="background: url(../images/navbar_black.png)">
@@ -19,19 +19,23 @@
   </div>
 </div>
 
-<div class="span-10 last">
-  <h1><%= @page.title %></h1>
+<% if temporary_check? %>
 
-  <p><i><%= @page.sub_title %></i></p>
+  <div class="span-10 last">
+    <h1><%= @page.title %></h1>
 
-  <p><%= simple_format @page.content %></p>
+    <p><i><%= @page.sub_title %></i></p>
 
-  <ul>
-    <li><%= link_to "Edit", edit_page_path(@page) %></li>
+    <p><%= simple_format @page.content %></p>
 
-    <li><%= link_to "Delete", page_path(@page), :confirm => "Are you sure?", :method => :delete %></li>
+    <ul>
+      <li><%= link_to "Edit", edit_page_path(@page) %></li>
 
-    <li><%= link_to "Manage #{@pictures.count} Pictures", pictures_path(:page_id=> @page.id) %></li>
+      <li><%= link_to "Delete", page_path(@page), :confirm => "Are you sure?", :method => :delete %></li>
 
-  </ul>
-</div>
+      <li><%= link_to "Manage #{@pictures.count} Pictures", pictures_path(:page_id=> @page.id) %></li>
+
+    </ul>
+  </div>
+
+<% end %>

@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @app_profiles = AppProfile.all
   end
 
   def overview

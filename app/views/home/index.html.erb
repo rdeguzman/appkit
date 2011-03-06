@@ -6,3 +6,13 @@
   <%= image_tag('home.jpg') %>
 </div>
 
+
+<h1>Apps created by AppKit</h1>
+
+<ul class="horizontal_links">
+<% @app_profiles.each do |app_profile| %>
+  <li style="text-align:center; width:150px; float:left;">
+    <div><h2><%= link_to app_profile.app_name, app_profile_path(app_profile) %></h2></div>
+  </li>
+<% end %>
+</ul>
