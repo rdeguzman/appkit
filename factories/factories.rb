@@ -1,7 +1,6 @@
 user = User.find_by_email!("demo@2rmobile.com")
 
 Factory.define :app_profile do |_app_profile|
-  _app_profile.id 100
   _app_profile.app_name 'Test Hotel'
   _app_profile.user_id user.id
 end
