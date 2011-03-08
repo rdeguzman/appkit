@@ -139,7 +139,12 @@ hr{ height: 1px;margin: 0; background: #C3D9FF;}
   height: 130px;
   color: #000000;
   line-height: 15px;
-  padding: 5px;
+}
+
+#iphone_detail_text textarea{
+  margin: 0;
+  width: 305px;
+  height: 182px;
 }
 
 /* Common elements in each page */

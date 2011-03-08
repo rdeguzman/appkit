@@ -13,7 +13,7 @@
         <% end %>
       </div>
       <div id="iphone_detail_text">
-        <%= truncate( @page.content, :length => 520, :seperator => ' ' ) %>
+        <%= text_area_tag 'foo', @page.content, :rows => '3', :cols => '10', :escape => true, :disabled => true, :class => 'iphone_textarea' %>
       </div>
     </div>
   </div>
