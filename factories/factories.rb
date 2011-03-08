@@ -1,4 +1,6 @@
-user = User.find_by_email!("demo@2rmobile.com")
+def user
+  User.find_by_email!("demo@2rmobile.com")
+end
 
 Factory.define :app_profile do |_app_profile|
   _app_profile.app_name 'Test Hotel'

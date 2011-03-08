@@ -9,4 +9,4 @@ Scenario: Viewing application list in home page
   When I am on the home page
   Then I should see "Test Hotel 100"
     And I should see "Test Hotel 101"
-    And show me the page
+    #And show me the page

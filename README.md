@@ -1,8 +1,8 @@
-== Welcome to AppKit
+# Welcome to AppKit
 
 A solution for mobile app development and deployment strategy focused on the travel industry.
 
-== Deployment Notes
+## Deployment Notes
 
 1. login as rupert
 rvm use 1.8.7
@@ -19,15 +19,16 @@ drwxr-xr-x  2 rupert   rupert 4096 Mar  4 22:12 exported
 drwxr-xr-x  7 rupert   rupert 4096 Mar  5 04:02 image_assets
 drwxr-xr-x 33 rupert   rupert 4096 Mar  5 04:29 pictures
 
-== Testing Steps
+## Testing steps during Development
 export RAILS_ENV=test
+rake db:reset
 rake db:data:load
 cucumber
 rspec spec/*
 
 Note: rake cucumber does not load the data using rake db:data:load. See lib/tasks/cucumber.rake
 
-== Testing using cucumber, capybara and factory_girl
+## Testing using cucumber, capybara and factory_girl
 
 1. Create a scenario in cucumber
 
@@ -56,4 +57,13 @@ Note: rake cucumber does not load the data using rake db:data:load. See lib/task
 We now have an instance of app_profile.
 
 
+## Migration Notes
+
+1. March 09, 2011. Added app_profile_id and user_id to pages. Run the sql statement below. 
+
+  UPDATE pages p, sections s
+  SET p.app_profile_id = s.app_profile_id,
+    p.user_id = s.user_id
+  WHERE 
+    s.id = p.section_id;
 
