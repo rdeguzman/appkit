@@ -1,30 +1,36 @@
 # Welcome to AppKit
 
-A solution for mobile app development and deployment strategy focused on the travel industry.
+A solution for mobile app development and deployment strategy (currently focused in the travel industry).
+
+1. SignUp
+1. Create an application profile
+1. Update/Upload content and images
+1. Export the App
+1. Download the App Archive
 
 ## Deployment Notes
 
 1. login as rupert
-rvm use 1.8.7
-bundle install
-sudo /etc/init.d/apache2 restart
-cp -Rf path_to/secure/config/database.yml config/database.yml
+    rvm use 1.8.7
+    bundle install
+    sudo /etc/init.d/apache2 restart
+    cp -Rf path_to/secure/config/database.yml config/database.yml
 
 2. Paths that need to exist 
-/wwwroot/images/appkit/exported
-/wwwroot/images/appkit/pictures
-/wwwroot/images/appkit/image_assets
+    /wwwroot/images/appkit/exported
+    /wwwroot/images/appkit/pictures
+    /wwwroot/images/appkit/image_assets
 
-drwxr-xr-x  2 rupert   rupert 4096 Mar  4 22:12 exported
-drwxr-xr-x  7 rupert   rupert 4096 Mar  5 04:02 image_assets
-drwxr-xr-x 33 rupert   rupert 4096 Mar  5 04:29 pictures
+    drwxr-xr-x  2 rupert   rupert 4096 Mar  4 22:12 exported
+    drwxr-xr-x  7 rupert   rupert 4096 Mar  5 04:02 image_assets
+    drwxr-xr-x 33 rupert   rupert 4096 Mar  5 04:29 pictures
 
 ## Testing steps during Development
-export RAILS_ENV=test
-rake db:reset
-rake db:data:load
-cucumber
-rspec spec/*
+    export RAILS_ENV=test
+    rake db:reset
+    rake db:data:load
+    cucumber
+    rspec spec/*
 
 Note: rake cucumber does not load the data using rake db:data:load. See lib/tasks/cucumber.rake
 
