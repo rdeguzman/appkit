@@ -33,6 +33,42 @@ app_profiles:
     - "4"
     - 2011-02-23 11:29:26 Z
     - 2011-02-23 12:03:26 Z
+  - - 5
+    - 2
+    - Bellarocca Island Resort & Spa
+    - "5"
+    - 2011-03-04 15:36:07 Z
+    - 2011-03-04 15:37:39 Z
+  - - 6
+    - 2
+    - Hans Christian Andersen Dive Cruise
+    - "6"
+    - 2011-03-04 16:59:48 Z
+    - 2011-03-04 17:02:40 Z
+  - - 7
+    - 2
+    - AVIS Rent a Car Philippines
+    - "7"
+    - 2011-03-05 10:28:24 Z
+    - 2011-03-05 10:28:55 Z
+  - - 8
+    - 2
+    - MC Mountain Home Apartelle
+    - "8"
+    - 2011-03-06 09:53:29 Z
+    - 2011-03-06 09:56:55 Z
+  - - 9
+    - 2
+    - The Bellevue Manila
+    - 
+    - 2011-03-06 10:20:10 Z
+    - 2011-03-06 10:20:10 Z
+  - - 10
+    - 2
+    - Travel Itineraries Philippines
+    - "12"
+    - 2011-03-08 14:45:06 Z
+    - 2011-03-08 15:06:20 Z
 
 --- 
 image_assets: 
@@ -78,6 +114,56 @@ image_assets:
     - 2011-02-23 12:03:26 Z
     - 2011-02-23 12:03:26 Z
     - 2011-02-23 12:03:26 Z
+  - - 5
+    - 2
+    - 5
+    - background_front
+    - bellarocca 02.JPG
+    - image/jpeg
+    - 1094545
+    - 2011-03-04 15:37:33 Z
+    - 2011-03-04 15:37:39 Z
+    - 2011-03-04 15:37:39 Z
+  - - 6
+    - 2
+    - 6
+    - background_front
+    - background.jpg
+    - image/jpeg
+    - 236599
+    - 2011-03-04 17:02:39 Z
+    - 2011-03-04 17:02:40 Z
+    - 2011-03-04 17:02:40 Z
+  - - 7
+    - 2
+    - 7
+    - background_front
+    - background.jpg
+    - image/jpeg
+    - 373880
+    - 2011-03-05 10:28:54 Z
+    - 2011-03-05 10:28:55 Z
+    - 2011-03-05 10:28:55 Z
+  - - 8
+    - 2
+    - 8
+    - background_front
+    - background.jpg
+    - image/jpeg
+    - 128201
+    - 2011-03-06 09:56:54 Z
+    - 2011-03-06 09:56:55 Z
+    - 2011-03-06 09:56:55 Z
+  - - 12
+    - 2
+    - 10
+    - background_front
+    - cover2.jpg
+    - image/jpeg
+    - 152148
+    - 2011-03-08 15:06:20 Z
+    - 2011-03-08 15:06:20 Z
+    - 2011-03-08 15:06:20 Z
 
 --- 
 pages: 
@@ -331,6 +417,1110 @@ pages:
     - 2011-02-25 23:24:17 Z
     - 1
     - 1
+  - - 15
+    - Location
+    - ""
+    - Bellarocca is located in Marinduque Province, situated at the heart of the Philippine Archipelago. It is 170 kms. southeast of Manila and occupies Elefante Island, southwest off Marinduque Island, is part of the Luzon cluster.
+    - 18
+    - 2011-03-04 15:44:26 Z
+    - 2011-03-04 15:44:26 Z
+    - 5
+    - 2
+  - - 16
+    - The Island
+    - ""
+    - "Bellarocca is perched on a 20 hectare private island of mountainous rolling terrain, with its peak at 114 meters above sea-level, reminiscent of Santorini, Greece.  The resort\xE2\x80\x99s elevation provides breathtaking vistas, panoramic views of islands, dramatic sea cliffs, Turquoise waters of the Sibuyan Sea and the volcanic peak of majestic Mt. Malindig.  Only Bellarocca Guests & Staff are on the island to ensure guests\xE2\x80\x99 ultimate privacy."
+    - 18
+    - 2011-03-04 15:45:08 Z
+    - 2011-03-04 15:45:08 Z
+    - 5
+    - 2
+  - - 17
+    - The Resort
+    - ""
+    - |
+      The Mediterranean architecture of immaculate stucco white buildings & structures, bound by the azure blue seas below, makes Bellarocca truly unique in the Philippines.
+
+    - 18
+    - 2011-03-04 15:46:09 Z
+    - 2011-03-04 15:46:09 Z
+    - 5
+    - 2
+  - - 18
+    - The Facilities
+    - ""
+    - "Tea House w/ uninterrupted views of the ocean /  Meditation Sanctuary (for Pilates and Yoga enthusiasts) / Rejuvenating services at the Hillside Spa Treatment Rooms / Seaside Pavilion Restaurant & Eternity Pool with Sunken Bar and Private Verandah / Souvenir Boutique  / Gym & Fitness Center w/ Instructors & Trainers / Hotel Lap Pool with deck beds for swimmers and sun worshippers / Piano Lounge / Cigar Bar / Marina Caf\xC3\xA9 / Hotel Main Dining and Al Fresco restaurants and bar, offering a myriad of international & local cuisine / Library and Reading Room / Entertainment Room (billiards and foozball tables, computer stations and board games) "
+    - 18
+    - 2011-03-04 15:46:54 Z
+    - 2011-03-04 15:46:54 Z
+    - 5
+    - 2
+  - - 19
+    - The Gardens
+    - ""
+    - The Casa gardens serve as the perfect venue for picnics, themed events, team building sessions and private dining for couples.  Outdoor Movie Nights are also held here for in house guests.
+    - 18
+    - 2011-03-04 15:47:24 Z
+    - 2011-03-04 15:47:24 Z
+    - 5
+    - 2
+  - - 20
+    - The Rooms
+    - ""
+    - Choose from the 70 luxurious & stunningly appointed accommodation types all offering views of the sea, lush gardens and the volcanic peak of Mt. Malindig at 1,761 meters.
+    - 20
+    - 2011-03-04 15:49:51 Z
+    - 2011-03-04 15:49:51 Z
+    - 5
+    - 2
+  - - 21
+    - Hotel Rooms, Junior Suites, Suites
+    - ""
+    - "Our accommodations are arranged to offer elegance and luxurious comfort with a touch of a home-like essence. \r\n\
+      \r\n\
+      Hardwood floors, a balcony equipped with table and chairs should you wish to enjoy the weather and sights outside, and a spacious bathroom complete with a tub enticing you to take a dip and perhaps never leave.\r\n\
+      \r\n\
+      Lounge on a bed that is more than generously fitted with soft sheets and a down comforter. Or perhaps lay against the couch, access your own entertainment system that icludes a Plasma TV with a complete DVD player and stereo system, not to mention satellite cable TV. If music is more like your style, iPod dock and speakers are readily available.\r\n\
+      \r\n\
+      Guests staying in our Intimate and Luxurious Hotel Rooms, Junior Suites and Suites experience the following comforts and conveniences:\r\n\
+      Beddings and pillow selections\r\n\
+      Individually-controlled air-conditioning\r\n\
+      Skype \xE2\x80\x93 enabled Belkin telephone\r\n\
+      Personal bar and refrigerator\r\n\
+      Coffee and tea service\r\n\
+      Private balcony / verandah with view of the sea and Mount Malindig\r\n\
+      Modern bath and shower facilities including Jacuzzi and/or bath tub\r\n\
+      Complete range of bathroom amenities (All natural\xE2\x80\x94L\xE2\x80\x99Occitane, AVEDA, REN, Molton Brown)\r\n\
+      Plasma TV with complete DVD Player and home theatre stereo systems, satellite TV, Ipod dock and hifi compact sound systems\r\n\
+      Private balcony or garden\r\n\
+      Golf cart service\r\n\
+      Complimentary Internet connectivity (cable) in the room and in general public areas (WiFi)\r\n\
+      Electronic safe deposit box"
+    - 20
+    - 2011-03-04 15:52:45 Z
+    - 2011-03-04 15:52:45 Z
+    - 5
+    - 2
+  - - 22
+    - Casas
+    - ""
+    - "It\xE2\x80\x99s akin to being in the suburbs. Set aside the fact that it is situated in the middle of an island that provides you with the peace and quiet one would not easily find in a typical suburb found in cities.\r\n\
+      \r\n\
+      We have 1-. 2- and 3-bedroom Casas (scheduled to open late 2010) that are sure to further enhance your sense of belonging and settling in. The 2- and 3-bedroom Casas can accommodate up to a maximum of 4 and 6 adults, respectively.  Guests staying in our Casas experience the following comforts and conveniences:\r\n\
+      Beddings and pillow selections\r\n\
+      Individually-controlled air-conditioning\r\n\
+      Skype \xE2\x80\x93 enabled Belkin telephone\r\n\
+      Personal bar and refrigerator\r\n\
+      Coffee and tea service\r\n\
+      Private balcony with garden views\r\n\
+      Modern bath and shower facilities\r\n\
+      Complete range of bathroom amenities (All natural\xE2\x80\x94L\xE2\x80\x99Occitane, AVEDA, REN, Molton Brown)\r\n\
+      Plasma TV with complete DVD Player and home theatre stereo systems, satellite TV, Ipod dock and hifi compact sound systems\r\n\
+      Private balcony / verandah\r\n\
+      Golf cart service\r\n\
+      Complimentary internet connectivity in the room and in general public areas\r\n\
+      Electronic safe deposit box\r\n"
+    - 20
+    - 2011-03-04 15:57:00 Z
+    - 2011-03-04 15:57:00 Z
+    - 5
+    - 2
+  - - 23
+    - Terrazas
+    - ""
+    - "With time on your hands to sit back and enjoy your stay, our Terrazas offer an outstanding view adjoined to your chosen accommodation.  Because of its location along the ridges of the island, the Terrazas and the elevation if provides, offer the best uninterrupted views of Mt Malindig.   \r\n\
+      \r\n\
+      Kick back and relax, take a deep breath and perhaps even gather your family or friends outside as well. Foregoing being cooped up in your room should you wish to skip on the rest of Bellarocca\xE2\x80\x99s other exciting activities and amenities, the outdoors reserved for you and your friends is yours to do as you please. All Terrazas (scheduled to open late 2009) offer 2 bedrooms and the following amenities:\r\n\
+      Beddings and pillow selections\r\n\
+      Individually-controlled air-conditioning\r\n\
+      Skype \xE2\x80\x93 enabled Belkin telephone\r\n\
+      Personal bar and refrigerator\r\n\
+      Coffee and tea service\r\n\
+      Private balcony with view of sea and Mt. Malindig\r\n\
+      Modern bath and shower facilities including Jacuzzi and/or bath tub\r\n\
+      Complete range of bathroom amenities (All natural\xE2\x80\x94L\xE2\x80\x99Occitane, AVEDA, REN, Molton Brown)\r\n\
+      Plasma TV with complete DVD Player and home theatre stereo systems, satellite TV, Ipod dock and hifi compact sound systems\r\n\
+      Private balcony / verandah\r\n\
+      Golf cart service\r\n\
+      Complimentary internet connectivity in the room and in general public areas\r\n\
+      Electronic safe deposit box"
+    - 20
+    - 2011-03-04 15:58:45 Z
+    - 2011-03-04 15:58:45 Z
+    - 5
+    - 2
+  - - 24
+    - Garden and Cliff Villas
+    - ""
+    - "We guarantee that you will be enticed to stay longer after experiencing all that Bellarocca has to offer. \r\n\
+      \r\n\
+      If and when you do, we suggest taking up residence in our Garden and Cliff Villas. With 1- and 2-bedroom villas, take your pick from having a view of the nearby mountainside and seemingly endless clear blue skies and emerald waters, or perhaps a sight that overlooks the rest of the Island\xE2\x80\x94as if all that stands between the skies and the wonderful lush greenery below is just you.\r\n\
+      \r\n\
+      With its quaint decor and lovely furnishings, equipped and stocked and made ready for you, our guests staying at the Villas experience the best amongst the accommodations at Bellarocca:\r\n\
+      \r\n\
+      Infinity pool\r\n\
+      Outdoor Jacuzzi / Whirlpool\r\n\
+      Exterior lounge area / sundeck\r\n\
+      Beddings and pillow selections\r\n\
+      Individually-controlled air-conditioning\r\n\
+      Skype \xE2\x80\x93 enabled Belkin telephone\r\n\
+      Personal bar and refrigerator\r\n\
+      Coffee and tea service\r\n\
+      modern bath and shower facilities including Jacuzzi and/or bath tub\r\n\
+      Complete range of bathroom amenities (All natural\xE2\x80\x94L\xE2\x80\x99Occitane, AVEDA, REN, Molton Brown)\r\n\
+      Plasma TV with complete DVD Player and home theatre stereo systems, satellite TV, Ipod dock and hifi compact sound systems\r\n\
+      Private balcony / verandah\r\n\
+      Golf cart service\r\n\
+      Complimentary internet connectivity in the room and in general public areas\r\n\
+      Electronic safe deposit box"
+    - 20
+    - 2011-03-04 16:00:41 Z
+    - 2011-03-04 16:00:41 Z
+    - 5
+    - 2
+  - - 25
+    - For Couples
+    - ""
+    - "For couples who wish to make each moment matter, your wish is ours to fulfill. The following activities guarantee a lot of memories to look back on in good time.\r\n\
+      \r\n\
+      \xE2\x80\xA2    Private lunches and private dinners\r\n\
+      \xE2\x80\xA2    Private cocktails\r\n\
+      \xE2\x80\xA2    Romantic breakfast arrangements (i.e. by the beach or the garden area)\r\n\
+      \xE2\x80\xA2    Option of taking meals in their accommodation\r\n\
+      \xE2\x80\xA2    Private cruising/yachting\r\n\
+      \xE2\x80\xA2    Private movie screenings (in-door/outdoor)\r\n\
+      \xE2\x80\xA2    Couples\xE2\x80\x99 massages and spa treatments (in spa treatment room for couples)\r\n\
+      \xE2\x80\xA2    Marine sports/other recreational leisure activities\r\n\
+      \xE2\x80\xA2    Weddings\xE2\x80\x94renewal of vows, private ceremonies, anniversaries"
+    - 22
+    - 2011-03-04 16:19:29 Z
+    - 2011-03-04 16:19:29 Z
+    - 5
+    - 2
+  - - 26
+    - For Families
+    - ""
+    - For families with children ranging from infants/toddlers to teenagers, we offer services ranging from baby-sitting by trained employees, sports/arts and crafts/environmental lessons to special themed dinners, parties/discos as well as excursions or educational tours.
+    - 22
+    - 2011-03-04 16:20:07 Z
+    - 2011-03-04 16:20:07 Z
+    - 5
+    - 2
+  - - 27
+    - Gym & Fitness Center
+    - ""
+    - "The resort also has a fully equipped gym and fitness center that should satisfy those who crave for a good workout, no matter if it\xE2\x80\x99s a vacation or not. Seeing as it is a known fact that swimming engages good and vital muscle work-out, Bellarocca even offers different pools to choose from."
+    - 22
+    - 2011-03-04 16:20:44 Z
+    - 2011-03-04 16:20:44 Z
+    - 5
+    - 2
+  - - 28
+    - Outdoor Activities
+    - ""
+    - "Engage in the following activities that will surely satiate your quest for thrill and action.\r\n\
+      \r\n\
+      \xE2\x80\xA2    Kayaking\r\n\
+      \xE2\x80\xA2    Jet ski\r\n\
+      \xE2\x80\xA2    Banana boat\r\n\
+      \xE2\x80\xA2    Windsurfing\r\n\
+      \xE2\x80\xA2    Hobie cat sailing\r\n\
+      \xE2\x80\xA2    Trekking/hiking\r\n\
+      \xE2\x80\xA2    Fitness Walks/Jogging trails"
+    - 22
+    - 2011-03-04 16:21:21 Z
+    - 2011-03-04 16:21:21 Z
+    - 5
+    - 2
+  - - 29
+    - Meditation Sanctuary
+    - ""
+    - For those who lean towards a more holistic work-out we have the solution to that as well. Spend time at our Meditation Sanctuary to re-connect with your inner self or your Higher Being. We also offer healthy and vegetarian meals (let us know of your specific requirements upon booking) as well as lectures on healthy/spa and wellness living (seasonal).
+    - 22
+    - 2011-03-04 16:24:15 Z
+    - 2011-03-04 16:24:15 Z
+    - 5
+    - 2
+  - - 30
+    - Corporate Sales Office
+    - ""
+    - |-
+      Suite 2804, 28th Floor, Ayala Life-FGU Center
+      6811 Ayala Avenue, Makati City 1229 Philippines 
+      T: +63 2 817 7290; +63 2 328 8831          
+      F: +63 2 817 5879; +63 2 892 4102         
+      E: info@bellaroccaresorts.com           
+      W: www.bellaroccaresorts.com
+    - 24
+    - 2011-03-04 16:26:17 Z
+    - 2011-03-04 16:26:17 Z
+    - 5
+    - 2
+  - - 31
+    - The Company
+    - ""
+    - Introducing a new style of cruising through the Philippine Islands, the Hans Christian Andersen offers full diving and non-diving programs.  Avid divers can expect a full day of scuba diving the spectacular coral reefs, wrecks and marine life of this sun-kissed archipelago while their non-diving companions have a full day or snorkeling, island visits, kayaking and beach hopping. We also offer a more relaxed Dive and Cruise package wherein guests can sign up for a regular cruise (www.hcacruise.com) and then purchase a lesser number of dives.
+    - 25
+    - 2011-03-04 17:05:17 Z
+    - 2011-03-04 17:05:17 Z
+    - 6
+    - 2
+  - - 32
+    - The Ship
+    - ""
+    - |-
+      The ship can accommodate a maximum number of 46  passengers	
+      
+      For Northern or Southern Voyages, we accept a maximum of 18 divers per trip.
+      
+      For exclusive full dive charters for Tubbataha, Northern and Southern route we accept a maximum of 32 divers.
+    - 25
+    - 2011-03-04 17:07:34 Z
+    - 2011-03-04 17:07:34 Z
+    - 6
+    - 2
+  - - 33
+    - Route Map
+    - ""
+    - "Hans Christian Andersen operates in 3 major dive areas in the Philippines. "
+    - 26
+    - 2011-03-04 17:14:22 Z
+    - 2011-03-04 17:14:22 Z
+    - 6
+    - 2
+  - - 34
+    - Northern Route
+    - "Batangas \xE2\x80\x93 Pandan Island \xE2\x80\x93 Coron \xE2\x80\x93 Apo Reef \xE2\x80\x93 Batangas (December 18, 2010 \xE2\x80\x93 April 2011)"
+    - "Enjoy  warm weather and sunny skies as we set sail for the pretty island of Pandan. White sand beaches and gin clear waters hide reefs with resident turtles and shallow reefs.  Topside Coron boasts of spectacular limestone cliffs, hidden lagoons and 12 World War II wrecks waiting to be explored.  Apo Reef\xE2\x80\x99s deep walls and intact reefs draw the bigger fish- jacks, barracudas, mantas and sharks. (Port of Origin-Batangas Port). "
+    - 26
+    - 2011-03-04 17:17:34 Z
+    - 2011-03-04 17:17:34 Z
+    - 6
+    - 2
+  - - 35
+    - "Tubbataha with Cagayancillo and Calusa add-on option "
+    - April-June (for Divers only)
+    - Without a doubt, the crown jewel of Philippine diving, Tubbataha boasts of pristine reefs, deep walls, mantas, schools of fish, turtles and is one of the last guaranteed shark dives in Asia. We have also finished exploration of Cagayancillo and Calusa islands and proud to offer it as an add on for those seeking a longer dive cruise. Guests can expect to see off shore pinnacles, sea- fan lined corridors, colorful soft corals and more macro critters than in Tubbataha. (Port of Origin-Puerto Princesa Port)
+    - 26
+    - 2011-03-04 17:21:59 Z
+    - 2011-03-04 17:21:59 Z
+    - 6
+    - 2
+  - - 36
+    - Southern Route
+    - Apo Island-Siquijor-Balicasag-Camiguin-Dinagat-Southern Leyte-Cuatro Islands (July-November)
+    - |-
+      This cruise covers some of the best island diving this 7,107 island archipelago has to offer. The marine sanctuaries of Apo Island and Balicasag, Sogod bay-also known for whalesharks-boasts of well-known 4 and 5 star rated dive sites where healthy fish populations and photogenic fields of hard and soft corals await visiting divers.
+      
+      Going into the waters of Dinagat Island means going into areas not normally accessible to divers due to lack of both tourist and diver infrastructure. Be among the lucky few to visit reefs not even known to guidebooks writers and dive travel journalists.. (Port of Origin-Mactan Cebu)
+    - 26
+    - 2011-03-04 17:24:58 Z
+    - 2011-03-04 17:24:58 Z
+    - 6
+    - 2
+  - - 37
+    - Contact Us
+    - ""
+    - |-
+      HANS CHRISTIAN ANDERSEN CRUISE
+      
+      Unit 1209 Ermita Center Bldg
+      1350 Roxas Blvd, Ermita, Manila
+      Philippines
+      
+      Telephone number: (63-2)  303 1921
+      Fax number: (63-2) 310 7729
+      
+      Booking / Inquiries please email us at yvetteclee@gmail.com or info@hcadivecruise.com
+    - 27
+    - 2011-03-04 17:29:04 Z
+    - 2011-03-04 17:29:04 Z
+    - 6
+    - 2
+  - - 38
+    - "G&S Transport Corporation "
+    - ""
+    - "G&S Transport Corporation (\xE2\x80\x9CGSTC\xE2\x80\x9D) was established in April 1972 for the specific purpose of operating the Philippine license of AVIS Rent A Car International. G&STC started operations in April 1972 with 6 cars and one station. Today it has a fleet of more than 360 vehicles and 17 stations throughout the country, and is also known by its trade style \xE2\x80\x9CAVIS Philippines.\xE2\x80\x9D\v\vOver the past 38 years of operations, AVIS Philippines has operated in several segments of the car rental industry, including the coupon (non-metered) taxi service, the car transfer segment (i.e., point-to-point pick-up and drop-off), the car-hire service (less than 24 hours rental), the chauffeur-driven rental market, and the self-driven car rental segment. The last of these is the more commonly known type of rental service throughout the developed world. However, in the Philippines, as in a few other rental markets, the chauffeur-driven service is traditionally more popular, because of difficult local driving conditions and the poor state of roads in these slower-growing economies.\v"
+    - 29
+    - 2011-03-05 10:40:13 Z
+    - 2011-03-05 10:40:13 Z
+    - 7
+    - 2
+  - - 39
+    - "AVIS International "
+    - ""
+    - "AVIS International operates over 400,000 vehicles from 4,700 locations in 160 countries. As the Philippine franchisee of AVIS International, G&STC is required to adhere strictly to global standards of operation, in conformity with those of AVIS International.\v\vAVIS is the only car rental company in the country that was granted an ISO (International Organization for Standardization) quality certificate.\v"
+    - 29
+    - 2011-03-05 10:40:59 Z
+    - 2011-03-05 10:40:59 Z
+    - 7
+    - 2
+  - - 40
+    - AVIS Philippines Headquarters
+    - ""
+    - |-
+      2/F Guevent Commercial Center
+      No. 52 Domingo M. Guevara St.,
+      Mandaluyong City, MM
+      Tel. Nos.: (+632) 718-4064 to 66
+      Facsimile : (+632) 533.0785
+      Email: infomarketing@avis.com.ph
+      Website: www.avis.com.ph
+    - 29
+    - 2011-03-05 10:42:14 Z
+    - 2011-03-05 10:42:14 Z
+    - 7
+    - 2
+  - - 41
+    - Short Term Rentals
+    - ""
+    - |
+      Either SELF-DRIVE at the leisure of the renter or CHAUFFEUR
+      DRIVE by our professional and reliable drivers.
+
+    - 30
+    - 2011-03-05 10:44:12 Z
+    - 2011-03-05 10:44:12 Z
+    - 7
+    - 2
+  - - 42
+    - Car Hire
+    - ""
+    - For a minimum of three (3) hours, inclusive of gas with the convenience of our proficient drivers based on client's desired itinerary.
+    - 30
+    - 2011-03-05 10:44:35 Z
+    - 2011-03-05 10:44:35 Z
+    - 7
+    - 2
+  - - 43
+    - Airport Transfer Service
+    - ""
+    - Let Avis pick you up at bring you to the nearest airport safe and sound. A worry-free service that includes car service, chauffeur and fuel.
+    - 30
+    - 2011-03-05 10:45:08 Z
+    - 2011-03-05 10:45:08 Z
+    - 7
+    - 2
+  - - 44
+    - Pick Up & Drop Off
+    - ""
+    - One agreed destination with no side trip or waiting time.
+    - 30
+    - 2011-03-05 10:45:55 Z
+    - 2011-03-05 10:45:55 Z
+    - 7
+    - 2
+  - - 45
+    - Airport - Seaport Connect Service
+    - ""
+    - A pick-up transfer service that will connect you from airport to any seaport  in Manila, Cebu or even in Mindanao.
+    - 30
+    - 2011-03-05 10:46:29 Z
+    - 2011-03-05 10:46:29 Z
+    - 7
+    - 2
+  - - 46
+    - Monthly Office/Residence Transfers
+    - ""
+    - A specially arranged monthly transport system that will guarantee you peace of mind and value for money.
+    - 30
+    - 2011-03-05 10:47:14 Z
+    - 2011-03-05 10:47:14 Z
+    - 7
+    - 2
+  - - 47
+    - Dedicated School Service
+    - ""
+    - Avis assures you and your loved ones the safety and comfort with a dedicated transport service.
+    - 30
+    - 2011-03-05 10:47:46 Z
+    - 2011-03-05 10:47:46 Z
+    - 7
+    - 2
+  - - 48
+    - Wedding Car Service
+    - ""
+    - Make each wedding a moment to last a lifetime with a splendid transport service from vintage (on request) to modern cars.
+    - 30
+    - 2011-03-05 10:48:14 Z
+    - 2011-03-05 10:48:14 Z
+    - 7
+    - 2
+  - - 49
+    - Leasing Services
+    - ""
+    - AVIS presents the ideal solution whenever you need a car for a longer period of time. AVIS offers long-term rentals on any vehicle for a minimum period of six (6) months.
+    - 30
+    - 2011-03-05 10:48:38 Z
+    - 2011-03-05 10:48:38 Z
+    - 7
+    - 2
+  - - 50
+    - Special Projects
+    - ""
+    - Special projects refer to car rentals for a short period of time but with large number of vehicles. AVIS has been tapped for special projects by such entities as Asian Development Bank, US Embassy, Korean Embassy, Keppel Communications, Department of Foreign Affairs, Office of the President and many others. AVIS handled the various state visits of foreign heads of states and other dignitaries since 1996 under the Office of the President of the Philippines.
+    - 30
+    - 2011-03-05 10:49:19 Z
+    - 2011-03-05 10:49:19 Z
+    - 7
+    - 2
+  - - 51
+    - Fleet Management
+    - ""
+    - "AVIS Fleet Management program offers maximum control over client\xE2\x80\x99s fleet maintenance costs. No matter which of our fleet services best meet the needs for the clients\xE2\x80\x99 company cars."
+    - 30
+    - 2011-03-05 10:49:47 Z
+    - 2011-03-05 10:49:47 Z
+    - 7
+    - 2
+  - - 52
+    - "Toyota Vios 1.3 MT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Manual Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 2 Luggages
+    - 31
+    - 2011-03-05 10:51:00 Z
+    - 2011-03-05 11:12:00 Z
+    - 7
+    - 2
+  - - 53
+    - New Toyota Vios 1.3 MT
+    - ""
+    - |-
+      QUICK SPECS :
+      > Manual Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 2 Luggages
+    - 31
+    - 2011-03-05 10:52:08 Z
+    - 2011-03-05 11:12:19 Z
+    - 7
+    - 2
+  - - 54
+    - "Toyota Altis 1.6 AT "
+    - ""
+    - |
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 2 Luggages
+
+    - 31
+    - 2011-03-05 10:53:27 Z
+    - 2011-03-05 11:12:43 Z
+    - 7
+    - 2
+  - - 55
+    - "New Toyota Altis 1.6 AT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD:
+      > 5 Persons
+      > 2 Luggages
+    - 31
+    - 2011-03-05 10:55:13 Z
+    - 2011-03-05 11:15:34 Z
+    - 7
+    - 2
+  - - 56
+    - New Toyota Vios 1.5 AT
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 2 Luggages
+    - 31
+    - 2011-03-05 10:56:27 Z
+    - 2011-03-05 11:16:20 Z
+    - 7
+    - 2
+  - - 57
+    - "Mercedes Benz E200 Class AT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 3 Luggages
+    - 31
+    - 2011-03-05 10:57:46 Z
+    - 2011-03-05 11:16:42 Z
+    - 7
+    - 2
+  - - 58
+    - "Toyota Camry AT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 3 Luggages
+    - 31
+    - 2011-03-05 10:58:39 Z
+    - 2011-03-05 11:17:22 Z
+    - 7
+    - 2
+  - - 59
+    - "New Toyota Camry AT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 3 Luggages
+    - 31
+    - 2011-03-05 10:59:26 Z
+    - 2011-03-05 11:17:42 Z
+    - 7
+    - 2
+  - - 60
+    - Honda CRV AT
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 3 Luggages
+    - 31
+    - 2011-03-05 11:01:30 Z
+    - 2011-03-05 11:18:04 Z
+    - 7
+    - 2
+  - - 61
+    - "Toyota Innova DSL MT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Manual Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 7 Persons
+      > 4 Luggages
+    - 31
+    - 2011-03-05 11:02:06 Z
+    - 2011-03-05 11:18:26 Z
+    - 7
+    - 2
+  - - 62
+    - "Toyota Innova DSL AT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 7 Persons
+      > 4 Luggages
+    - 31
+    - 2011-03-05 11:02:56 Z
+    - 2011-03-05 11:18:52 Z
+    - 7
+    - 2
+  - - 63
+    - "Nissan Urvan MT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Manual Transmission
+      > 4 doors including trunk
+       
+      LOAD :
+      > 10 Persons
+      > 4 Luggages
+    - 31
+    - 2011-03-05 11:05:58 Z
+    - 2011-03-05 11:05:58 Z
+    - 7
+    - 2
+  - - 64
+    - "Toyota HI-ACE Commuter MT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Manual Transmission
+      > 4 doors including trunk
+       
+      LOAD :
+      > 10 Persons
+      > 4 Luggages
+    - 31
+    - 2011-03-05 11:07:04 Z
+    - 2011-03-05 11:07:04 Z
+    - 7
+    - 2
+  - - 65
+    - "Toyota HI-ACE Grandia MT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Manual Transmission
+      > 4 doors including trunk
+       
+      LOAD :
+      > 12 Persons
+      > 4 Luggages
+    - 31
+    - 2011-03-05 11:08:06 Z
+    - 2011-03-05 11:08:06 Z
+    - 7
+    - 2
+  - - 66
+    - "Hyundai Grand Starex MT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Manual Transmission
+      > 4 doors including trunk
+       
+      LOAD :
+      > 8 Persons
+      > 4 Luggages
+    - 31
+    - 2011-03-05 11:09:52 Z
+    - 2011-03-05 11:09:52 Z
+    - 7
+    - 2
+  - - 67
+    - "Mercedes Benz S350 LWB AT "
+    - ""
+    - |-
+      QUICK SPECS :
+      > Automatic Transmission
+      > 5 doors including trunk
+       
+      LOAD :
+      > 5 Persons
+      > 3 Luggages
+    - 31
+    - 2011-03-05 11:10:48 Z
+    - 2011-03-05 11:10:48 Z
+    - 7
+    - 2
+  - - 68
+    - 24/7 Reservation Center
+    - ""
+    - |-
+      Tel. Nos.:(632) 584 2463 to 64
+      Fax No.:  (632) 584 2474
+      Mobile No.: +63 917 8872847 or +63 920 9892847
+      Email: reservation@avis.com.ph
+    - 32
+    - 2011-03-05 11:24:04 Z
+    - 2011-03-05 11:24:04 Z
+    - 7
+    - 2
+  - - 69
+    - On-line Reservation
+    - ""
+    - "Please Visit our website for online reservation - www.avis.com.ph "
+    - 32
+    - 2011-03-05 11:29:22 Z
+    - 2011-03-05 11:29:22 Z
+    - 7
+    - 2
+  - - 70
+    - Nationwide Rental Locations
+    - ""
+    - |
+      METRO MANILA : 
+      NAIA Terminal 1 879-5263  
+      NAIA Terminal 2  879-6245  
+      NAIA Terminal 3 879-6245 
+      Mabuhay Station 852-1748 
+      Central Garage 584-2466
+      LUZON : 
+      Alabang (02) 659-3452
+      Baguio (074) 442-7437 / 442-4018 
+      Angeles DMIA (045) 322-4661/625-6771
+      Subic Rental Station (047) 250-0357 
+      Clark International Airport (045) 322-4661/625-6771 
+      La Union (072) 888-7278
+      VISAYAS :  
+      Cebu (032) 268-2947  or 268-2097
+      Mactan International  Airport (032) 340-2486  local  3011   
+      MINDANAO : 
+      Davao  Station(082) 225-3337 
+      Davao International Airport
+      General Santos City (083) 552-2208 
+      Cagayan De Oro City(088) 857-1492 
+
+    - 32
+    - 2011-03-05 11:31:04 Z
+    - 2011-03-05 11:31:04 Z
+    - 7
+    - 2
+  - - 71
+    - The Home Apartelle
+    - Your Family Hideaway in Tagaytay
+    - |-
+      MC Mountain Home Apartelle lends warm and charming lodgings that complement the cool, mountain breeze of Tagaytay. The hotel, in fact, boasts quaint, affordable accommodations overlooking Taal Lake.
+      
+      Just a few hours from Manila, the hotel is perfect for last-minute family getaways and intimate celebrations. Its rooms welcome guests with apt fittings, like a television, balcony/ deck, and private bath with shower.
+      
+      Our hotel can also host your special events. The multipurpose hall and restaurant at MC Mountain Home Apartelle Tagaytay serve all day breakfast.
+    - 33
+    - 2011-03-06 09:59:04 Z
+    - 2011-03-06 09:59:04 Z
+    - 8
+    - 2
+  - - 72
+    - Location
+    - ""
+    - |-
+      Km. 68.9 Tagaytay-Nasugbu Highway (Aguinaldo Highway)
+      Buck Estate, Alfonso, Tagaytay
+      Cavite, Philippines
+    - 33
+    - 2011-03-06 09:59:46 Z
+    - 2011-03-06 09:59:46 Z
+    - 8
+    - 2
+  - - 73
+    - Sunset View Room
+    - ""
+    - |-
+      Wider balcony with sunset view; 
+      Extra persons are required to add extra mattress at P500.00 each;  
+      Good for 2 adults and 2 children below 12 to share with an adult;  
+      King or Queen - Sized Beds;  
+      Breakfast is payable at P199.00 per person
+    - 34
+    - 2011-03-06 10:01:09 Z
+    - 2011-03-06 10:01:09 Z
+    - 8
+    - 2
+  - - 74
+    - Taal Volcano View Room
+    - ""
+    - |-
+      Panoramic view of the Taal Volcano with balcony;  
+      Extra persons are required to add extra mattress at P500.00 each;  
+      Good for 2 adults and 2 children below 12 to share with an adult;  
+      Queen-Sized Bed;  
+      Breakfast is payable at P199.00 per person
+    - 34
+    - 2011-03-06 10:02:20 Z
+    - 2011-03-06 10:02:20 Z
+    - 8
+    - 2
+  - - 75
+    - Deluxe Room with Kitchen, Balcony, and Sunset and Mountain View
+    - ""
+    - |-
+      Sunset and Mountain View;  
+      With Balcony and Complete Kitchen Facilities;  
+      King-Sized Bed;  
+      Extra persons are required to add extra mattress at P500.00 each;  
+      Good for 2 adults and 2 children below 12 to share with an adult;  
+      Breakfast is payable at P199.00 per person
+    - 34
+    - 2011-03-06 10:03:19 Z
+    - 2011-03-06 10:03:19 Z
+    - 8
+    - 2
+  - - 76
+    - Standard Room
+    - ""
+    - |-
+      Smaller balcony;  
+      Extra persons are required to add extra mattress at P500.00 each;  
+      Good for 2 adults and 2 children below 12 to share with an adult;  
+      King or Queen - Sized Beds;  
+      Breakfast is payable at P199.00 per person
+    - 34
+    - 2011-03-06 10:04:09 Z
+    - 2011-03-06 10:04:09 Z
+    - 8
+    - 2
+  - - 77
+    - Standard Room with Connecting Door
+    - ""
+    - |-
+      Extra persons are required to add extra mattress at P500.00 each;  
+      Good for 2 adults and 2 children below 12 to share with an adult;  
+      Queen-Sized Bed;  
+      Breakfast is payable at P199.00 per person
+    - 34
+    - 2011-03-06 10:04:49 Z
+    - 2011-03-06 10:04:49 Z
+    - 8
+    - 2
+  - - 78
+    - Deluxe with Twin Bed
+    - ""
+    - |-
+      2 Single Beds;  
+      Extra persons are required to add extra mattress at P500.00 each;  
+      Good for 2 adults and 2 children below 12 to share with an adult;  
+      Breakfast is payable at P199.00 per person
+    - 34
+    - 2011-03-06 10:05:26 Z
+    - 2011-03-06 10:05:26 Z
+    - 8
+    - 2
+  - - 79
+    - Manila number
+    - ""
+    - "027362547"
+    - 35
+    - 2011-03-06 10:06:24 Z
+    - 2011-03-07 10:46:24 Z
+    - 8
+    - 2
+  - - 80
+    - Mobile Number
+    - ""
+    - +639177947500, +639228454857
+    - 35
+    - 2011-03-06 10:07:12 Z
+    - 2011-03-06 10:07:12 Z
+    - 8
+    - 2
+  - - 81
+    - Email
+    - ""
+    - reservations@mcmountaintagaytay.com / adoramcmountain@gmail.com
+    - 35
+    - 2011-03-06 10:07:39 Z
+    - 2011-03-06 10:07:39 Z
+    - 8
+    - 2
+  - - 82
+    - Website
+    - ""
+    - http://www.mcmountaintagaytay.com/index.php
+    - 35
+    - 2011-03-06 10:08:18 Z
+    - 2011-03-06 10:08:18 Z
+    - 8
+    - 2
+  - - 83
+    - Welcome
+    - ""
+    - |-
+      Cebu, Known as the Queen of the South, this historic island province in the Philippines is renowned for its stunning natural beaches, sweet mangoes, charming Buri furniture, traditional jewelry and year-round tropical climate.
+      
+      Most appealing of all is the island's accessible location, just a short flight from Manila, Hong Kong, Singapore, Korea and Japan. And, a mere 15 minutes drive from the island's airport lies the paradise of Shangri-La's Mactan Resort & Spa.
+    - 1
+    - 2011-03-08 12:19:18 Z
+    - 2011-03-08 12:19:18 Z
+    - 1
+    - 1
+  - - 84
+    - Travel Tips
+    - ""
+    - "TO SAVE on luggage space, roll your clothes instead of laying them flat. \r\n\
+      \r\n\
+      ALWAYS keep some loose change in your pocket. So you can get around even by tricycles. \r\n\
+      \r\n\
+      ALWAYS bring tissue paper in your travel. It can be used in 101 ways. \r\n\
+      \r\n\
+      NEVER hesitate to ask locals for help or direction. They are always ready to help a traveler in distress.\r\n\
+      \r\n\
+      ONE of the sterling virtues of a traveler is PATIENCE \r\n\
+      \r\n\
+      WHEN going to Sagada, the best attraction to visit is the Big Cave (or Sumaging Cave). Be ready for some adventure! Its unique attraction though are the easily reached Hanging Coffins.\r\n\
+      \r\n\
+      TO AVOID creasing your clothes put each clothing inside a plastic. You can also roll it to save on luggage space.\r\n\
+      \r\n\
+      NEVER enter a cave without a guide. Caves can be very dangerous to the brave, but stupid.\r\n\
+      \r\n\
+      WHEN you see cute children while traveling, NEVER give them token coins or candies. It will damage their moral values.\r\n\
+      \r\n\
+      NEVER tempt locals by leaving your things unattended.\r\n\
+      \r\n\
+      WHEN traveling, dress lightly. Its not practical to bring heavy clothes.\r\n\
+      \r\n\
+      ALWAYS pay when the service is done. AS much as possible, never pay your guides in advance.\r\n\
+      \r\n\
+      WHEN crossing a road for the first time, observe first the locals. You may get caught jaywalking!\r\n\
+      \r\n\
+      WHEN exploring a cave, always bring at least 3 sources of light for your safety.\r\n\
+      \r\n\
+      WHEN traveling for a long period, go to the dentist first. A toothache can ruin a great vacation. \r\n\
+      \r\n\
+      AVOID staying under the tropical sun for long periods. Too much sun can actually cook you skin! One or two hours should be enough for good sun bathing. \r\n\
+      \r\n\
+      ALWAYS bring a cap when discovering places, especially during the summer months.\r\n\
+      \r\n\
+      IT'S ALWAYS better to smile and greet the locals you encounter. It makes your travel more positive.\r\n\
+      \r\n\
+      WHEN going for long walks, its best to bring an umbrella. It can significantly  lessen exhaustion from heat.\r\n\
+      \r\n\
+      YOU should bring basic medicines when you travel. These are for colds, stomach cramps, and fever.\r\n\
+      \r\n\
+      ONE of the most useful things to have in travel is a malong. It can be used as a blanket, a beach apparel, or a simple body cover.\r\n\
+      \r\n\
+      INSTEAD of a lot of cash, bring an ATM card. Most of the destinations in the Philippines already have ATM machines. Just a heads up, though - some machines charge Php150 for the use of foreign-issued cards.\r\n\
+      \r\n\
+      DON'T forget to bring a good pair of slippers when traveling.\r\n\
+      \r\n\
+      SHOULD you eat exotic food offered to you? Why not? They\xE2\x80\x99re made of the same organic compounds as the beef or vegetables we eat. Besides, its not good shaming a host. But if its made of endangered animal like the sea turtle or deer meat, then have the moral obligation to say no.\r\n\
+      \r\n\
+      IF YOU'RE not used to it, avoid eating coconut and drinking its juice in the morning. It may cause you great stomach discomfort.\r\n\
+      \r\n\
+      TO GET a taste of authentic Filipino food, try to get invited to eat inside a local\xE2\x80\x99s home.\r\n\
+      \r\n\
+      FOR THE girls, try not to wear very skimpy clothing while walking the streets of a rural area. The locals may not find it proper.\r\n\
+      \r\n\
+      YOU CAN actually do the whale shark interaction even if you don\xE2\x80\x99t know how to swim. I personally brought a number of non-swimmer who were initially terrified of the water. I told them that their life vests won\xE2\x80\x99t let them drown even if they wanted to. Then they immensely enjoyed swimming (while being pulled by the interaction officer) with the giants.\r\n\
+      \r\n\
+      REMEMBER: you may have different culture from the people in the places you visit. Try your very best to tuck your dissenting opinions to yourself to keep your host AND yourself happy. \r\n\
+      \r\n\
+      PLEASE do not collect sand from Boracay (or any other beach!) as souvenir. Its sugary white sand is almost irreplaceable.\r\n\
+      \r\n\
+      ALWAYS keep a plastic bag tucked somewhere in your bag. It can save your camera or cell phone in case of sudden rains.\r\n\
+      \r\n\
+      NEVER feed wild animals. They can become aggressive and may hurt you.\r\n\
+      \r\n\
+      TO SAVE on hired transportation expenses, try to get others who are planning to travel the same way as you.\r\n"
+    - 46
+    - 2011-03-08 15:13:36 Z
+    - 2011-03-08 15:17:22 Z
+    - 10
+    - 2
+  - - 85
+    - Travel Trivia
+    - ""
+    - "Some trivia on the Philippines which should make your travel more interesting -----\r\n\
+      \r\n\
+      THE largest city in the world is Puerto Princesa City in Palawan.\r\n\
+      \r\n\
+      DID you know that we have otters in the Philippines? The river otters can be found in Palawan.\r\n\
+      \r\n\
+      DID you know that the legend of mermaids came about because the sailors in olden times mistook some dugongs, or sea cows, as women with fins?\r\n\
+      \r\n\
+      THE Philippines has giant rats that are as big as cats! But they\xE2\x80\x99re very gentle and cute, and are called cloud rats. Try to imagine a giant hamster. However, there are already a few of them left. They live mostly in mossy forests.\r\n\
+      \r\n\
+      DID u know that the huge bats like the ones in Subic are very gentle? And that they pollinate flowers of huge trees like the Durian?\r\n\
+      \r\n\
+      DID you know that with only 100 pesos, you could already have a good tour of Metro Manila? Get on the MRT and LRTs! They\xE2\x80\x99re conveniently interconnected. But make sure you time your travel between 10:00 A.M. \xE2\x80\x93 3:00 P.M. to avoid the humungous amount of people trying to fit into the trains during rush hours.\r\n\
+      \r\n\
+      DID you know that windmills are actually environmentally controversial? While they provide clean energy, they can also kill migratory birds that use as pathways where the windmills are located.\r\n\
+      \r\n\
+      DID you know that the manta ray, sometimes called devil\xE2\x80\x99s ray is actually a gentle giant? Its span can grow to 20 feet and it eats only planktons and tiny fishes while swimming. Its also different from the much smaller stingray.\r\n\
+      \r\n\
+      DID u know that the second largest island in the Philippines is Mindanao? Of course, the largest is Luzon.\r\n\
+      \r\n\
+      DID you know that the Philippine Eagle may be the largest eagle in the world? The Harpy Eagle of South America used to hold the record. But recent measurements in many aspects such as the body size, weight, beak size, and wingspan make the Philippine Eagle much larger than the Harpy Eagle.\r\n\
+      \r\n\
+      THE Dugong or sea cow is a gentle marine mammal that feeds on sea grass. There used to be plenty in the Philippines but now few can be found in Palawan.\r\n\
+      \r\n\
+      DID u know that Tagaytay City is part of the crater rim of a gigantic pre-historic volcano that exploded thousands of years ago?\r\n\
+      \r\n\
+      DID u know that Laguna Lake is the largest lake in the Philippines? Its area is about 90,000 hectares. It is also formed when a gigantic volcano erupted thousands of years ago.\r\n\
+      \r\n\
+      DID u know that Caliraya Lake in Laguna is a man-made lake?\r\n\
+      \r\n\
+      DID u know that the Chocolate Hills of Bohol are actually made of limestone?  And that the limestone hills were actually coral reefs that rose from the sea bed over millions of years?\r\n\
+      \r\n\
+      THE tarsier, although now a famous tourist attraction in Bohol, can also be found in the islands of Samar and Mindanaoa. This monkey-like tiny animal is nocturnal. Meaning it is most active at night. That\xE2\x80\x99s why it has huge eyes!\r\n\
+      \r\n\
+      DID u know that you can do white water rafting in the two Cagayans? One is in Cagayan Province in Luzon and the other is Cagayan de Oro in Mindanao.\r\n"
+    - 46
+    - 2011-03-08 15:21:18 Z
+    - 2011-03-08 15:21:18 Z
+    - 10
+    - 2
+  - - 86
+    - Puerto Princesa, Palawan
+    - ""
+    - "Always touted as the last frontier of the Philippines, the island province of Palawan holds true to that reputation.  This area is considered as one of the few dream destinations for many seasoned and would-be travelers. With more than a thousand islands, islets, cays and shoals and matched by impressive limestone cliffs, excellent coral reefs, cultures and other interesting natural treasures, I recommend that you allot at least three to four days of your entire lifetime to visit the attractions in Palawan.\r\n\
+      \r\n\
+      For a great taste of the destination, you can try this already-proven itinerary.\r\n\
+      \r\n\
+      DAY 1 ---     \r\n\
+      6:00 A.M.  - ETD Manila \r\n\
+      \r\n\
+      7:00  A.M. -  ETA Puerto Princesa City. Take a tricycle or get to a service vehicle; Check-in Hotel or Lodging House; Breakfast\r\n\
+      \r\n\
+      After Breakfast - Hire a tricycle or a service vehicle for a city tour\r\n\
+      \r\n\
+      Visit the following:\r\n\
+      Butterfly Farm - This is a private lot that was converted into a butterfly farm where one can see butterflies in all stages of their lives. Adult butterflies flutter about in a landscaped garden where tourists can freely walk.\r\n\
+      \r\n\
+      Iwahig Penal Colony - This is actually a prison area where the inmates are given the chance to become farmers and workers in the sprawling territory. A visitor can buy handicrafts made by the prisoners.\r\n\
+      \r\n\
+      Crocodile Farm - A different kind of farm where crocodiles are kept in captivity to help their species survive in the Philippines. More than 500 crocodiles call this home. Visitors can see the skeleton of a huge man-eater that gobbled up people in the past. They will also be given lectures on the ecological importance of crocodiles and later, made to walk on  steel boardwalks located on top of crocodile pens. Have some pesos ready for a photo opportunity while holding a baby croc and buying some souvenir items made out of crocodile teeth.\r\n\
+      \r\n\
+      Late P.M. - Back to Accommodation; Rest; Dinner (Accommodation or city restaurant) Recommended:  Kaluis, Kinabuch; OVN\r\n\
+      \r\n\
+      DAY 2     \r\n\
+      Early A.M. - Proceed to Honda Bay by hired tricycle or service vehicle (must have packed lunch)\r\n\
+      \r\n\
+      Honda Bay is one of the must-visit destinations in Puerto Princesa. It has numerous small islands that are usually ringed by white sands. Get ready to have tanned skin under the sun while having the time of your life swimming, snorkeling and sun bathing.\r\n\
+      \t\t\t\t\r\n\
+      Whole Day - Island Hopping (Snake Island, Pandan Island, Any other island in the area)\r\n\
+      \r\n\
+      Late P.M. - Back to city proper; OVN\r\n\
+      \r\n\
+      !! Make sure that you have somebody to get a permit to enter the Puerto Princesa Subterranean River National Park in the city!! Or else, you may not be able to enter the cave if you don\xE2\x80\x99t have the permit. Better get it on your first day.\r\n\
+      \r\n\
+      DAY 3  \r\n\
+      7:00 A.M. - Proceed to Sabang for a visit to St. Paul Subterranean River National Park (okay, Puerto Princesa Subterranean River National Park).  Either hire an FX or service vehicle.\r\n\
+      \r\n\
+      10:00 A.M. - ETA Sabang; Transfer to a boat\r\n\
+      \r\n\
+      10:30 A.M. - ETA Park; Wait for your turn to explore the cave by boat\r\n\
+      \t\t\r\n\
+      Lunch at the park area \r\n\
+      \r\n\
+      2:00 P.M. - Exploration should be finished by this time\r\n\
+      \t\t\r\n\
+      Take boat back to Sabang. If you want to walk in the tropical and limestone jungle, a good option is to walk the 4-kilometer jungle trail back to Sabang. You will pass through limestones where wooden paths are built over forests, and tiny beach coves. Make sure to ask around first if the trail is okay (the wooden paths may be under repair, etc.)\r\n\
+      \r\n\
+      2:30 P.M. - ETD Sabang (or 4:00 PM if you opted to trek back)\r\n\
+      \r\n\
+      5:00 or 7:30 P.M. - ETA city proper; Dinner; OVN\r\n\
+      \r\n\
+      DAY 4\t\r\n\
+      Early A.M. - Panic Shopping - Hire a tricycle and visit the souvenir stores in the city.\r\n\
+      Actually, there is an easy way \xE2\x80\x93 you can buy a lot of items at the souvenir shop beside the airport. You can do this after you have checked-in and while waiting for your flight.\r\n\
+      \r\n\
+      11:00 A.M. - ETD Puerto Princesa City\r\n\
+      \r\n\
+      12:00 NN - ETA Manila\r\n\
+      \t\t\r\n\
+      Back to Reality\r\n"
+    - 42
+    - 2011-03-08 15:23:26 Z
+    - 2011-03-08 15:23:26 Z
+    - 10
+    - 2
 
 --- 
 pictures: 
@@ -501,6 +1691,534 @@ pictures:
     - image/jpeg
     - 357865
     - 2011-02-25 23:24:44 Z
+  - - 15
+    - 
+    - 
+    - 21
+    - 2
+    - 2011-03-04 15:54:33 Z
+    - 2011-03-04 15:54:33 Z
+    - hotel_rooms.jpg
+    - image/jpeg
+    - 193903
+    - 2011-03-04 15:54:32 Z
+  - - 16
+    - 
+    - 
+    - 22
+    - 2
+    - 2011-03-04 15:57:19 Z
+    - 2011-03-04 15:57:19 Z
+    - casas.jpg
+    - image/jpeg
+    - 245179
+    - 2011-03-04 15:57:18 Z
+  - - 17
+    - 
+    - 
+    - 23
+    - 2
+    - 2011-03-04 15:59:06 Z
+    - 2011-03-04 15:59:06 Z
+    - terrazas.jpg
+    - image/jpeg
+    - 152902
+    - 2011-03-04 15:59:05 Z
+  - - 18
+    - 
+    - 
+    - 24
+    - 2
+    - 2011-03-04 16:02:09 Z
+    - 2011-03-04 16:02:09 Z
+    - garden villa exterior facade 02.jpg
+    - image/jpeg
+    - 1341263
+    - 2011-03-04 16:02:04 Z
+  - - 19
+    - 
+    - 
+    - 20
+    - 2
+    - 2011-03-04 16:04:12 Z
+    - 2011-03-04 16:04:12 Z
+    - cliff villas.jpg
+    - image/jpeg
+    - 1395672
+    - 2011-03-04 16:04:08 Z
+  - - 20
+    - 
+    - 
+    - 16
+    - 2
+    - 2011-03-04 16:07:01 Z
+    - 2011-03-04 16:07:01 Z
+    - garden villa view from seafront 01.jpg
+    - image/jpeg
+    - 1184013
+    - 2011-03-04 16:06:56 Z
+  - - 21
+    - 
+    - 
+    - 17
+    - 2
+    - 2011-03-04 16:09:22 Z
+    - 2011-03-04 16:09:22 Z
+    - garden villa exterior facade 07.jpg
+    - image/jpeg
+    - 1304505
+    - 2011-03-04 16:09:18 Z
+  - - 22
+    - 
+    - 
+    - 18
+    - 2
+    - 2011-03-04 16:11:14 Z
+    - 2011-03-04 16:11:14 Z
+    - beachfront eternity pool 01.jpg
+    - image/jpeg
+    - 1045300
+    - 2011-03-04 16:11:09 Z
+  - - 23
+    - 
+    - 
+    - 15
+    - 2
+    - 2011-03-04 16:15:33 Z
+    - 2011-03-04 16:15:33 Z
+    - bellarocca golf course 01.JPG
+    - image/jpeg
+    - 1910151
+    - 2011-03-04 16:15:28 Z
+  - - 24
+    - 
+    - 
+    - 25
+    - 2
+    - 2011-03-04 16:22:39 Z
+    - 2011-03-04 16:22:39 Z
+    - villa exterior lounge area 02.JPG
+    - image/jpeg
+    - 852377
+    - 2011-03-04 16:22:35 Z
+  - - 25
+    - 
+    - 
+    - 32
+    - 2
+    - 2011-03-04 17:09:59 Z
+    - 2011-03-04 17:09:59 Z
+    - AH_MG_7471.jpg
+    - image/jpeg
+    - 731789
+    - 2011-03-04 17:09:58 Z
+  - - 26
+    - 
+    - 
+    - 31
+    - 2
+    - 2011-03-04 17:10:24 Z
+    - 2011-03-04 17:10:24 Z
+    - 4.jpg
+    - image/jpeg
+    - 80976
+    - 2011-03-04 17:10:23 Z
+  - - 27
+    - 
+    - 
+    - 33
+    - 2
+    - 2011-03-04 17:14:49 Z
+    - 2011-03-04 17:14:49 Z
+    - route map.jpg
+    - image/jpeg
+    - 198709
+    - 2011-03-04 17:14:49 Z
+  - - 28
+    - 
+    - 
+    - 34
+    - 2
+    - 2011-03-04 17:19:36 Z
+    - 2011-03-04 17:19:36 Z
+    - north route.jpg
+    - image/jpeg
+    - 189560
+    - 2011-03-04 17:19:36 Z
+  - - 29
+    - 
+    - 
+    - 35
+    - 2
+    - 2011-03-04 17:23:16 Z
+    - 2011-03-04 17:23:16 Z
+    - 22.jpg
+    - image/jpeg
+    - 76657
+    - 2011-03-04 17:23:16 Z
+  - - 30
+    - 
+    - 
+    - 36
+    - 2
+    - 2011-03-04 17:26:05 Z
+    - 2011-03-04 17:26:05 Z
+    - 5.jpg
+    - image/jpeg
+    - 133057
+    - 2011-03-04 17:26:04 Z
+  - - 31
+    - 
+    - 
+    - 37
+    - 2
+    - 2011-03-04 17:29:41 Z
+    - 2011-03-04 17:29:41 Z
+    - 3.jpg
+    - image/jpeg
+    - 89226
+    - 2011-03-04 17:29:41 Z
+  - - 32
+    - 
+    - 
+    - 40
+    - 2
+    - 2011-03-05 10:42:42 Z
+    - 2011-03-05 10:42:42 Z
+    - hq.jpg
+    - image/jpeg
+    - 280288
+    - 2011-03-05 10:42:42 Z
+  - - 33
+    - 
+    - 
+    - 52
+    - 2
+    - 2011-03-05 10:51:20 Z
+    - 2011-03-05 10:51:20 Z
+    - toyota vios mt.jpg
+    - image/jpeg
+    - 29003
+    - 2011-03-05 10:51:20 Z
+  - - 34
+    - 
+    - 
+    - 53
+    - 2
+    - 2011-03-05 10:52:23 Z
+    - 2011-03-05 10:52:23 Z
+    - new toyota vios.jpg
+    - image/jpeg
+    - 30227
+    - 2011-03-05 10:52:23 Z
+  - - 35
+    - 
+    - 
+    - 54
+    - 2
+    - 2011-03-05 10:53:39 Z
+    - 2011-03-05 10:53:39 Z
+    - toyota altis.jpg
+    - image/jpeg
+    - 27151
+    - 2011-03-05 10:53:39 Z
+  - - 36
+    - 
+    - 
+    - 55
+    - 2
+    - 2011-03-05 10:55:27 Z
+    - 2011-03-05 10:55:27 Z
+    - new toyota altis.jpg
+    - image/jpeg
+    - 25150
+    - 2011-03-05 10:55:27 Z
+  - - 37
+    - 
+    - 
+    - 56
+    - 2
+    - 2011-03-05 10:56:41 Z
+    - 2011-03-05 10:56:41 Z
+    - toyota vios AT.jpg
+    - image/jpeg
+    - 6448
+    - 2011-03-05 10:56:41 Z
+  - - 38
+    - 
+    - 
+    - 57
+    - 2
+    - 2011-03-05 10:57:57 Z
+    - 2011-03-05 10:57:57 Z
+    - benz e200.jpg
+    - image/jpeg
+    - 5543
+    - 2011-03-05 10:57:57 Z
+  - - 39
+    - 
+    - 
+    - 58
+    - 2
+    - 2011-03-05 10:58:51 Z
+    - 2011-03-05 10:58:51 Z
+    - toyota camry.jpg
+    - image/jpeg
+    - 4761
+    - 2011-03-05 10:58:51 Z
+  - - 40
+    - 
+    - 
+    - 59
+    - 2
+    - 2011-03-05 11:01:04 Z
+    - 2011-03-05 11:01:04 Z
+    - new toyota camry.jpg
+    - image/jpeg
+    - 5555
+    - 2011-03-05 11:01:04 Z
+  - - 41
+    - 
+    - 
+    - 60
+    - 2
+    - 2011-03-05 11:01:42 Z
+    - 2011-03-05 11:01:42 Z
+    - honda CRV AT.jpg
+    - image/jpeg
+    - 5929
+    - 2011-03-05 11:01:42 Z
+  - - 42
+    - 
+    - 
+    - 61
+    - 2
+    - 2011-03-05 11:02:22 Z
+    - 2011-03-05 11:02:22 Z
+    - toyota innova MT.jpg
+    - image/jpeg
+    - 5719
+    - 2011-03-05 11:02:22 Z
+  - - 43
+    - 
+    - 
+    - 62
+    - 2
+    - 2011-03-05 11:03:12 Z
+    - 2011-03-05 11:03:12 Z
+    - toyota innova dsl AT.jpg
+    - image/jpeg
+    - 5719
+    - 2011-03-05 11:03:12 Z
+  - - 44
+    - 
+    - 
+    - 63
+    - 2
+    - 2011-03-05 11:06:19 Z
+    - 2011-03-05 11:06:19 Z
+    - nissan urvan MT.jpg
+    - image/jpeg
+    - 5558
+    - 2011-03-05 11:06:19 Z
+  - - 45
+    - 
+    - 
+    - 64
+    - 2
+    - 2011-03-05 11:07:16 Z
+    - 2011-03-05 11:07:16 Z
+    - toyota hi ace commuter MT.jpg
+    - image/jpeg
+    - 6043
+    - 2011-03-05 11:07:16 Z
+  - - 46
+    - 
+    - 
+    - 65
+    - 2
+    - 2011-03-05 11:09:06 Z
+    - 2011-03-05 11:09:06 Z
+    - toyota hi ace grandia.jpg
+    - image/jpeg
+    - 4754
+    - 2011-03-05 11:09:06 Z
+  - - 47
+    - 
+    - 
+    - 66
+    - 2
+    - 2011-03-05 11:10:05 Z
+    - 2011-03-05 11:10:05 Z
+    - hyundai grand starex MT.jpg
+    - image/jpeg
+    - 5539
+    - 2011-03-05 11:10:05 Z
+  - - 48
+    - 
+    - 
+    - 67
+    - 2
+    - 2011-03-05 11:11:01 Z
+    - 2011-03-05 11:11:01 Z
+    - benz s350.jpg
+    - image/jpeg
+    - 5530
+    - 2011-03-05 11:11:01 Z
+  - - 50
+    - 
+    - 
+    - 38
+    - 2
+    - 2011-03-05 11:21:47 Z
+    - 2011-03-05 11:21:47 Z
+    - about.jpg
+    - image/jpeg
+    - 23538
+    - 2011-03-05 11:21:44 Z
+  - - 51
+    - 
+    - 
+    - 68
+    - 2
+    - 2011-03-05 11:25:18 Z
+    - 2011-03-05 11:25:18 Z
+    - 24-7 reservation center.jpg
+    - image/jpeg
+    - 551399
+    - 2011-03-05 11:25:17 Z
+  - - 52
+    - 
+    - 
+    - 39
+    - 2
+    - 2011-03-05 11:27:36 Z
+    - 2011-03-05 11:27:36 Z
+    - avis international.jpg
+    - image/jpeg
+    - 962608
+    - 2011-03-05 11:27:35 Z
+  - - 53
+    - 
+    - 
+    - 69
+    - 2
+    - 2011-03-05 11:30:22 Z
+    - 2011-03-05 11:30:22 Z
+    - online reservation.jpg
+    - image/jpeg
+    - 425096
+    - 2011-03-05 11:30:21 Z
+  - - 54
+    - 
+    - 
+    - 70
+    - 2
+    - 2011-03-05 11:31:57 Z
+    - 2011-03-05 11:31:57 Z
+    - nationwide.jpg
+    - image/jpeg
+    - 319198
+    - 2011-03-05 11:31:57 Z
+  - - 55
+    - 
+    - 
+    - 71
+    - 2
+    - 2011-03-06 10:09:12 Z
+    - 2011-03-06 10:09:12 Z
+    - bldg 1.jpg
+    - image/jpeg
+    - 98154
+    - 2011-03-06 10:09:11 Z
+  - - 56
+    - 
+    - 
+    - 72
+    - 2
+    - 2011-03-06 10:10:01 Z
+    - 2011-03-06 10:10:01 Z
+    - mc along the highway.jpg
+    - image/jpeg
+    - 9274
+    - 2011-03-06 10:10:01 Z
+  - - 57
+    - 
+    - 
+    - 73
+    - 2
+    - 2011-03-06 10:10:48 Z
+    - 2011-03-06 10:10:48 Z
+    - balcony of sunset view rooms.jpg
+    - image/jpeg
+    - 34480
+    - 2011-03-06 10:10:47 Z
+  - - 58
+    - 
+    - 
+    - 74
+    - 2
+    - 2011-03-06 10:11:49 Z
+    - 2011-03-06 10:11:49 Z
+    - taal volcano room.jpg
+    - image/jpeg
+    - 43949
+    - 2011-03-06 10:11:49 Z
+  - - 60
+    - 
+    - 
+    - 75
+    - 2
+    - 2011-03-06 10:13:34 Z
+    - 2011-03-06 10:13:34 Z
+    - dd3251fp.jpg
+    - image/jpeg
+    - 25957
+    - 2011-03-06 10:13:33 Z
+  - - 61
+    - 
+    - 
+    - 77
+    - 2
+    - 2011-03-06 10:14:42 Z
+    - 2011-03-06 10:14:42 Z
+    - standad with connecting door.jpg
+    - image/jpeg
+    - 77709
+    - 2011-03-06 10:14:42 Z
+  - - 62
+    - 
+    - 
+    - 76
+    - 2
+    - 2011-03-06 10:15:04 Z
+    - 2011-03-06 10:15:04 Z
+    - Standard room at bldg 2.jpg
+    - image/jpeg
+    - 58541
+    - 2011-03-06 10:15:04 Z
+  - - 63
+    - 
+    - 
+    - 78
+    - 2
+    - 2011-03-06 10:16:06 Z
+    - 2011-03-06 10:16:06 Z
+    - deluxe-with-twin-beds-and-kitch..jpg
+    - image/jpeg
+    - 71423
+    - 2011-03-06 10:16:06 Z
+  - - 64
+    - 
+    - 
+    - 83
+    - 1
+    - 2011-03-08 12:19:50 Z
+    - 2011-03-08 12:19:50 Z
+    - info-aerial_shot_f.jpg
+    - image/jpeg
+    - 494020
+    - 2011-03-08 12:19:49 Z
 
 --- 
 sections: 
@@ -614,6 +2332,168 @@ sections:
     - 2
     - 2011-02-23 12:05:25 Z
     - 2011-02-23 12:05:25 Z
+  - - 18
+    - The Island
+    - 5
+    - 2
+    - 2011-03-04 15:38:43 Z
+    - 2011-03-04 15:38:43 Z
+  - - 20
+    - Accommodations
+    - 5
+    - 2
+    - 2011-03-04 15:39:46 Z
+    - 2011-03-04 15:48:26 Z
+  - - 22
+    - Activities
+    - 5
+    - 2
+    - 2011-03-04 15:40:59 Z
+    - 2011-03-04 15:48:37 Z
+  - - 24
+    - Contact Us
+    - 5
+    - 2
+    - 2011-03-04 15:41:46 Z
+    - 2011-03-04 15:41:46 Z
+  - - 25
+    - About Us
+    - 6
+    - 2
+    - 2011-03-04 17:04:18 Z
+    - 2011-03-04 17:04:18 Z
+  - - 26
+    - Destination Routes
+    - 6
+    - 2
+    - 2011-03-04 17:12:15 Z
+    - 2011-03-04 17:12:15 Z
+  - - 27
+    - Contact Us
+    - 6
+    - 2
+    - 2011-03-04 17:27:18 Z
+    - 2011-03-04 17:27:18 Z
+  - - 28
+    - Photo Gallery
+    - 6
+    - 2
+    - 2011-03-04 17:30:04 Z
+    - 2011-03-04 17:30:04 Z
+  - - 29
+    - About Us
+    - 7
+    - 2
+    - 2011-03-05 10:38:09 Z
+    - 2011-03-05 10:38:09 Z
+  - - 30
+    - Services Offered
+    - 7
+    - 2
+    - 2011-03-05 10:38:24 Z
+    - 2011-03-05 10:38:24 Z
+  - - 31
+    - Car Guide
+    - 7
+    - 2
+    - 2011-03-05 10:38:37 Z
+    - 2011-03-05 10:38:37 Z
+  - - 32
+    - Reservation
+    - 7
+    - 2
+    - 2011-03-05 10:38:54 Z
+    - 2011-03-05 10:38:54 Z
+  - - 33
+    - About Us
+    - 8
+    - 2
+    - 2011-03-06 09:57:14 Z
+    - 2011-03-06 09:57:14 Z
+  - - 34
+    - Rooms
+    - 8
+    - 2
+    - 2011-03-06 09:57:29 Z
+    - 2011-03-06 09:57:29 Z
+  - - 35
+    - Contact Us
+    - 8
+    - 2
+    - 2011-03-06 09:57:38 Z
+    - 2011-03-06 09:57:38 Z
+  - - 36
+    - About Us
+    - 9
+    - 2
+    - 2011-03-06 10:20:49 Z
+    - 2011-03-06 10:20:49 Z
+  - - 37
+    - Accommodations
+    - 9
+    - 2
+    - 2011-03-06 10:24:51 Z
+    - 2011-03-06 10:24:51 Z
+  - - 38
+    - Dining
+    - 9
+    - 2
+    - 2011-03-06 10:24:58 Z
+    - 2011-03-06 10:24:58 Z
+  - - 39
+    - Meetings & Events
+    - 9
+    - 2
+    - 2011-03-06 10:25:35 Z
+    - 2011-03-06 10:25:35 Z
+  - - 40
+    - Other Facilities
+    - 9
+    - 2
+    - 2011-03-06 10:25:47 Z
+    - 2011-03-06 10:25:47 Z
+  - - 41
+    - Contact Us
+    - 9
+    - 2
+    - 2011-03-06 10:26:15 Z
+    - 2011-03-06 10:26:15 Z
+  - - 42
+    - Luzon
+    - 10
+    - 2
+    - 2011-03-08 15:10:39 Z
+    - 2011-03-08 15:10:39 Z
+  - - 43
+    - Visayas
+    - 10
+    - 2
+    - 2011-03-08 15:10:50 Z
+    - 2011-03-08 15:10:50 Z
+  - - 44
+    - Mindanao
+    - 10
+    - 2
+    - 2011-03-08 15:11:00 Z
+    - 2011-03-08 15:11:00 Z
+  - - 45
+    - Kulinarya Tours
+    - 10
+    - 2
+    - 2011-03-08 15:11:19 Z
+    - 2011-03-08 15:11:19 Z
+  - - 46
+    - Travel Tips and Trivia
+    - 10
+    - 2
+    - 2011-03-08 15:11:37 Z
+    - 2011-03-08 15:11:37 Z
+  - - 47
+    - About the Author
+    - 10
+    - 2
+    - 2011-03-08 15:11:52 Z
+    - 2011-03-08 15:11:52 Z
 
 --- 
 users: 
@@ -637,39 +2517,39 @@ users:
     - $2a$10$gf0vvajJDz4V5J.iEtsbPOR/FDD/2HubbzuLhJFgRXRtEmav7lKc6
     - 
     - 
-    - 12
-    - 2011-03-01 22:56:52 Z
-    - 2011-02-27 06:57:28 Z
-    - 127.0.0.1
-    - 127.0.0.1
+    - 45
+    - 2011-03-09 02:08:05 Z
+    - 2011-03-09 02:06:18 Z
+    - 58.110.122.213
+    - 58.110.122.213
     - 2011-02-18 01:08:04 Z
-    - 2011-03-01 22:56:52 Z
+    - 2011-03-09 02:08:05 Z
     - normal
   - - 2
     - pinoytourist@gmail.com
     - $2a$10$kKK0MsAlS98TaaL4wusOvO/RM649k5m5KGMR48J5r0B0s6yKbELea
     - 
     - 
-    - 17
-    - 2011-02-25 16:06:55 Z
-    - 2011-02-25 14:04:58 Z
-    - 121.54.92.54
+    - 30
+    - 2011-03-09 02:26:15 Z
+    - 2011-03-08 15:01:41 Z
     - 116.50.163.66
+    - 121.54.92.54
     - 2011-02-18 06:11:54 Z
-    - 2011-02-25 16:06:55 Z
+    - 2011-03-09 02:26:15 Z
     - normal
   - - 3
     - rupert@2rmobile.com
     - $2a$10$1MymfOpcDLXZ/Y3ZYKRyMO3r3UUi8ckhCpeINCl.HWmB5o.1Sd32q
     - 
     - 
-    - 2
-    - 2011-03-01 23:13:42 Z
+    - 1
     - 2011-02-18 07:42:22 Z
-    - 127.0.0.1
+    - 2011-02-18 07:42:22 Z
+    - 58.110.119.199
     - 58.110.119.199
     - 2011-02-18 07:42:22 Z
-    - 2011-03-01 23:13:42 Z
+    - 2011-02-18 07:42:22 Z
     - normal
   - - 4
     - laren004@yahoo.com
@@ -685,28 +2565,28 @@ users:
     - 2011-02-22 05:39:09 Z
     - normal
   - - 5
+    - rndguzmanjr@gmail.com
+    - $2a$10$NFvL0EVAa7ak/5/HvmlmDOiq8n6uUoOI3jZRjEyKTxCtZzB9mkLoy
+    - 
+    - 2011-03-09 02:08:26 Z
+    - 3
+    - 2011-03-09 02:32:46 Z
+    - 2011-03-09 02:08:26 Z
+    - 58.110.122.213
+    - 58.110.122.213
+    - 2011-03-09 02:07:02 Z
+    - 2011-03-09 02:32:46 Z
+    - admin
+  - - 6
     - demo@2rmobile.com
-    - $2a$10$7eT5DlO0ePQzNBw6pwWFauH2SmhHbLO5ywAT27aK36otARD3xgPju
+    - $2a$10$NFvL0EVAa7ak/5/HvmlmDOiq8n6uUoOI3jZRjEyKTxCtZzB9mkLoy
     - 
     - 
     - 1
-    - 2011-03-01 23:25:21 Z
-    - 2011-03-01 23:25:21 Z
+    - 2011-03-09 02:46:49 Z
+    - 2011-03-09 02:46:49 Z
     - 127.0.0.1
     - 127.0.0.1
-    - 2011-03-01 23:25:21 Z
-    - 2011-03-01 23:25:21 Z
+    - 2011-03-09 02:46:49 Z
+    - 2011-03-09 02:46:49 Z
     - normal
-  - - 6
-    - rndguzmanjr@gmail.com
-    - $2a$10$nP/5LTRjLxOP5ASIFEzDZOb9Rb.AZYkz9n/hFNB.Ju.ONmvpvFqzG
-    - 
-    - 2011-03-09 01:06:37 Z
-    - 2
-    - 2011-03-09 01:06:37 Z
-    - 2011-03-09 00:44:25 Z
-    - 127.0.0.1
-    - 127.0.0.1
-    - 2011-03-09 00:44:25 Z
-    - 2011-03-09 01:06:37 Z
-    - admin

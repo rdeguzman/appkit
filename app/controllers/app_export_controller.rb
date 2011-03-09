@@ -14,8 +14,8 @@ class AppExportController < ApplicationController
     createArchive(app_profile)
     cleanup(app_profile)
 
-    @zip_file = "#{app_profile.app_name}.tar.gz"
-    @zip_path = download_path(app_profile.app_name)
+    @zip_file = app_file_name(app_profile.app_name) + ".tar.gz"
+    @zip_path = download_path(@zip_file)
 
     flash[:notice] = "Database archive successfully created."
   end

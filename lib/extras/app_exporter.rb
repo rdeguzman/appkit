@@ -2,6 +2,10 @@ require 'sqlite3'
 
 module AppExporter
 
+  def app_file_name(text)
+    text.gsub(' ', '_')
+  end
+
   def src_db_path
     File.expand_path(Rails.root.to_s) + "/db/exported_app.db"
   end
@@ -27,11 +31,11 @@ module AppExporter
   end
 
   def download_path(filename)
-    "/images/appkit/exported/#{filename}.tar.gz"
+    "/images/appkit/exported/#{filename}"
   end
 
   def removeArchive(app_profile)
-    file_path = dest_db_path(app_profile.app_name)
+    file_path = dest_db_path(app_file_name(app_profile.app_name))
     if File.exists?(file_path)
       FileUtils.remove file_path
     end
@@ -39,12 +43,12 @@ module AppExporter
 
   def createDatabaseArchive(app_profile)
     if File.exists?(src_db_path)
-      FileUtils.cp(src_db_path, dest_db_path(app_profile.app_name) )
+      FileUtils.cp(src_db_path, dest_db_path(app_file_name(app_profile.app_name)) )
     end
   end
 
   def populateSections(app_profile)
-    db = SQLite3::Database.open( dest_db_path(app_profile.app_name) )
+    db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
     sections = app_profile.sections
     sections.each do |section|
       db.execute( "INSERT INTO sections(id, title) VALUES(?, ?)", section.id, section.title)
@@ -57,7 +61,7 @@ module AppExporter
   def populatePages(app_profile)
     total = 0
 
-    db = SQLite3::Database.open( dest_db_path(app_profile.app_name) )
+    db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
     sections = app_profile.sections
     sections.each do |section|
 
@@ -84,13 +88,13 @@ module AppExporter
   def populatePictures(app_profile)
     total = 0
 
-    if File.exists?(dest_image_dir_path(app_profile.app_name))
-      FileUtils.remove_dir dest_image_dir_path(app_profile.app_name)
+    if File.exists?(dest_image_dir_path(app_file_name(app_profile.app_name)))
+      FileUtils.remove_dir dest_image_dir_path(app_file_name(app_profile.app_name))
     end
 
-    FileUtils.mkdir(dest_image_dir_path(app_profile.app_name))
+    FileUtils.mkdir(dest_image_dir_path(app_file_name(app_profile.app_name)))
 
-    db = SQLite3::Database.open( dest_db_path(app_profile.app_name) )
+    db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
     sections = app_profile.sections
     sections.each do |section|
 
@@ -105,8 +109,8 @@ module AppExporter
           thumb_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/thumb/#{picture.image_file_name}"
           full_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/pagesize/#{picture.image_file_name}"
 
-          #FileUtils.cp(thumb_image_path, dest_image_path(app_profile.app_name, "thumb_#{picture.image_file_name}"))
-          #FileUtils.cp(full_image_path, dest_image_path(app_profile.app_name, "full_#{picture.image_file_name}"))
+          #FileUtils.cp(thumb_image_path, dest_image_path(app_file_name(app_profile.app_name), "thumb_#{picture.image_file_name}"))
+          #FileUtils.cp(full_image_path, dest_image_path(app_file_name(app_profile.app_name), "full_#{picture.image_file_name}"))
 
           thumb_data = getData(thumb_image_path)
           full_data = getData(full_image_path)
@@ -132,28 +136,28 @@ module AppExporter
     background_image_path = "/wwwroot/images/appkit/image_assets/#{image_asset.id}/default/#{image_asset.image_file_name}"
     background_data =  getData(background_image_path)
   
-    db = SQLite3::Database.open( dest_db_path(app_profile.app_name) )
+    db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
     db.execute("INSERT INTO app_profile(app_name, background_image) VALUES(?, ?)", app_profile.app_name, SQLite3::Blob.new(background_data) )
     db.close
   end
 
   def createArchive(app_profile)
-    zip_file = zip_file_path(app_profile.app_name)
+    zip_file = zip_file_path(app_file_name(app_profile.app_name))
     if File.exists?(zip_file)
       FileUtils.remove zip_file
     end
 
     script_file = File.expand_path(Rails.root.to_s) + "/lib/package.sh"
-    system("sh #{script_file} #{app_profile.app_name}")
+    system("sh #{script_file} #{app_file_name(app_profile.app_name)}")
   end
 
   def cleanup(app_profile)
-    dest_db_file = dest_db_path(app_profile.app_name)
+    dest_db_file = dest_db_path(app_file_name(app_profile.app_name))
     if File.exists?(dest_db_file)
       FileUtils.remove dest_db_file
     end
     
-    dir_images_path = dest_image_dir_path(app_profile.app_name)
+    dir_images_path = dest_image_dir_path(app_file_name(app_profile.app_name))
     if File.exists?(dir_images_path)
       FileUtils.remove_dir dir_images_path
     end
