@@ -10,7 +10,13 @@
     <div style="height: 45px; margin: auto; width: 330px;">
       <ul class="horizontal_links navbar_links">
           <li>My Profile</li>
-          <li><%= link_to "My Apps", app_profiles_path %></li>
+
+          <% if normal_user? %>
+            <li><%= link_to "My Apps", app_profiles_path %></li>
+          <% elsif admin_user? %>
+            <li><%= link_to "Admin", admin_home_path %></li>
+          <% end %>
+
           <li><%= link_to "Log out", destroy_user_session_path %></li>
       </ul>
     </div>

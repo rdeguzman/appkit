@@ -20,18 +20,24 @@
 <table>
   <tr>
     <th>Application Name</th>
+    <th>Email</th>
     <th>Date Created</th>
     <th>Date Updated</th>
     <th>Sections</th>
     <th>Pages</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
   </tr>
   <% @app_profiles.each do |a| %>
   <tr>
     <td><%= a.app_name %></td>
+    <td><%= a.user.email %></td>
     <td><%= a.created_at %></td>
     <td><%= a.updated_at %></td>
     <td><%= a.sections.count %></td>
     <td><%= a.pages.count %></td>
+    <td><%= link_to "View", app_profile_path(a) %></td>
+    <td><%= link_to "Export", export_path(a) %></td>
   </tr>
   <% end %>
 </table>

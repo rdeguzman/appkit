@@ -1,5 +1,13 @@
 module ApplicationHelper
 
+def admin_user?
+  if current_user.role == 'admin'
+    true
+  else
+    false
+  end
+end
+
 def normal_user?
   if current_user.role == 'normal'
     true
