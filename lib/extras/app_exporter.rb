@@ -62,16 +62,10 @@ module AppExporter
     total = 0
 
     db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
-    sections = app_profile.sections
-    sections.each do |section|
-
-      pages = section.pages
-
-      pages.each do |page|
-        db.execute( "INSERT INTO pages(id, title, sub_title, content, section_id) VALUES(?, ?, ?, ?, ?)", page.id, page.title, page.sub_title, page.content, page.section_id)
-        total = total + 1
-      end
-
+    pages = app_profile.pages
+    pages.each do |page|
+      db.execute( "INSERT INTO pages(id, title, sub_title, content, section_id) VALUES(?, ?, ?, ?, ?)", page.id, page.title, page.sub_title, page.content, page.section_id)
+      total = total + 1
     end
 
     db.close
@@ -95,33 +89,28 @@ module AppExporter
     FileUtils.mkdir(dest_image_dir_path(app_file_name(app_profile.app_name)))
 
     db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
-    sections = app_profile.sections
-    sections.each do |section|
 
-      pages = section.pages
+    pages = app_profile.pages
+    pages.each do |page|
 
-      pages.each do |page|
+      pictures = page.pictures
 
-        pictures = page.pictures
+      pictures.each do |picture|
 
-        pictures.each do |picture|
+        thumb_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/thumb/#{picture.image_file_name}"
+        full_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/pagesize/#{picture.image_file_name}"
 
-          thumb_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/thumb/#{picture.image_file_name}"
-          full_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/pagesize/#{picture.image_file_name}"
+        #FileUtils.cp(thumb_image_path, dest_image_path(app_file_name(app_profile.app_name), "thumb_#{picture.image_file_name}"))
+        #FileUtils.cp(full_image_path, dest_image_path(app_file_name(app_profile.app_name), "full_#{picture.image_file_name}"))
 
-          #FileUtils.cp(thumb_image_path, dest_image_path(app_file_name(app_profile.app_name), "thumb_#{picture.image_file_name}"))
-          #FileUtils.cp(full_image_path, dest_image_path(app_file_name(app_profile.app_name), "full_#{picture.image_file_name}"))
+        thumb_data = getData(thumb_image_path)
+        full_data = getData(full_image_path)
 
-          thumb_data = getData(thumb_image_path)
-          full_data = getData(full_image_path)
+        db.execute( "INSERT INTO pictures(id, caption_title, caption_description, page_id, full_image_file_name, thumb_image_file_name, full_image, thumb_image) VALUES(?, ?, ?, ?, ?, ?, ?, ?)", picture.id, picture.caption_title, picture.caption_description, picture.page_id, picture.image_file_name, picture.image_file_name, SQLite3::Blob.new(full_data), SQLite3::Blob.new(thumb_data) )
+        total = total + 1
 
-          db.execute( "INSERT INTO pictures(id, caption_title, caption_description, page_id, full_image_file_name, thumb_image_file_name, full_image, thumb_image) VALUES(?, ?, ?, ?, ?, ?, ?, ?)", picture.id, picture.caption_title, picture.caption_description, picture.page_id, picture.image_file_name, picture.image_file_name, SQLite3::Blob.new(full_data), SQLite3::Blob.new(thumb_data) )
-          total = total + 1
-
-        end
-        
       end
-
+      
     end
 
     db.close
