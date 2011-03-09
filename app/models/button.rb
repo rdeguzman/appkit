@@ -1,4 +1,3 @@
 class Button < ActiveRecord::Base
-  #has_many :sections, :foreign_key => 'parent_id'
-  #has_many :single_pages
+  belongs_to :app_profile
 end

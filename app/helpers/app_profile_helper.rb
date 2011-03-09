@@ -21,4 +21,12 @@ module AppProfileHelper
       "width: 320px; height: 75px; background: #{cycle('#97989b','#acadaf')}"
     end
   end
+
+  def button_path(button)
+    if button.table_name == 'Section'
+      section_path(:id => button.parent_id)
+    elsif button.table_name == 'Page'
+      single_page_path(:id => button.parent_id)
+    end
+  end
 end

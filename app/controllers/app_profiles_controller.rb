@@ -27,6 +27,8 @@ class AppProfilesController < ApplicationController
 
     @single_pages = Page.where(:app_profile_id => @app_profile.id).where(:section_id => nil).all
 
+    @buttons = Button.where(:app_profile_id => @app_profile.id)
+
     @image_asset_background_front = ImageAsset.find_by_id(@app_profile.background_front)
 
     add_breadcrumb "#{@app_profile.app_name} App", app_profile_path(@app_profile)
