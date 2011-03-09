@@ -8,6 +8,11 @@
               <p><%= link_to section.title, section_path(section) %></p>
             </div>
           <% end %>
+          <% @single_pages.each do |sp| %>
+            <div class="button_1_right_gray_ts_136x34">
+              <p><%= link_to sp.title, single_page_path(sp) %></p>
+            </div>
+          <% end %>
         </div>
       </div>
     </div>
@@ -52,6 +57,23 @@
 
     <div class="action_items buttons">
       <%= link_to "Add New Section", new_section_path(:app_profile_id => @app_profile.id) %>
+    </div>
+
+    <div class="clear"></div>
+
+    <h2>Step 2: Single Pages</h2>
+    <ul>
+      <% @single_pages.each do |sp| %>
+      <li style="padding: 5px">
+        <b><%= link_to sp.title, single_page_path(sp) %></b> 
+        -
+        <%= link_to "Edit", edit_single_page_path(sp) %>
+        <%= link_to "Delete", single_page_path(sp), :confirm => "Are you sure", :method => :delete %>
+      </li>
+      <% end %>
+    </ul>
+    <div class="action_items buttons">
+      <%= link_to "Add New Single Page", new_single_page_path(:app_profile_id => @app_profile.id) %>
     </div>
   </div>
 

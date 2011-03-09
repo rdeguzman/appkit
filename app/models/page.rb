@@ -20,7 +20,9 @@ class Page < ActiveRecord::Base
   private
     def update_ids
       _section = self.section
-      self.user_id = _section.user_id
-      self.app_profile_id = _section.app_profile_id
+      if !_section.nil?
+        self.user_id = _section.user_id
+        self.app_profile_id = _section.app_profile_id
+      end
     end
 end

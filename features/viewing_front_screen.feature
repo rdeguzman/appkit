@@ -14,3 +14,4 @@ Scenario: See Front Screen
   When I follow "Test Hotel"
   Then I should see "Add New Section"
   Then I should see "Update Background"
+  Then I should see "Add New Single Page"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110309002252) do
+ActiveRecord::Schema.define(:version => 20110309064153) do
 
   create_table "app_profiles", :force => true do |t|
     t.integer  "user_id"
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20110309002252) do
     t.datetime "updated_at"
     t.integer  "app_profile_id"
     t.integer  "user_id"
+    t.string   "type"
   end
 
   create_table "pictures", :force => true do |t|

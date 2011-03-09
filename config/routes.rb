@@ -5,6 +5,7 @@ Appkit::Application.routes.draw do
   resources :pages
   resources :pictures
   resources :image_assets
+  resources :single_pages
 
   resources :sections do
     resources :pages

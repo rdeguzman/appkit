@@ -66,6 +66,7 @@ class PagesController < ApplicationController
     @section = @page.section
     @app_profile = @section.app_profile
     @pictures = @page.pictures
+    @back_path = section_path(@section)
 
     add_breadcrumb "#{@app_profile.app_name} App", app_profile_path(@app_profile)
     add_breadcrumb "#{@section.title} List", section_path(@section)

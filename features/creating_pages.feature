@@ -35,3 +35,4 @@ Scenario: Creating a new page with a title and content
   Then I should see "Page was successfully created"
     #And show me the page
     And I should be on the detail page for "Test Page 1"
+    And I should see "Test Section List"

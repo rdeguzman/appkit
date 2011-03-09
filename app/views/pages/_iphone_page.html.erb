@@ -1,0 +1,21 @@
+<% if temporary_check? %><div class="span-14"><% else %><div style="margin-left: 220px;"><% end %>
+  <div id="iphone_bg_container">
+    <div id="iphone_content">
+      <div id="iphone_navbar" style="background: url(../images/navbar_black.png)">
+        <div style="float:left;"><%= link_to image_tag('navbar_btn_back_black.png', :size => "69x30", :style=>"margin-left:8px; margin-top:6px"), @back_path %></div>
+        <div id="iphone_navbar_title"><%= truncate(@page.title, :length => 20, :seperator => ' ') %></div>
+      </div>
+      <div id="iphone_detail_image">
+        <% if @pictures.count > 0 %>
+          <%= image_tag( @pictures[0].image.url(:pagesize), :size => '320x220' ) %>
+        <% else %>
+          <%= image_tag( 'thumb_not_available_big.png' ) %>
+        <% end %>
+      </div>
+      <div id="iphone_detail_text">
+        <%= text_area_tag 'foo', @page.content, :rows => '3', :cols => '10', :escape => true, :disabled => true, :class => 'iphone_textarea' %>
+      </div>
+    </div>
+  </div>
+</div>
+

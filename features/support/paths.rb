@@ -10,6 +10,7 @@ module NavigationHelpers
 
     when /the home\s?page/
       '/'
+
     when /the app_profile page for "([^\"]*)"/
       app_profile_path(AppProfile.find_by_app_name!($1))
 
@@ -28,6 +29,16 @@ module NavigationHelpers
 
     when /the admin home page/
       admin_home_path
+
+    when /the new single_page page for "([^\"]*)"/
+      app_profile = AppProfile.find_by_app_name!($1)
+      new_single_page_path(:app_profile_id => app_profile.id)
+
+    when /the single_page page for "([^\"]*)"/
+      single_page_path(SinglePage.find_by_title!($1))
+
+    when /the edit single_page page for "([^\"]*)"/
+      edit_single_page_path(SinglePage.find_by_title!($1))
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

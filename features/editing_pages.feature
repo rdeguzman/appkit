@@ -26,6 +26,7 @@ Scenario: Updating a page with a title and content
     And I press "Update Page"
   Then I should see "Page was successfully updated"
     And I should be on the detail page for "Test Page Updated"
+    And I should see "Test Section 1 List"
     #And show me the page
 
 Scenario: Updating a section without a title

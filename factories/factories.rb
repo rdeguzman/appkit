@@ -18,3 +18,8 @@ Factory.define :page do |f|
   f.content 'Test Content'
   f.association :section
 end
+
+Factory.define :single_page do |f|
+  f.title 'Test Page 1'
+  f.content 'Test Content'
+end

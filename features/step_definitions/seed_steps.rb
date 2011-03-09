@@ -9,3 +9,8 @@ end
 Given /^there is a page called "([^"]*)"$/ do |name|
   Factory(:page, :title => name, :section_id => @current_section.id)
 end
+
+Given /^there is a single page called "([^"]*)"$/ do |name|
+  Factory(:single_page, :title => name, :app_profile_id => @current_app_profile.id)
+end
+

@@ -10,9 +10,9 @@
     <p><%= simple_format @page.content %></p>
 
     <ul>
-      <li><%= link_to "Edit", edit_page_path(@page) %></li>
+      <li><%= link_to "Edit", edit_single_page_path(@page) %></li>
 
-      <li><%= link_to "Delete", page_path(@page), :confirm => "Are you sure?", :method => :delete %></li>
+      <li><%= link_to "Delete", single_page_path(@page), :confirm => "Are you sure?", :method => :delete %></li>
 
       <li><%= link_to "Manage #{@pictures.count} Pictures", pictures_path(:page_id=> @page.id) %></li>
 
@@ -20,3 +20,4 @@
   </div>
 
 <% end %>
+
