@@ -42,7 +42,9 @@
 
     <hr/>
 
-    <h2>Step 2: Sections</h2>
+    <h2>Step 2: Add Content</h2>
+
+    <h3>Sections</h3>
 
     <ul>
       <% @sections.each do |section| %>
@@ -61,7 +63,8 @@
 
     <div class="clear"></div>
 
-    <h2>Step 2: Single Pages</h2>
+    <h3>Single Pages</h3>
+
     <ul>
       <% @single_pages.each do |sp| %>
       <li style="padding: 5px">
@@ -75,6 +78,18 @@
     <div class="action_items buttons">
       <%= link_to "Add New Single Page", new_single_page_path(:app_profile_id => @app_profile.id) %>
     </div>
+
+    <div class="clear"></div>
+
+    <hr/>
+
+    <h2>Step 3: Arrange Buttons</h2>
+
+    <div class="action_items buttons">
+      <%= link_to "Arrange Buttons", buttons_path(:app_profile_id => @app_profile.id) %>
+    </div>
+
   </div>
+
 
 <% end %>

@@ -6,6 +6,10 @@ Appkit::Application.routes.draw do
   resources :pictures
   resources :image_assets
   resources :single_pages
+  match "buttons/add" => "buttons#add", :as => :add_button
+  match "buttons/index" => "buttons#index", :as => :buttons
+  match "buttons/delete_all" => "buttons#delete_all", :as => :delete_all_buttons
+  
 
   resources :sections do
     resources :pages

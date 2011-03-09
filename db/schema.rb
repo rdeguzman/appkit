@@ -10,12 +10,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110309064153) do
+ActiveRecord::Schema.define(:version => 20110309202258) do
 
   create_table "app_profiles", :force => true do |t|
     t.integer  "user_id"
     t.string   "app_name"
     t.string   "background_front"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "buttons", :force => true do |t|
+    t.integer  "index",          :default => 0
+    t.string   "title"
+    t.string   "table_name"
+    t.integer  "parent_id"
+    t.integer  "app_profile_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
