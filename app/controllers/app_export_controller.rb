@@ -7,6 +7,7 @@ class AppExportController < ApplicationController
 
     removeArchive(app_profile)
     createDatabaseArchive(app_profile)
+    populateButtons(app_profile) 
     populateSections(app_profile) 
     populatePages(app_profile) 
     populatePictures(app_profile) 

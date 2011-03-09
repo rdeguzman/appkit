@@ -22,6 +22,15 @@ describe AppExportController do
     File.exists?(dest_db_path).should == true
   end
 
+  it "populates the buttons" do
+    db = SQLite3::Database.open( dest_db_path )
+    actual_count = populateButtons(app_profile)
+    expected_count = db.get_first_value( "SELECT count(*) FROM buttons" )
+    db.close
+  
+    actual_count.should == expected_count 
+  end
+
   it "populates the sections" do
     db = SQLite3::Database.open( dest_db_path )
     actual_count = populateSections(app_profile)

@@ -47,6 +47,17 @@ module AppExporter
     end
   end
 
+  def populateButtons(app_profile)
+    db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
+    buttons = app_profile.buttons
+    buttons.each do |button|
+      db.execute( "INSERT INTO buttons(id, button_index, title, table_name, parent_id) VALUES(?, ?, ?, ?, ?)", button.id, button.index, button.title, button.table_name, button.parent_id)
+    end
+    db.close
+
+    return buttons.size
+  end
+
   def populateSections(app_profile)
     db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
     sections = app_profile.sections
