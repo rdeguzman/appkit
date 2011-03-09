@@ -5,7 +5,7 @@ Feature: View a list of pages for a section
 
 Background:
   Given I am on the new user session page
-    And I am logged as a @user
+    And I am logged as a @normal
     And there is an application called "Test Hotel"
     And there is a section called "Test Section 1"
 

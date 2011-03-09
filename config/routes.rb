@@ -18,6 +18,13 @@ Appkit::Application.routes.draw do
   match "export/:id" => "app_export#show", :as => :export
 
   root :to => "home#index"
+
+  namespace "admin" do
+    resources :users
+
+    get "home/index", :as => :home
+    root :to => 'home#index'
+  end
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

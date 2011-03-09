@@ -26,6 +26,9 @@ module NavigationHelpers
     when /the detail page for "([^\"]*)"/
       page_path(Page.find_by_title!($1))
 
+    when /the admin home page/
+      admin_home_path
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

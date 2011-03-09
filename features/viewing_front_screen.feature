@@ -5,7 +5,7 @@ Feature: View the Front Screen
 
 Background:
   Given I am on the new user session page
-    And I am logged as a @user
+    And I am logged as a @normal
 
 Scenario: See Front Screen
   Given there is an application called "Test Hotel"

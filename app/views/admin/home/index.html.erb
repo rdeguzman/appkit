@@ -1,0 +1,37 @@
+<h1>Admin Home</h1>
+
+<h2>Users - <%= @users.size %></h2>
+
+<table>
+  <tr>
+    <th>Email</th>
+    <th>Role</th>
+  </tr>
+  <% @users.each do |u| %>
+  <tr>
+    <td><%= u.email %></td>
+    <td><%= u.role %></td>
+  </tr>
+  <% end %>
+</table>
+
+<h2>App Profiles - <%= @app_profiles.size %></h2>
+
+<table>
+  <tr>
+    <th>Application Name</th>
+    <th>Date Created</th>
+    <th>Date Updated</th>
+    <th>Sections</th>
+    <th>Pages</th>
+  </tr>
+  <% @app_profiles.each do |a| %>
+  <tr>
+    <td><%= a.app_name %></td>
+    <td><%= a.created_at %></td>
+    <td><%= a.updated_at %></td>
+    <td><%= a.sections.count %></td>
+    <td><%= a.pages.count %></td>
+  </tr>
+  <% end %>
+</table>

@@ -5,7 +5,7 @@ Feature: Viewing applications
 
 Background:
   Given I am on the new user session page
-    And I am logged as a @user
+    And I am logged as a @normal
 
 Scenario: Listing all applications
   Given there is an application called "Test Hotel"

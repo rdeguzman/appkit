@@ -5,7 +5,7 @@ Feature: Creating a section
 
 Background:
   Given I am on the new user session page
-    And I am logged as a @user
+    And I am logged as a @normal
     And there is an application called "Test Hotel"
     And there is a section called "Test Section"
     And I am on the new section page for application "Test Hotel"

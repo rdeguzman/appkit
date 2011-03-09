@@ -5,7 +5,7 @@ Feature: Creating a New App
 
 Background:
   Given I am on the new user session page
-    And I am logged as a @user
+    And I am logged as a @normal
 
 Scenario: Create a new application
   When I am on the new app_profile page

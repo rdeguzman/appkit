@@ -1,5 +1,13 @@
 module ApplicationHelper
 
+def normal_user?
+  if current_user.role == 'normal'
+    true
+  else
+    false
+  end
+end
+
 def temporary_check?
   user_signed_in?
 

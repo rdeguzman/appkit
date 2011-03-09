@@ -61,6 +61,16 @@ hr{ height: 1px;margin: 0; background: #C3D9FF;}
 .upload_form #picture_submit{ background: #356AA0; color: #fff; border: 0px; margin-left: 20px; padding: 5px; font-size: 16px; width: 110px;}
 .upload_form, .simple_upload_link, .small_note{ font-size: 10px;}
 
+table{
+  background: #F9F7ED;
+  border-color: #C3D9FF;
+  border-size: 1px;
+}
+
+table th{
+  background: #999999;
+}
+
 /* iPhone: Chapter */
 #iphone_bg_container{
   width: 450px;
@@ -146,41 +156,3 @@ hr{ height: 1px;margin: 0; background: #C3D9FF;}
   width: 305px;
   height: 182px;
 }
-
-/* Common elements in each page */
-/* depracated elements*/
-/*
-.align-right { float: right; }
-.vertical-middle { position: relative; top: 50%;}
-
-.column_list{ float:left; list-style:none;}
-.column_list li, .column_dotted_list li{padding: 5px;}
-.column_dotted_list{ float:left;}
-
-Used for alternating colors
-.odd {background: #D5E1DD;}
-.even {background: #C5EFFD;}
-
-.breadcrumbs{ height: 45px; margin: auto; width: 700px; padding: 5px;}
-
-#poi_list h3 { margin: 0; padding: 0; color: #FF0084; }
-#poi_list h4 { margin: 0; padding: 0; color: #FF0084; }
-
-.image_holder_single { float:left; width: 100px; height: 100px; background-image: url(/images/thumb.png);}
-.image_holder_many { float:left; width: 100px; height: 100px; background-image: url(/images/thumb_many.png);}
-.image_holder_single img, .image_holder_many img{ margin-top: 12px; margin-left: 15px;}
-
-.background_thumb{ width: 100px; height: 100px; background: #ff0000;}
-
-.rating_bar {
-  width: 55px;
-  margin-left: 20px;
-  background: url(../images/ratings/star_x_grey.gif) 0 0 repeat-x;
-}
-.rating_bar div {
-  height: 12px;
-  background: url(../images/ratings/star_x_orange.gif) 0 0 repeat-x;
-}
-
-.web_photo_form{ background:#EEEEEE; margin: 10px; padding: 5px; width: 900px; height: 70px;}
-*/

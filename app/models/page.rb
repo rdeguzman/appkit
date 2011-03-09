@@ -1,7 +1,7 @@
 class Page < ActiveRecord::Base
   belongs_to :section
   belongs_to :user
-  belongs_to :app_profiles
+  belongs_to :app_profile
   has_many :pictures, :dependent => :destroy
 
   validates_presence_of :title, :content
