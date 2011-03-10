@@ -27,7 +27,7 @@ Scenario: See Front Screen for Shangrila user
   Given I am on the new user session page
     And I am logged as a @shangrila_owner
     And I am on the app_profile page for "Shangrila"
-    And show me the page
+    #And show me the page
   Then I should see "Add New Section"
   Then I should see "Update Background"
   Then I should see "Add New Single Page"

@@ -18,12 +18,12 @@
 <% if authorize_task?(@app_profile.user_id) %>
 
   <div class="span-10 last">
-    <h1><%= @app_profile.app_name %> App Main Screen</h1>
+    <h1><%= @app_profile.app_name %></h1>
 
-    <p>This is the front screen of your app. Customise by adding a background image and adding main sections of your app.</p>
+    <p>This is the front screen of your app. Customise by adding a background image and adding main sections or single pages of your app.</p>
 
     <h2>Step 1: Background Front Image</h2>
-    <p>Optimal image dimension (wxh) is "320 x 460".</p>
+    <p>Optimal image dimension is in Portrait("320 x 460").</p>
 
     <div style="margin-left: 15px;">
       <%= thumb_background_front @image_asset_background_front %><br/>
@@ -75,6 +75,8 @@
     </div>
 
     <div class="clear"></div>
+
+    <p>To see your newly added "section" or "single pages" content in the iphone web emulator. Please go to "Arrange Buttons" below.</p>
 
     <hr/>
 

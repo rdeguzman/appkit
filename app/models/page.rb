@@ -3,6 +3,7 @@ class Page < ActiveRecord::Base
   belongs_to :user
   belongs_to :app_profile
   has_many :pictures, :dependent => :destroy
+  has_one :button, :foreign_key => 'parent_id', :dependent => :destroy
 
   validates_presence_of :title, :content
 
