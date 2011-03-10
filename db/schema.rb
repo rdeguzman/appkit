@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110310114059) do
+ActiveRecord::Schema.define(:version => 20110310215944) do
 
   create_table "app_profiles", :force => true do |t|
     t.integer  "user_id"
@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(:version => 20110310114059) do
     t.string   "support_url"
     t.string   "marketing_url"
     t.text     "review_notes"
+    t.string   "binary_name"
+    t.string   "itunes_product_name"
   end
 
   create_table "buttons", :force => true do |t|
@@ -61,6 +63,8 @@ ActiveRecord::Schema.define(:version => 20110310114059) do
     t.integer  "app_profile_id"
     t.integer  "user_id"
     t.string   "type"
+    t.decimal  "longitude",      :precision => 12, :scale => 8
+    t.decimal  "latitude",       :precision => 12, :scale => 8
   end
 
   create_table "pictures", :force => true do |t|

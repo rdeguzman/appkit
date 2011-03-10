@@ -3,8 +3,10 @@
 <%= semantic_form_for @app_profile do |f| %>
   <%= f.inputs do %>
     <%= f.input :app_name %>
+    <%= f.input :itunes_product_name, :hint => 'The name that appears in the AppStore' %>
+    <%= f.input :binary_name, :hint => 'The name that appears under the application icon in the iOS device' %>
     <%= f.input :version_number %>
-    <%= f.input :description %>
+    <%= f.input :description, :hint => 'The description that appears in the AppStore' %>
     <%= f.input :primary_category, :collection => ['Book', 'Business', 'Education', 'Entertainment', 'Finance', 'Games', 'Healthcare and Fitness', 'Lifestyle', 'Medical', 'Music', 'Navigation', 'News', 'Photography', 'Productivity', 'Reference', 'Social Networking', 'Sports', 'Travel', 'Utilities', 'Weather'] %>
     <%= f.input :keywords %>
     <%= f.input :copyright %>
