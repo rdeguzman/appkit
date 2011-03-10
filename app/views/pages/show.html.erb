@@ -5,9 +5,18 @@
   <div class="span-10 last">
     <h1><%= @page.title %></h1>
 
-    <p><i><%= @page.sub_title %></i></p>
+    <p><strong>Subtitle:</strong> <i><%= @page.sub_title %></i></p>
 
-    <p><%= simple_format @page.content %></p>
+    <p>
+      <strong>Description</strong>
+      <%= simple_format @page.content %>
+    </p>
+
+    <p>
+      <strong>Coordinates</strong><br/>
+       Longitude: <%= @page.longitude %> <br/>
+       Latitude: <%= @page.latitude %>
+    </p>
 
     <ul>
       <li><%= link_to "Edit", edit_page_path(@page) %></li>

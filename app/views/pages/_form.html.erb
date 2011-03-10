@@ -5,6 +5,8 @@
     <%= f.input :title %>
     <%= f.input :sub_title %>
     <%= f.input :content %>
+    <%= f.input :latitude, :hint => 'If you specify a coordinate for this page, then it will have a map button' %>
+    <%= f.input :longitude %>
     <%= f.hidden_field :section_id, "value" => @section.id %>
   <% end %>
   
