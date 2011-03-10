@@ -8,9 +8,11 @@
       </div>
       <div><h2><%= link_to app_profile.app_name, app_profile_path(app_profile) %></h2></div>
 
-      <div><%= link_to "Delete App", app_profile_path(app_profile), :confirm => "Are you sure?", :method => :delete %></div>
+      <div style="float:left;"><%= link_to "View Summary", app_profile_summary_path(app_profile) %></div>
 
-      <div>Edit Profile</div>
+      <div style="float:right;"><%= link_to "Delete App", app_profile_path(app_profile), :confirm => "Are you sure?", :method => :delete %></div>
+
+
     </li>
   <% end %>
 </ul>

@@ -9,6 +9,21 @@ class AppProfilesController < ApplicationController
     @app_profile = AppProfile.new
   end
 
+  def edit 
+    @app_profile = AppProfile.find(params[:id])
+  end
+
+  def update
+    @app_profile = AppProfile.find(params[:id])
+
+    if @app_profile.update_attributes(params[:app_profile])
+      flash[:notice] = "App Profile was successfully updated."
+      redirect_to app_profile_summary_path(@app_profile)
+    else
+      render :action => 'edit'
+    end
+  end
+
   def create
     @app_profile = AppProfile.create(params[:app_profile])
     @app_profile.user_id = current_user.id
@@ -48,6 +63,10 @@ class AppProfilesController < ApplicationController
     elsif normal_user?
       redirect_to app_profiles_path
     end
+  end
+
+  def summary
+    @app_profile = AppProfile.find(params[:id])
   end
 
 end

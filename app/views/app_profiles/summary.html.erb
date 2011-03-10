@@ -1,0 +1,44 @@
+<h1>Application Summary</h1>
+
+<table>
+  <tr>
+    <td width="150px"><strong>Application Name</strong></td>
+    <td><%= @app_profile.app_name %></td>
+  </tr>
+  <tr>
+    <td>Version Number</td>
+    <td><%= @app_profile.version_number %></td>
+  </tr>
+  <tr>
+    <td><strong>Description</strong></td>
+    <td><%= simple_format @app_profile.description %></td>
+  </tr>
+  <tr>
+    <td><strong>Primary Category</strong></td>
+    <td><%= @app_profile.primary_category %></td>
+  </tr>
+  <tr>
+    <td><strong>Keywords</strong></td>
+    <td><%= @app_profile.keywords %></td>
+  </tr>
+  <tr>
+    <td><strong>Copyright</strong></td>
+    <td><%= @app_profile.copyright %></td>
+  </tr>
+  <tr>
+    <td><strong>Support Email Address</strong></td>
+    <td><%= @app_profile.support_email_address %></td>
+  </tr>
+  <tr>
+    <td><strong>Support URL</strong></td>
+    <td><%= @app_profile.support_url %></td>
+  </tr>
+  <tr>
+    <td><strong>Review Notes</strong></td>
+    <td><%= simple_format @app_profile.review_notes %></td>
+  </tr>
+</table>
+
+<div class="action_items buttons">
+  <%= link_to "Edit Metadata", edit_app_profile_path(@app_profile) %>
+</div>

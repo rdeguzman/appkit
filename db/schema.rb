@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110309202258) do
+ActiveRecord::Schema.define(:version => 20110310114059) do
 
   create_table "app_profiles", :force => true do |t|
     t.integer  "user_id"
@@ -18,6 +18,15 @@ ActiveRecord::Schema.define(:version => 20110309202258) do
     t.string   "background_front"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "version_number"
+    t.text     "description"
+    t.string   "primary_category"
+    t.string   "keywords"
+    t.string   "copyright"
+    t.string   "support_email_address"
+    t.string   "support_url"
+    t.string   "marketing_url"
+    t.text     "review_notes"
   end
 
   create_table "buttons", :force => true do |t|

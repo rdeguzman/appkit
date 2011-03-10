@@ -3,6 +3,14 @@
 <%= semantic_form_for @app_profile do |f| %>
   <%= f.inputs do %>
     <%= f.input :app_name %>
+    <%= f.input :version_number %>
+    <%= f.input :description %>
+    <%= f.input :primary_category, :collection => ['Book', 'Business', 'Education', 'Entertainment', 'Finance', 'Games', 'Healthcare and Fitness', 'Lifestyle', 'Medical', 'Music', 'Navigation', 'News', 'Photography', 'Productivity', 'Reference', 'Social Networking', 'Sports', 'Travel', 'Utilities', 'Weather'] %>
+    <%= f.input :keywords %>
+    <%= f.input :copyright %>
+    <%= f.input :support_email_address %>
+    <%= f.input :support_url %>
+    <%= f.input :review_notes %>
   <% end %>
   
   <%= f.buttons do %>
