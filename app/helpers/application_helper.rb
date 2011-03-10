@@ -16,6 +16,22 @@ def normal_user?
   end
 end
 
+def authorize_task_and_redirect?(i)
+  if !current_user.nil? && (current_user.id == i || admin_user?)
+  else
+    flash[:alert] = "You are not the owner of this resource. Only the admin or owner can use this resource. You are now redirected to the home page."
+    redirect_to root_path
+  end
+end
+
+def authorize_task?(i)
+  if !current_user.nil? && (current_user.id == i || admin_user?)
+    true
+  else
+    false
+  end
+end
+
 def temporary_check?
   user_signed_in?
 

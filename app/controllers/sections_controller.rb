@@ -35,11 +35,15 @@ class SectionsController < ApplicationController
   
   def edit
     @section = Section.find(params[:id])
+    authorize_task_and_redirect?(@section.user_id)
+
     @app_profile = @section.app_profile
   end
   
   def update
     @section = Section.find(params[:id])
+    authorize_task_and_redirect?(@section.user_id)
+
     @app_profile = @section.app_profile
 
     if @section.update_attributes(params[:section])
@@ -52,6 +56,8 @@ class SectionsController < ApplicationController
 
   def destroy
     section = Section.find(params[:id])
+    authorize_task_and_redirect?(section.user_id)
+
     app_profile = section.app_profile
     if section.pages.count == 0
       section.destroy

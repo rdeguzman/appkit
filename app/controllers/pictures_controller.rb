@@ -1,6 +1,8 @@
 class PicturesController < ApplicationController
   def index
     @page = Page.find(params[:page_id])
+    authorize_task_and_redirect?(@page.user_id)
+
     @pictures = @page.pictures
     section = @page.section
 
@@ -50,6 +52,8 @@ class PicturesController < ApplicationController
 
   def show
     @picture = Picture.find(params[:id], :include => :page)
+    authorize_task_and_redirect?(@picture.user_id)
+
     @total_pictures = Picture.find(:all, :conditions => { :page_id => @picture.page.id})
    
     if params[:first]
@@ -61,10 +65,13 @@ class PicturesController < ApplicationController
   
   def edit
     @picture = Picture.find(params[:id])
+    authorize_task_and_redirect?(@picture.user_id)
   end
   
   def update
     @picture = Picture.find(params[:id])
+    authorize_task_and_redirect?(@picture.user_id)
+
     @picture.user_id = current_user.id
     
     if @picture.update_attributes(params[:picture])
@@ -77,6 +84,8 @@ class PicturesController < ApplicationController
   
   def destroy
     picture = Picture.find(params[:id])
+    authorize_task_and_redirect?(picture.user_id)
+
     page_id = picture.page_id
     picture.destroy
     flash[:notice] = "Picture was successfully deleted"

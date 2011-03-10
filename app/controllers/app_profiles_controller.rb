@@ -37,4 +37,17 @@ class AppProfilesController < ApplicationController
       flash[:alert] = "The application you are looking for could not be found."
       redirect_to root_path
   end
+
+  def destroy
+    app_profile = AppProfile.find(params[:id])
+    app_profile.destroy
+
+    flash[:notice] = "Application was successfully deleted"
+    if admin_user?
+      redirect_to admin_home_path
+    elsif normal_user?
+      redirect_to app_profiles_path
+    end
+  end
+
 end

@@ -27,6 +27,7 @@
     <th>Pages</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
+    <th>&nbsp;</th>
   </tr>
   <% @app_profiles.each do |a| %>
   <tr>
@@ -36,7 +37,8 @@
     <td><%= a.updated_at %></td>
     <td><%= a.sections.count %></td>
     <td><%= a.pages.count %></td>
-    <td><%= link_to "View", app_profile_path(a) %></td>
+    <td><%= link_to "Manage", app_profile_path(a) %></td>
+    <td><%= link_to "Delete", app_profile_path(a), :confirm => "Are you sure?", :method => :delete %></td>
     <td><%= link_to "Export", export_path(a) %></td>
   </tr>
   <% end %>

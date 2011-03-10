@@ -1,4 +1,4 @@
-<% if temporary_check? %><div class="span-14"><% else %><div style="margin-left: 220px;"><% end %>
+<% if authorize_task?(@app_profile.user_id) %><div class="span-14"><% else %><div style="margin-left: 220px;"><% end %>
   <div id="iphone_bg_container">
     <div id="iphone_content">
       <div style="<%= css_background_front(@image_asset_background_front) %>">
@@ -15,7 +15,7 @@
 </div>
 
 
-<% if temporary_check? %>
+<% if authorize_task?(@app_profile.user_id) %>
 
   <div class="span-10 last">
     <h1><%= @app_profile.app_name %> App Main Screen</h1>

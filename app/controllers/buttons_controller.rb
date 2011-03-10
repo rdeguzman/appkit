@@ -1,6 +1,10 @@
 class ButtonsController < ApplicationController
+  before_filter :authenticate_user!
+
   def index
     @app_profile = AppProfile.find(params[:app_profile_id])
+    authorize_task_and_redirect?(@app_profile.user_id)
+
     @sections = @app_profile.sections 
     @single_pages = Page.where(:app_profile_id => @app_profile.id).where(:section_id => nil).all
 
@@ -10,6 +14,9 @@ class ButtonsController < ApplicationController
   end
 
   def add
+    @app_profile = AppProfile.find(params[:app_profile_id])
+    authorize_task_and_redirect?(@app_profile.user_id)
+
     buttons = Button.where(:app_profile_id => params[:app_profile_id])
     index = buttons.size + 1
 
@@ -33,6 +40,9 @@ class ButtonsController < ApplicationController
   end
 
   def delete_all
+    @app_profile = AppProfile.find(params[:app_profile_id])
+    authorize_task_and_redirect?(@app_profile.user_id)
+
     buttons = Button.delete_all(:app_profile_id => params[:app_profile_id])
     flash[:notice] = "Buttons was successfully deleted."
     redirect_to buttons_path(:app_profile_id => params[:app_profile_id])

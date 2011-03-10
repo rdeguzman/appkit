@@ -28,6 +28,8 @@ class PagesController < ApplicationController
   
   def edit
     @page = Page.find(params[:id])
+    authorize_task_and_redirect?(@page.user_id)
+
     @section = @page.section
     @app_profile = @section.app_profile
 
@@ -38,6 +40,8 @@ class PagesController < ApplicationController
   
   def update
     @page = Page.find(params[:id])
+    authorize_task_and_redirect?(@page.user_id)
+
     @section = @page.section
 
     if @page.update_attributes(params[:page])
@@ -55,6 +59,8 @@ class PagesController < ApplicationController
 
   def destroy
     page = Page.find(params[:id])
+    authorize_task_and_redirect?(page.user_id)
+
     section = page.section
     page.destroy
     flash[:notice] = "Page was successfully deleted"

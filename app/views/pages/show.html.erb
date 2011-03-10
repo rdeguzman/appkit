@@ -1,6 +1,6 @@
 <%= render :partial => 'pages/iphone_page' %>
 
-<% if temporary_check? %>
+<% if authorize_task?(@app_profile.user_id) %>
 
   <div class="span-10 last">
     <h1><%= @page.title %></h1>

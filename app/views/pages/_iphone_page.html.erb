@@ -1,4 +1,4 @@
-<% if temporary_check? %><div class="span-14"><% else %><div style="margin-left: 220px;"><% end %>
+<% if authorize_task?(@app_profile.user_id) %><div class="span-14"><% else %><div style="margin-left: 220px;"><% end %>
   <div id="iphone_bg_container">
     <div id="iphone_content">
       <div id="iphone_navbar" style="background: url(../images/navbar_black.png)">
