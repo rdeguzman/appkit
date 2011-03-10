@@ -29,4 +29,19 @@ module AppProfileHelper
       single_page_path(:id => button.parent_id)
     end
   end
+
+  def computeForButtonTop(button_array)
+    button_height =  34
+    padding_vertical = 5
+    application_height = 480 
+
+    totalHeight = 0
+
+    button_array.each do |b|
+      totalHeight = totalHeight + button_height + padding_vertical
+    end
+
+    (application_height - totalHeight)/2
+  
+  end
 end

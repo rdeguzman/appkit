@@ -2,9 +2,9 @@
   <div id="iphone_bg_container">
     <div id="iphone_content">
       <div style="<%= css_background_front(@image_asset_background_front) %>">
-        <div id="button_right">
+        <div style="margin-top:<%= computeForButtonTop(@buttons) %>px; float:left; text-align:center; margin-left:80px;">
           <% @buttons.each do |b| %>
-            <div class="button_1_right_gray_ts_136x34">
+            <div class="button_gray_ts">
               <p><%= link_to b.title, button_path(b) %></p>
             </div>
           <% end %>
@@ -13,7 +13,6 @@
     </div>
   </div>
 </div>
-
 
 <% if authorize_task?(@app_profile.user_id) %>
 

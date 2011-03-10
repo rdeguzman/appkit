@@ -89,24 +89,27 @@ table th{
   margin-top: 178px;
   float: left;
 }
-#button_right{
-  margin-top: 188px;
-  float: right;
-  text-align: center;
+
+.button_gray_ts{
+  width: 160px;
+  height: 34px;
+  /* background: url(../images/buttons/button_1_right_gray_ts_136x34.png); */
+  background: url(../images/buttons/button_center_ts.png); 
 }
 
-#button_right a{
+.button_gray_ts a{
+  font-weight: bold;
+  font-size: 13px;
   color: #ffffff;
   text-decoration: none;
 }
-#button_right p{
+
+.button_gray_ts p{
   padding-top: 5px;
 }
 
-.button_1_right_gray_ts_136x34{
-  width: 136px;
-  height: 34px;
-  background: url(../images/buttons/button_1_right_gray_ts_136x34.png); 
+#button_right p{
+  padding-top: 5px;
 }
 
 #iphone_navbar{
