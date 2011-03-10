@@ -1,3 +1,9 @@
+<% if user_signed_in? %>
+  <div style="text-align:center;" class="header_bg">
+    You are logged in as <span style="color:red;"><%= current_user.email %></span> as a <span style="color:red;"><%= current_user.role %></span> user
+  </div>
+<% end %>
+
 <div class="span-24 last header_bg">
   <% if not user_signed_in? %>
     <div style="height: 45px; margin: auto; width: 190px;">
