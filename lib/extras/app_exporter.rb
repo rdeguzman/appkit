@@ -108,11 +108,8 @@ module AppExporter
 
       pictures.each do |picture|
 
-        thumb_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/thumb/#{picture.image_file_name}"
-        full_image_path = "/wwwroot/images/appkit/pictures/#{picture.id}/pagesize/#{picture.image_file_name}"
-
-        #FileUtils.cp(thumb_image_path, dest_image_path(app_file_name(app_profile.app_name), "thumb_#{picture.image_file_name}"))
-        #FileUtils.cp(full_image_path, dest_image_path(app_file_name(app_profile.app_name), "full_#{picture.image_file_name}"))
+        thumb_image_path = "/wwwroot/#{picture.image(:thumb).to_s.split('?')[0]}"
+        full_image_path = "/wwwroot/#{picture.image(:pagesize).to_s.split('?')[0]}"
 
         thumb_data = getData(thumb_image_path)
         full_data = getData(full_image_path)
@@ -131,9 +128,8 @@ module AppExporter
 
   def populateAppProfile(app_profile)
     image_asset = ImageAsset.find_by_app_profile_id(app_profile.id)
-    image_asset.image_file_name
 
-    background_image_path = "/wwwroot/images/appkit/image_assets/#{image_asset.id}/default/#{image_asset.image_file_name}"
+    background_image_path = "/wwwroot/#{image_asset.image(:default).to_s.split('?')[0]}"
     background_data =  getData(background_image_path)
   
     db = SQLite3::Database.open( dest_db_path(app_file_name(app_profile.app_name)) )
