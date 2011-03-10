@@ -11,10 +11,12 @@ class AppProfilesController < ApplicationController
 
   def edit 
     @app_profile = AppProfile.find(params[:id])
+    authorize_task_and_redirect?(@app_profile.user_id)
   end
 
   def update
     @app_profile = AppProfile.find(params[:id])
+    authorize_task_and_redirect?(@app_profile.user_id)
 
     if @app_profile.update_attributes(params[:app_profile])
       flash[:notice] = "App Profile was successfully updated."
@@ -55,6 +57,8 @@ class AppProfilesController < ApplicationController
 
   def destroy
     app_profile = AppProfile.find(params[:id])
+    authorize_task_and_redirect?(@app_profile.user_id)
+
     app_profile.destroy
 
     flash[:notice] = "Application was successfully deleted"
@@ -67,6 +71,7 @@ class AppProfilesController < ApplicationController
 
   def summary
     @app_profile = AppProfile.find(params[:id])
+    authorize_task_and_redirect?(@app_profile.user_id)
   end
 
 end

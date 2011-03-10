@@ -31,7 +31,7 @@
   </tr>
   <% @app_profiles.each do |a| %>
   <tr>
-    <td><%= a.app_name %></td>
+    <td><%= link_to a.app_name, app_profile_summary_path(a) %></td>
     <td><%= a.user.email %></td>
     <td><%= a.created_at %></td>
     <td><%= a.updated_at %></td>
