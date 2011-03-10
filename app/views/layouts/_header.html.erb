@@ -15,7 +15,7 @@
   <% else %>
     <div style="height: 45px; margin: auto; width: 330px;">
       <ul class="horizontal_links navbar_links">
-          <li>My Profile</li>
+          <li><%= link_to "My Account", edit_user_registration_path %> </li>
 
           <% if normal_user? %>
             <li><%= link_to "My Apps", app_profiles_path %></li>
