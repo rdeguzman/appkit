@@ -6,20 +6,11 @@ Feature: Viewing applications
 Scenario: Listing all applications
   Given I am on the new user session page
     And I am logged as a @normal
-  Given there is an application called "Test Hotel"
+  Given there is an application called "Test Hotel 1"
+    And there is an application called "Test Hotel 2"
+    And there is an application called "Test Hotel 3"
     And I am on the app_profiles page
-  When I follow "Test Hotel"
-    Then I should be on the app_profile page for "Test Hotel"
-
-Scenario: Listing all applications
-  Given I am on the new user session page
-    And I am logged as a @shangrila_owner
-    And I am on the app_profiles page
-  Then I should see "View Summary"
-
-Scenario: Listing all applications
-  Given I am on the new user session page
-    And I am logged as a @shangrila_owner
-    And I am on the app_profiles page
-  When I follow "View Summary"
-  Then I should see "Application Build"
+  Then I should see "Test Hotel 1"
+    And I should see "Test Hotel 2"
+    And I should see "Test Hotel 3"
+    #And show me the page

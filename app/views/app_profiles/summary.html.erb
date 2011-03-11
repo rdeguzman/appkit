@@ -59,7 +59,7 @@
   <p>To create a build, you must specify the "Product Name", "Binary Name", "Version Number" first in the Application Metadata Summary.</p>
 <% end %>
 
-<% if can_create_build?(@app_profile) && normal_user? && @app_build.nil? %>
+<% if normal_user? && can_create_build?(@app_profile) && authorize_task?(@app_profile.user_id) && @app_build.nil? %>
   <div class="action_items buttons">
     <%= link_to "Add New Build", new_app_build_path(:app_profile_id => @app_profile.id) %>
   </div>

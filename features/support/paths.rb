@@ -14,6 +14,9 @@ module NavigationHelpers
     when /the app_profile page for "([^\"]*)"/
       app_profile_path(AppProfile.find_by_app_name!($1))
 
+    when /the app_profile summary page for "([^\"]*)"/
+      app_profile_summary_path(AppProfile.find_by_app_name!($1))
+
     when /the new section page for application "([^\"]*)"/
       app_profile = AppProfile.find_by_app_name!($1)
       new_section_path(:app_profile_id => app_profile.id)
