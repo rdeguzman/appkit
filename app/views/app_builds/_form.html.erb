@@ -1,0 +1,30 @@
+<%= render "shared/error_messages", :target => @app_profile %>
+
+<%= semantic_form_for @app_build do |f| %>
+  <%= f.inputs do %>
+    <% if false %>
+    <%= f.input :product_name, :input_html => { :disabled => true } %>
+    <% end %>
+
+    <%= f.input :product_name %>
+    <%= f.input :binary_name %>
+    <%= f.input :version_number %>
+    <%= f.input :build_request_name, :hint => 'Binary_name + Date + Version Number' %>
+    <%= f.input :comment %>
+
+    <% if admin_user? %>
+      <%= f.input :ipa_name %>
+      <%= f.input :build_status, :collection => ['Request For Info', 'Build Accepted', 'Build In Progress', 'Build Complete'] %>
+      <%= f.input :build_comment %>
+    <% end %>
+
+    <%= f.hidden_field :app_profile_id, "value" => @app_profile.id %>
+  <% end %>
+  
+  <%= f.buttons do %>
+    <%= f.commit_button %>
+    <%= f.cancel_button @cancel_path %>
+  <% end %>
+  
+<% end %>
+

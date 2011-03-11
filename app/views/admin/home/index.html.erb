@@ -43,3 +43,30 @@
   </tr>
   <% end %>
 </table>
+
+<h2>Application Builds- <%= @app_builds.size %></h2>
+
+<table>
+  <tr>
+    <th>Application Name</th>
+    <th>Binary Name</th>
+    <th>Version Number</th>
+    <th>Build Request Name</th>
+    <th>User</th>
+    <th>Email</th>
+    <th>Created At</th>
+    <th>&nbsp;</th>
+  </tr>
+  <% @app_builds.each do |b| %>
+  <tr>
+    <td><%= b.app_profile.app_name %></td>
+    <td><%= b.binary_name %></td>
+    <td><%= b.version_number %></td>
+    <td><%= b.build_request_name %></td>
+    <td><%= b.user.full_name %></td>
+    <td><%= b.user.email %></td>
+    <td><%= b.created_at %></td>
+    <td><%= link_to "Summary", app_profile_summary_path(b.app_profile) %></td>
+  </tr>
+  <% end %>
+</table>

@@ -10,7 +10,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110310230033) do
+ActiveRecord::Schema.define(:version => 20110311000210) do
+
+  create_table "app_builds", :force => true do |t|
+    t.string   "product_name"
+    t.string   "binary_name"
+    t.string   "version_number"
+    t.string   "build_request_name"
+    t.text     "comment"
+    t.string   "ipa_name"
+    t.string   "build_status"
+    t.text     "build_comment"
+    t.integer  "app_profile_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "app_profiles", :force => true do |t|
     t.integer  "user_id"

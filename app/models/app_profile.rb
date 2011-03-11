@@ -6,5 +6,7 @@ class AppProfile < ActiveRecord::Base
   has_many :pages, :dependent => :destroy
   has_many :buttons, :dependent => :destroy
 
+  has_many :app_builds
+
   validates :app_name, :presence => true, :uniqueness => true
 end

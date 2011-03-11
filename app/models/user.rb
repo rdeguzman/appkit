@@ -16,4 +16,8 @@ class User < ActiveRecord::Base
     end 
     update_attributes(params) 
   end 
+
+  def full_name
+    "#{self.first_name} #{self.last_name}"
+  end
 end

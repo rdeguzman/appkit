@@ -72,6 +72,8 @@ class AppProfilesController < ApplicationController
   def summary
     @app_profile = AppProfile.find(params[:id])
     authorize_task_and_redirect?(@app_profile.user_id)
+
+    @app_build = @app_profile.app_builds.order(:updated_at).first
   end
 
 end

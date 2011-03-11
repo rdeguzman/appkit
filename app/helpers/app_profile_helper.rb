@@ -44,4 +44,12 @@ module AppProfileHelper
     (application_height - totalHeight)/2
   
   end
+
+  def can_create_build?(app_profile)
+    if app_profile.itunes_product_name.length > 0 && app_profile.binary_name.length > 0 && app_profile.version_number.length > 0
+      true
+    else
+      false
+    end
+  end
 end

@@ -4,6 +4,7 @@ class Admin::HomeController < Admin::ApplicationController
   def index
     @users = User.all
     @app_profiles = AppProfile.all
+    @app_builds = AppBuild.all
   end
 
 end
