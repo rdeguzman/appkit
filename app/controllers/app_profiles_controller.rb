@@ -57,7 +57,7 @@ class AppProfilesController < ApplicationController
 
   def destroy
     app_profile = AppProfile.find(params[:id])
-    authorize_task_and_redirect?(@app_profile.user_id)
+    authorize_task_and_redirect?(app_profile.user_id)
 
     app_profile.destroy
 
