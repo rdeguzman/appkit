@@ -2,11 +2,11 @@
 
 <ul class="horizontal_links">
   <% @app_profiles.each do |app_profile| %>
-    <li style="text-align:center; width:150px; float:left; background: #F9F7ED;">
+    <li style="text-align:center; width:150px; height:200px; float:left; background: #F9F7ED; padding: 10px;">
       <div style="margin:auto; width:100px;">
         <%= image_tag('icon_not_available.gif') %>
       </div>
-      <div><h2><%= link_to app_profile.app_name, app_profile_path(app_profile) %></h2></div>
+      <div><h3><%= link_to app_profile.app_name, app_profile_path(app_profile) %></h3></div>
 
       <div style="float:left;"><%= link_to "View Summary", app_profile_summary_path(app_profile) %></div>
 

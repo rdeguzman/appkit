@@ -46,7 +46,7 @@ module AppProfileHelper
   end
 
   def can_create_build?(app_profile)
-    if app_profile.itunes_product_name.length > 0 && app_profile.binary_name.length > 0 && app_profile.version_number.length > 0
+    if admin_user? || (!app_profile.itunes_product_name.nil? && !app_profile.binary_name.nil? && !app_profile.version_number)
       true
     else
       false
