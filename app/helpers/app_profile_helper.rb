@@ -52,4 +52,8 @@ module AppProfileHelper
       false
     end
   end
+
+  def download_ipa_path(_ipa)
+    "http://www.2rmobile.com/builds/#{_ipa}"
+  end
 end
