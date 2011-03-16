@@ -5,6 +5,7 @@ class AppProfile < ActiveRecord::Base
   has_many :sections, :dependent => :destroy
   has_many :pages, :dependent => :destroy
   has_many :buttons, :dependent => :destroy
+  has_many :pictures, :dependent => :destroy
 
   has_many :app_builds
 

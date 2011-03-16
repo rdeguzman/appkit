@@ -13,6 +13,7 @@
       
 
       <%= f.hidden_field :page_id, "value" => @page.id %>
+      <%= f.hidden_field :app_profile_id, "value" => @page.app_profile.id %>
 
       <h2>Step 2: Upload</h2>
       <%= f.submit 'Upload' %>

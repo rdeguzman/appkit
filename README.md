@@ -73,3 +73,8 @@ We now have an instance of app_profile.
   WHERE 
     s.id = p.section_id;
 
+2. March 16, 2011. Add app_profile_id to pictures. Run the sql statement below
+
+  UPDATE pictures ps, pages pg 
+  SET ps.app_profile_id = pg.app_profile_id 
+  WHERE ps.page_id = pg.id;

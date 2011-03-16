@@ -28,6 +28,7 @@ class PicturesController < ApplicationController
     
     @picture = Picture.new(newparams[:picture])
     @picture.user_id = current_user.id
+    @picture.app_profile_id = params[:app_profile_id]
     
     if @picture.save
       flash[:notice] = "Picture was successfully created"
@@ -98,6 +99,7 @@ class PicturesController < ApplicationController
         h = Hash.new 
         h[:picture] = Hash.new 
         h[:picture][:page_id] = params[:page_id] 
+        h[:picture][:app_profile_id] = params[:app_profile_id] 
         h[:picture][:image] = params[:Filedata]
         h[:picture][:image].content_type = MIME::Types.type_for(h[:picture] [:image].original_filename).to_s 
         h
