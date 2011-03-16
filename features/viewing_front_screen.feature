@@ -14,6 +14,7 @@ Scenario: See Front Screen
   Then I should see "Update Background"
   Then I should see "Add New Single Page"
   Then I should see "Arrange Buttons"
+  Then I should see "Manage Photo Gallery"
 
 Scenario: See Front Screen for different user
   Given I am on the app_profile page for "Shangrila"

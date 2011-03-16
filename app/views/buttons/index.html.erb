@@ -3,18 +3,28 @@
 <h2>Add Content:</h2>
 
 <table>
+
 <% @single_pages.each do |single_page| %>
   <tr>
     <td><%= single_page.title %></td>
     <td><%= link_to "Add", add_button_path(:app_profile_id => @app_profile.id, :title => single_page.title, :table_name => 'Page', :parent_id => single_page.id) %></td>
   </tr>
 <% end %>
+
 <% @sections.each do |section| %>
   <tr>
     <td><%= section.title %></td>
     <td><%= link_to "Add", add_button_path(:app_profile_id => @app_profile.id, :title => section.title, :table_name => 'Section', :parent_id => section.id) %></td>
   </tr>
 <% end %>
+
+<% if @app_profile.pictures.size > 0 %>
+  <tr>
+    <td>Photos</td>
+    <td><%= link_to "Add", add_button_path(:app_profile_id => @app_profile.id, :title => "Photos", :table_name => 'Photos', :parent_id => 0) %></td>
+  </tr>
+<% end %>
+
 </table>
 
 <h2>Button Layout:</h2>

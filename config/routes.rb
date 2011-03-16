@@ -9,6 +9,11 @@ Appkit::Application.routes.draw do
 
   resources :pages
   resources :pictures
+  match "photo_gallery/index" => "photo_gallery#index", :as => :photo_gallery
+  match "photo_gallery/create" => "photo_gallery#create", :as => :photo_gallery_create
+  match "photo_gallery/:id/" => "photo_gallery#show", :as => :photo_gallery_show
+  match "photo_gallery/:id/destroy" => "photo_gallery#destroy", :as => :photo_gallery_destroy
+
   resources :image_assets
   resources :single_pages
   match "buttons/add" => "buttons#add", :as => :add_button

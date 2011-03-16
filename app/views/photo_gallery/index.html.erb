@@ -1,0 +1,41 @@
+<% title "Manage #{pluralize(@pictures.size, 'Picture')}" %>
+
+<div class="upload_form">
+  <%= form_for @picture, :as => :picture, :url => photo_gallery_create_path(:app_profile_id => @app_profile.id), :html => { :multipart => true } do |f| %>
+    <h2>Step 1: Choose your image</h2>
+
+    <%= f.file_field :image %>
+
+    <p class="small_note">
+      Note: First image will be the default image. This will change in the near future, where you can choose the default image for the page. 
+    </p>
+    
+    <%= f.hidden_field :app_profile_id, "value" => @app_profile.id %>
+
+    <h2>Step 2: Upload</h2>
+    <%= f.submit 'Upload' %>
+  <% end %>
+
+  <% if simple_upload_form? %>
+
+    <span class="simple_upload_link">
+      If you want to see the Browse flash button above, click on the 
+      <%= link_to "Flash Upload", photo_gallery_path(:app_profile_id => @app_profile.id) %>
+    </span>
+
+  <% else %>
+
+    <!-- Important: Please see uploadify. It contains javascript functions to provide the BROWSE button, submit to a page with content_type json, and process the response. See more details in uploadify -->
+    <%= render :partial => "uploadify" %>
+
+    <span class="simple_upload_link">
+      If you cannot see the Browse flash button above, click on the 
+      <%= link_to "Simple Upload", photo_gallery_path(:app_profile_id => @app_profile.id, :simple => 1) %> <br/>
+    </span>
+
+  <% end %>
+</div>
+
+<div class="clear"></div>
+
+<%= render :partial => 'shared/gallery' %>
