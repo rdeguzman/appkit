@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td>Download IPA</td>
-    <td></td>
+    <td><%= link_to @app_build.ipa_name, download_ipa_path(@app_build.ipa_name) %> (right-click and save-as)</td>
   </tr>
   <tr>
     <td>Build Status</td>
