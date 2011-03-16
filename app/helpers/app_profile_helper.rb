@@ -1,7 +1,14 @@
 module AppProfileHelper
-  def thumb_background_front(_obj)
-    if _obj.nil?
+  def display_application_image_asset(_obj)
+    if !_obj.nil?
+      image_tag _obj
     else
+      image_tag('icon_not_available.gif')
+    end
+  end
+
+  def thumb_background_front(_obj)
+    if !_obj.nil?
       image_tag @image_asset_background_front.image.url(:thumb)
     end
   end

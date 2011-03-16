@@ -76,4 +76,10 @@ class AppProfilesController < ApplicationController
     @app_build = @app_profile.app_builds.order(:updated_at).first
   end
 
+  def image_assets
+    @app_profile = AppProfile.find(params[:id])
+    @image_asset_application_icon = @app_profile.application_icon
+    @image_asset_application_artwork = @app_profile.application_artwork
+  end
+
 end

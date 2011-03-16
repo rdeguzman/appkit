@@ -20,5 +20,19 @@ Scenario: Display application summary
   Given I am on the new user session page
     And I am logged as a @admin
     And I am on the app_profile summary page for "Shangrila"
-  Then show me the page
+  #Then show me the page
   Then I should not see "Add New Build"
+
+Scenario: Display manage application icon
+  Given I am on the new user session page
+    And I am logged as a @shangrila_owner
+    And I am on the app_profile summary page for "Shangrila"
+  Then I should see "Manage Image Assets"
+
+Scenario: Follow manage application icon
+  Given I am on the new user session page
+    And I am logged as a @shangrila_owner
+    And I am on the app_profile summary page for "Shangrila"
+  When I follow "Manage Image Assets"
+  Then I should see "Application Icon"
+    And I should see "Application Artwork"

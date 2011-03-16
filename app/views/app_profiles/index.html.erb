@@ -4,9 +4,10 @@
   <% @app_profiles.each do |app_profile| %>
     <li style="text-align:center; width:150px; height:200px; float:left; background: #F9F7ED; padding: 10px;">
       <div style="margin:auto; width:100px;">
-        <%= image_tag('icon_not_available.gif') %>
+        <%= display_application_image_asset app_profile.application_icon %><br/>
       </div>
-      <div><h3><%= link_to app_profile.app_name, app_profile_path(app_profile) %></h3></div>
+
+      <div><h3><%= link_to truncate(app_profile.app_name, :length => 15, :seperator => '...'), app_profile_path(app_profile) %></h3></div>
 
       <div style="float:left;"><%= link_to "View Summary", app_profile_summary_path(app_profile) %></div>
 

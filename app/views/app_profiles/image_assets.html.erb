@@ -1,0 +1,17 @@
+<h1>Application Icon 57x57 png</h1>
+
+<%= display_application_image_asset @image_asset_application_icon %><br/>
+
+<div class="action_items buttons">
+  <%= link_to "Update Icon", new_image_asset_path(:app_profile_id => @app_profile.id, :asset_type => 'application_icon') %>
+</div>
+
+<div class="clear"></div>
+
+<h1>Application Artwork 512x512 jpg</h1>
+
+<%= display_application_image_asset @image_asset_application_artwork %><br/>
+
+<div class="action_items buttons">
+  <%= link_to "Update Artwork", new_image_asset_path(:app_profile_id => @app_profile.id, :asset_type => 'application_artwork') %>
+</div>

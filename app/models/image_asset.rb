@@ -4,8 +4,9 @@ class ImageAsset < ActiveRecord::Base
 
   has_attached_file :image,
                     :styles => {
+                      :icon => ["57x57>", :png],
                       :thumb => ["80x80>", :jpg],
-                      :default => ["500x500", :jpg]
+                      :default => ["512x512>", :jpg]
                       #:landscape => ["480x320>", :jpg],
                     },
                     :default_style => :pagesize,

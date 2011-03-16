@@ -3,6 +3,7 @@ Appkit::Application.routes.draw do
 
   resources :app_profiles
   match "app_profiles/:id/summary" => "app_profiles#summary", :as => :app_profile_summary
+  match "app_profiles/:id/image_assets" => "app_profiles#image_assets", :as => :app_profile_image_assets
 
   resources :app_builds
 
