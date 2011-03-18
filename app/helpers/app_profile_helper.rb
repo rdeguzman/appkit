@@ -34,6 +34,8 @@ module AppProfileHelper
       section_path(:id => button.parent_id)
     elsif button.table_name == 'Page'
       single_page_path(:id => button.parent_id)
+    elsif button.table_name = 'Photos'
+      photo_gallery_path(:app_profile_id => button.app_profile_id)
     end
   end
 
