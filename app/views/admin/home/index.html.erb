@@ -52,21 +52,23 @@
   <tr>
     <th>Application Name</th>
     <th width="80px">Binary Name (12 chars)</th>
-    <th width="50px">Version Number</th>
-    <th width="250px">IPA Name</th>
-    <th>Email</th>
-    <th>Created/Updated</th>
-    <th>&nbsp;</th>
+    <th width="50px">Version</th>
+    <th width="250px">Status<br/>IPA Name</th>
+    <th>User<br/>Email</th>
+    <th width="130px">Date Created<br/>Date Updated</th>
   </tr>
   <% @app_builds.each do |b| %>
   <tr>
-    <td><%= b.app_profile.app_name %></td>
+    <td><%= b.app_profile.app_name %><br/>
+       - <%= link_to "View Summary", app_profile_summary_path(b.app_profile) %>
+    </td>
     <td><%= b.binary_name %></td>
     <td><%= b.version_number %></td>
-    <td><%= link_to b.ipa_name, download_ipa_path(b.ipa_name) %></td>
-    <td><%= b.user.email %></td>
+    <td><%= b.build_status %><br/>
+        <%= link_to b.ipa_name, download_ipa_path(b.ipa_name) %></td>
+    <td><%= b.user.full_name %><br/>
+        <%= b.user.email %></td>
     <td><%= format_date b.created_at %><br/><%= format_date b.updated_at %></td>
-    <td><%= link_to "Summary", app_profile_summary_path(b.app_profile) %></td>
   </tr>
   <% end %>
 </table>
