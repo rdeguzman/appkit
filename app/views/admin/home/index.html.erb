@@ -51,12 +51,11 @@
 <table>
   <tr>
     <th>Application Name</th>
-    <th>Binary Name</th>
-    <th>Version Number</th>
-    <th>IPA Name</th>
-    <th>User</th>
+    <th width="80px">Binary Name (12 chars)</th>
+    <th width="50px">Version Number</th>
+    <th width="250px">IPA Name</th>
     <th>Email</th>
-    <th>Created At</th>
+    <th>Created/Updated</th>
     <th>&nbsp;</th>
   </tr>
   <% @app_builds.each do |b| %>
@@ -65,9 +64,8 @@
     <td><%= b.binary_name %></td>
     <td><%= b.version_number %></td>
     <td><%= link_to b.ipa_name, download_ipa_path(b.ipa_name) %></td>
-    <td><%= b.user.full_name %></td>
     <td><%= b.user.email %></td>
-    <td><%= b.created_at %></td>
+    <td><%= format_date b.created_at %><br/><%= format_date b.updated_at %></td>
     <td><%= link_to "Summary", app_profile_summary_path(b.app_profile) %></td>
   </tr>
   <% end %>
