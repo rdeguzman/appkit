@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td>User Comment</td>
-    <td><%= @app_build.comment %></td>
+    <td><%= simple_format @app_build.comment %></td>
   </tr>
   <tr>
     <td>Download IPA</td>
@@ -33,7 +33,7 @@
   </tr>
   <tr>
     <td>Developer Comment</td>
-    <td><%= @app_build.build_comment %></td>
+    <td><%= simple_format @app_build.build_comment %></td>
   </tr>
   <tr>
     <td>Build Updated</td>
