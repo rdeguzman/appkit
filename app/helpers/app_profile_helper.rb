@@ -63,6 +63,10 @@ module AppProfileHelper
   end
 
   def download_ipa_path(_ipa)
-    "http://www.2rmobile.com/builds/#{_ipa}"
+    if _ipa.nil?
+      ""
+    else
+      "http://www.2rmobile.com/builds/#{_ipa}"
+    end
   end
 end

@@ -53,7 +53,7 @@
     <th>Application Name</th>
     <th>Binary Name</th>
     <th>Version Number</th>
-    <th>Build Request Name</th>
+    <th>IPA Name</th>
     <th>User</th>
     <th>Email</th>
     <th>Created At</th>
@@ -64,7 +64,7 @@
     <td><%= b.app_profile.app_name %></td>
     <td><%= b.binary_name %></td>
     <td><%= b.version_number %></td>
-    <td><%= b.build_request_name %></td>
+    <td><%= link_to b.ipa_name, download_ipa_path(b.ipa_name) %></td>
     <td><%= b.user.full_name %></td>
     <td><%= b.user.email %></td>
     <td><%= b.created_at %></td>
