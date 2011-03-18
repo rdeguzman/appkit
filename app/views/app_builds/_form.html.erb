@@ -14,7 +14,7 @@
 
     <% if admin_user? %>
       <%= f.input :ipa_name %>
-      <%= f.input :build_status, :collection => ['Request For Info', 'Build Accepted', 'Build In Progress', 'Build Complete'] %>
+      <%= f.input :build_status, :collection => ['Request For Info', 'Build Accepted', 'Build In Progress', 'Build Complete', 'Waiting For Apple Approval'] %>
       <%= f.input :build_comment %>
     <% end %>
 
