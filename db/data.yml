@@ -1,5 +1,42 @@
 
 --- 
+app_builds: 
+  columns: 
+  - id
+  - product_name
+  - binary_name
+  - version_number
+  - build_request_name
+  - comment
+  - ipa_name
+  - build_status
+  - build_comment
+  - app_profile_id
+  - user_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Shagnrila Mactan Resort and Spa by MyTravelPhilippines.com
+    - Hotel
+    - "1.0"
+    - Hotel-2011-03-18-1.0
+    - test
+    - shangrila-hotel-2011-03-11-1.0.2.ipa
+    - Waiting For Apple Approval
+    - |-
+      - Icon and Artwork created.
+      - Binary Name too long. Changed to "Apartelle"
+      - Deployment Target set to 3.2. 
+      - Need to take screenshots if "Request to Publish"
+      - Added Photos
+      - Binary name changed.
+    - 1
+    - 1
+    - 2011-03-18 04:49:40 Z
+    - 2011-03-18 11:18:23 Z
+
+--- 
 app_profiles: 
   columns: 
   - id
@@ -186,54 +223,6 @@ buttons:
   - created_at
   - updated_at
   records: 
-  - - 10
-    - 1
-    - Info
-    - Section
-    - 1
-    - 1
-    - 2011-03-09 22:39:40 Z
-    - 2011-03-09 22:39:40 Z
-  - - 11
-    - 2
-    - Rooms
-    - Section
-    - 2
-    - 1
-    - 2011-03-09 22:39:44 Z
-    - 2011-03-09 22:39:44 Z
-  - - 12
-    - 3
-    - Contact Us
-    - Page
-    - 173
-    - 1
-    - 2011-03-09 22:39:51 Z
-    - 2011-03-09 22:39:51 Z
-  - - 13
-    - 4
-    - Single Page1
-    - Page
-    - 89
-    - 1
-    - 2011-03-09 22:40:03 Z
-    - 2011-03-09 22:40:03 Z
-  - - 14
-    - 5
-    - Photos
-    - Section
-    - 3
-    - 1
-    - 2011-03-09 22:40:05 Z
-    - 2011-03-09 22:40:05 Z
-  - - 15
-    - 6
-    - Map
-    - Section
-    - 4
-    - 1
-    - 2011-03-09 22:40:07 Z
-    - 2011-03-09 22:40:07 Z
   - - 16
     - 1
     - About iDive
@@ -282,6 +271,38 @@ buttons:
     - 2
     - 2011-03-09 22:50:07 Z
     - 2011-03-09 22:50:07 Z
+  - - 22
+    - 1
+    - Info
+    - Section
+    - 1
+    - 1
+    - 2011-03-19 05:37:10 Z
+    - 2011-03-19 05:37:10 Z
+  - - 23
+    - 2
+    - Rooms
+    - Section
+    - 2
+    - 1
+    - 2011-03-19 05:37:11 Z
+    - 2011-03-19 05:37:11 Z
+  - - 25
+    - 3
+    - Photos
+    - Photos
+    - 0
+    - 1
+    - 2011-03-19 05:37:33 Z
+    - 2011-03-19 05:37:33 Z
+  - - 26
+    - 4
+    - Contact Us
+    - Page
+    - 173
+    - 1
+    - 2011-03-19 05:37:36 Z
+    - 2011-03-19 05:37:36 Z
 
 --- 
 image_assets: 
@@ -2791,18 +2812,6 @@ sections:
     - 1
     - 2011-02-18 01:09:58 Z
     - 2011-02-18 01:09:58 Z
-  - - 3
-    - Photos
-    - 1
-    - 1
-    - 2011-02-18 04:03:33 Z
-    - 2011-02-18 04:03:33 Z
-  - - 4
-    - Map
-    - 1
-    - 1
-    - 2011-02-18 04:03:43 Z
-    - 2011-02-18 04:03:43 Z
   - - 6
     - About iDive
     - 2
@@ -3063,13 +3072,13 @@ users:
     - $2a$10$NFvL0EVAa7ak/5/HvmlmDOiq8n6uUoOI3jZRjEyKTxCtZzB9mkLoy
     - 
     - 
-    - 54
-    - 2011-03-11 05:29:16 Z
-    - 2011-03-10 04:55:11 Z
+    - 56
+    - 2011-03-19 05:35:24 Z
+    - 2011-03-18 04:49:30 Z
     - 127.0.0.1
     - 127.0.0.1
     - 2011-02-18 01:08:04 Z
-    - 2011-03-11 05:29:16 Z
+    - 2011-03-19 05:35:24 Z
     - normal
     - 
     - 
@@ -3127,13 +3136,13 @@ users:
     - $2a$10$NFvL0EVAa7ak/5/HvmlmDOiq8n6uUoOI3jZRjEyKTxCtZzB9mkLoy
     - 
     - 
-    - 8
-    - 2011-03-10 03:31:26 Z
-    - 2011-03-09 22:49:52 Z
+    - 10
+    - 2011-03-18 11:18:11 Z
+    - 2011-03-18 04:50:01 Z
     - 127.0.0.1
     - 127.0.0.1
     - 2011-03-09 02:07:02 Z
-    - 2011-03-10 03:39:16 Z
+    - 2011-03-18 11:18:11 Z
     - admin
     - 
     - 
